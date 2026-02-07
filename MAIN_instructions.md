@@ -4,7 +4,7 @@
 >
 > **Purpose**: Build an **agentic + ML-based “source of truth” layer** for medical facility capabilities that (i) extracts + verifies capabilities from messy/unstructured data, (ii) produces **evidence-weighted confidence** and **anomaly flags**, (iii) visualizes **medical deserts** on a map, and (iv) supports **planning** via a simple NL interface that any NGO planner—regardless of age, technical skill, or bandwidth—can use.
 >
-> **Scope reality**: We will **not** estimate real “clinical quality” (outcomes, volumes, finances) unless explicitly available. We will estimate **capability existence + reliability** from evidence with citations + prerequisite checks (exactly aligned with the challenge). We stay laser-focused on the VF Ghana dataset + light scraping to keep velocity high.
+> **Scope reality**: We will **not** estimate real “clinical quality” (outcomes, volumes, finances) unless explicitly available. We will estimate **capability existence + reliability** from evidence with citations + prerequisite checks (exactly aligned with the challenge). We stay laser-focused on a single VF dataset + light scraping to keep velocity high.
 
 ---
 
@@ -40,7 +40,7 @@ We ingest facility information from one target country → produce a structured,
 - **Planning**: actionable gap analysis + “unlock” recommendations + optional chat agent
 
 ### Demo country strategy
-We will focus on **one country** chosen by **data availability** (scrape success + richness of text + number of facilities). The pipeline is generic; the demo is single-country for depth and polish, with Ghana as the baseline dataset to mirror the VF challenge.
+We will focus on **one country** chosen by **data availability** (scrape success + richness of text + number of facilities). The pipeline is generic; the demo is single-country for depth and polish, mirroring the VF challenge.
 
 ---
 
@@ -139,7 +139,7 @@ Choose the country maximizing: coverage × richness × scrape feasibility.
 - **Lifecycle management**: MLflow for experiment + agent run tracking; capture prompts + outputs for reproducibility.
 - **Text2SQL helper**: genie (or equivalent) for structured dataset queries.
 - **Execution environment**: keep workloads compatible with Databricks Free Edition and local dev; use lightweight data volumes.
-- **Dataset focus**: Virtue Foundation Ghana CSVs + curated scraped documents; store schema docs + prompts in `/docs/`.
+- **Dataset focus**: Virtue Foundation facility CSVs + curated scraped documents; store schema docs + prompts in `/docs/`.
 - **Traceability**: integrate evaluation/citation metadata into pipeline outputs so we can later expose agent-step-level citations.
 
 ---

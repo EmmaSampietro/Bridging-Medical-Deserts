@@ -99,7 +99,7 @@ Designing for the Virtue Foundation challenge means shipping fast **and** stayin
 - `geo.py`: geocoding, region lookups, shapefile utilities.
 
 ### 4.2 `src/data_ingest/`
-- `vf_loader.py`: parse VF Ghana CSV, enforce schema, handle nulls.
+- `vf_loader.py`: parse VF facility CSV exports, enforce schema, handle nulls.
 - `scraper.py`: HTTP fetchers with retries, robots compliance, caching.
 - `document_store.py`: unify structured rows + scraped docs into `data/interim/raw_documents.parquet`.
 - `chunker.py`: convert docs into “evidence units” per facility; supports sentence/bullet chunking.

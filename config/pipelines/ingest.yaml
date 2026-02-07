@@ -3,6 +3,7 @@
 
 sources:
   vf_csv_path: data/raw
+  country: Ghana
   scrape_enabled: true
   scrape_cache_dir: data/raw/scraped
 
@@ -10,3 +11,10 @@ scraper:
   timeout_sec: 30
   retries: 2
   respect_robots: true
+  concurrency: 4
+  user_agent: "BMD-Ingestor/0.1 (+https://example.org)"
+
+chunker:
+  max_chars: 900
+  min_chars: 120
+  overlap_chars: 120
