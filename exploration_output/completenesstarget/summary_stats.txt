@@ -1,0 +1,104 @@
+Table: completenesstarget
+================================================================================
+
+Shape: 37130 rows × 9 columns
+
+Column Information:
+--------------------------------------------------------------------------------
+
+"Bpx0589u8y0":
+  Type: str
+  Non-null: 37130 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 5
+  Top values:
+    oRVt7g429ZO: 34884
+    \N: 2086
+    PVLOW4bCshG: 64
+    w0gFTTmsUcF: 64
+    MAs88nJc9nL: 32
+
+"J5jldMd8OHv":
+  Type: str
+  Non-null: 37130 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 6
+  Top values:
+    EYbopBOJWsW: 18846
+    uYxK4wmcPqA: 7082
+    CXw2yu5fodb: 6178
+    \N: 2312
+    RXL3lPSK8oG: 1624
+    tDZVQ1WtwpA: 1088
+
+"Cbuj0VCyDjL":
+  Type: str
+  Non-null: 37130 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 3
+  Top values:
+    f25dqv3Y7Z0: 24254
+    GGghZsfu7qV: 12326
+    \N: 550
+
+uidlevel1:
+  Type: str
+  Non-null: 37130 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    ImspTQPwCqd: 37130
+
+uidlevel2:
+  Type: str
+  Non-null: 37130 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 14
+  Top values:
+    O6uvpzGd5pu: 3954
+    kJq2mPyFEHo: 3930
+    TEQlaapDQoK: 3618
+    at6UHUQatSo: 3244
+    fdc6uOvgoji: 3194
+    jmIPBj66vD6: 2976
+    eIQbndfxQMb: 2970
+    Vth0fbpFcsO: 2744
+    jUb8gELQApl: 2454
+    qhqAxPSTUXp: 2192
+
+uidlevel3:
+  Type: str
+  Non-null: 37130 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 153
+
+uidlevel4:
+  Type: str
+  Non-null: 37130 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1167
+
+ds:
+  Type: str
+  Non-null: 37130 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 17
+  Top values:
+    V8MHeZHIrcP: 2664
+    pBOMPrpg1QX: 2338
+    aLpVgfXiz0f: 2334
+    SF8FDSqw30D: 2334
+    TuL8IOPzpHh: 2334
+    EKWVBc5C0ms: 2332
+    PLq9sJluXvc: 2332
+    QX4ZTUbOt3a: 2320
+    joWPywO7yOJ: 2318
+    BfMAe6Itzgt: 2318
+
+value:
+  Type: str
+  Non-null: 37130 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    1: 37130

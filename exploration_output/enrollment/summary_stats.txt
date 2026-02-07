@@ -1,0 +1,159 @@
+Table: enrollment
+================================================================================
+
+Shape: 50000 rows × 20 columns
+
+Column Information:
+--------------------------------------------------------------------------------
+
+enrollmentid:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 50000
+
+enrollmentdate:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 34397
+
+completeddate:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 6
+  Top values:
+    \N: 49994
+    2027-01-28 00:00:00: 2
+    2026-11-02 22:54:49.551: 1
+    2026-11-16 12:26:42.851: 1
+    2026-11-16 12:54:26.958: 1
+    2027-01-20 00:00:00: 1
+
+programid:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 4
+  Top values:
+    1150449: 33648
+    2006123: 16344
+    217120: 5
+    2005727: 3
+
+status:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 3
+  Top values:
+    ACTIVE: 49976
+    COMPLETED: 21
+    CANCELLED: 3
+
+followup:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    f: 50000
+
+uid:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 50000
+
+created:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 47676
+
+lastupdated:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 47685
+
+trackedentityid:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 49997
+
+organisationunitid:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1167
+
+occurreddate:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 34396
+
+completedby:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    \N: 50000
+
+createdatclient:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 47676
+
+lastupdatedatclient:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    \N: 50000
+
+deleted:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    f: 50000
+
+storedby:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    \N: 50000
+
+geometry:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    \N: 50000
+
+createdbyuserinfo:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    \N: 50000
+
+lastupdatedbyuserinfo:
+  Type: str
+  Non-null: 50000 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    \N: 50000

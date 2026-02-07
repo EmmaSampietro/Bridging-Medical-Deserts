@@ -1,0 +1,19 @@
+Table: datasetsource
+================================================================================
+
+Shape: 29089 rows × 2 columns
+
+Column Information:
+--------------------------------------------------------------------------------
+
+datasetid:
+  Type: str
+  Non-null: 29089 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 26
+
+sourceid:
+  Type: str
+  Non-null: 29089 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1332

@@ -1,0 +1,93 @@
+Table: optionvalue
+================================================================================
+
+Shape: 15215 rows × 13 columns
+
+Column Information:
+--------------------------------------------------------------------------------
+
+optionvalueid:
+  Type: str
+  Non-null: 15215 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 15215
+
+uid:
+  Type: str
+  Non-null: 15215 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 15215
+
+code:
+  Type: str
+  Non-null: 15215 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 15075
+
+created:
+  Type: str
+  Non-null: 15215 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 209
+
+lastupdated:
+  Type: str
+  Non-null: 15215 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 169
+
+name:
+  Type: str
+  Non-null: 15215 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 15091
+
+optionsetid:
+  Type: str
+  Non-null: 15215 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 172
+
+sort_order:
+  Type: str
+  Non-null: 15215 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 14241
+
+description:
+  Type: str
+  Non-null: 15215 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    \N: 15215
+
+formname:
+  Type: str
+  Non-null: 15215 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    \N: 15215
+
+style:
+  Type: str
+  Non-null: 15215 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 43
+
+translations:
+  Type: str
+  Non-null: 15215 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    []: 15215
+
+attributevalues:
+  Type: str
+  Non-null: 15215 (100.0%)
+  Null: 0 (0.0%)
+  Unique values: 1
+  Top values:
+    {}: 15215
