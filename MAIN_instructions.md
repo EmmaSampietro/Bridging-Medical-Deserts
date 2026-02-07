@@ -127,7 +127,7 @@ We will focus on **one country** chosen by **data availability** (scrape success
 
 ### 3.3 Country selection procedure (data-driven)
 Run a quick “availability scan” over candidate countries:
-- # facilities with non-null `source_url`/`websites`
+- facilities with non-null `source_url`/`websites`
 - scrape success rate (200 OK)
 - average extracted text length
 - diversity of medical terms discovered
