@@ -12,6 +12,7 @@ import pandas as pd
 class UnlockConfig:
     max_prerequisites_missing: int = 2
     min_confidence: float = 0.2
+    rank_by: str = "feasibility"  # feasibility | coverage_proxy
 
 
 def _missing_prereq_count(value: object) -> int:
@@ -49,13 +50,24 @@ def find_unlock_candidates(
         & (facility_capabilities["confidence"] >= config.min_confidence)
     ].copy()
     facility_subset["missing_count"] = facility_subset["missing_prerequisites"].apply(_missing_prereq_count)
+    rank_by = (config.rank_by or "feasibility").strip().lower()
 
     for row in gap_targets.itertuples(index=False):
         candidates = facility_subset[
             (facility_subset["region_id"] == row.region_id)
             & (facility_subset["capability"] == row.capability)
             & (facility_subset["missing_count"] <= config.max_prerequisites_missing)
-        ].sort_values(by=["missing_count", "confidence"], ascending=[True, False])
+        ]
+        if rank_by == "coverage_proxy":
+            candidates = candidates.sort_values(
+                by=["confidence", "missing_count"],
+                ascending=[False, True],
+            )
+        else:
+            candidates = candidates.sort_values(
+                by=["missing_count", "confidence"],
+                ascending=[True, False],
+            )
 
         for candidate in candidates.itertuples(index=False):
             missing_prereqs = candidate.missing_prerequisites or []

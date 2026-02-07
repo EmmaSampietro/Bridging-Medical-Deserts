@@ -7,11 +7,16 @@ regions:
 
 gap_analysis:
   top_n_missing: 5
+  coverage_floor: 1.0
   min_facilities_for_referral: 1
 
 unlock:
   max_prerequisites_missing: 2
+  min_confidence: 0.2
   rank_by: coverage_proxy  # coverage_proxy | feasibility
+
+recommendations:
+  min_alternatives: 1
 
 exports:
   csv: true

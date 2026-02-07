@@ -6,9 +6,14 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
+import sys
 from typing import Dict, List, Sequence
 
 import pandas as pd
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.common import load_config, setup_logging
 from src.common.storage import read_parquet, write_parquet
@@ -115,6 +120,10 @@ def main() -> None:
         region_field=region_field,
         lookup_path=lookup_path,
     )
+    filter_cfg = getattr(cfg, "filter", {}) or {}
+    min_confidence = float(filter_cfg.get("min_confidence", 0.0))
+    if min_confidence > 0:
+        facilities = facilities[facilities["confidence"] >= min_confidence].copy()
 
     coverage = aggregate_region_coverage(facilities)
     desert_cfg = getattr(cfg, "desert", {}) or {}

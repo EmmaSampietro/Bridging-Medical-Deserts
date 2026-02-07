@@ -5,9 +5,14 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
+import sys
 from typing import List, Sequence
 
 import pandas as pd
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.common import load_config, setup_logging
 from src.common.storage import read_parquet, write_parquet
@@ -84,12 +89,18 @@ def main() -> None:
     unlock_config = UnlockConfig(
         max_prerequisites_missing=int(unlock_cfg.get("max_prerequisites_missing", 2)),
         min_confidence=float(unlock_cfg.get("min_confidence", 0.2)),
+        rank_by=str(unlock_cfg.get("rank_by", "feasibility")),
     )
     unlock_candidates = find_unlock_candidates(facilities, gap_table, config=unlock_config)
 
     recommendation_cfg = getattr(cfg, "recommendations", {}) or {}
     recommendation_config = RecommendationConfig(
-        min_alternatives=int(recommendation_cfg.get("min_alternatives", 1))
+        min_alternatives=int(
+            recommendation_cfg.get(
+                "min_alternatives",
+                gap_cfg.get("min_facilities_for_referral", 1),
+            )
+        )
     )
     recommendations = generate_recommendations(
         gap_table,

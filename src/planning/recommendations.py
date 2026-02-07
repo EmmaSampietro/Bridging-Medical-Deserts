@@ -13,19 +13,21 @@ class RecommendationConfig:
     min_alternatives: int = 1
 
 
-def _select_alternative(facilities: pd.DataFrame, capability: str, region_id: str) -> dict[str, object] | None:
+def _select_alternatives(
+    facilities: pd.DataFrame,
+    capability: str,
+    region_id: str,
+) -> pd.DataFrame:
     subset = facilities[
         (facilities["capability"] == capability) & (facilities["status"] == "present")
-    ].sort_values(by="confidence", ascending=False)
+    ].copy()
     if subset.empty:
-        return None
-    top = subset.iloc[0]
-    return {
-        "facility_id": top["facility_id"],
-        "facility_name": top["facility_name"],
-        "region_id": top.get("region_id"),
-        "confidence": top.get("confidence"),
-    }
+        return subset
+
+    same_region = subset[subset.get("region_id") == region_id]
+    if not same_region.empty:
+        return same_region.sort_values(by="confidence", ascending=False)
+    return subset.sort_values(by="confidence", ascending=False)
 
 
 def generate_recommendations(
@@ -38,18 +40,12 @@ def generate_recommendations(
     """Produce final planning recommendations with unlocks/referrals."""
 
     records: List[dict[str, object]] = []
-    unlock_key = ["region_id", "capability"]
-    unlock_groups = unlock_candidates.groupby(unlock_key) if not unlock_candidates.empty else []
 
     for gap in gap_table.itertuples(index=False):
-        unlock_group = (
-            unlock_candidates[
-                (unlock_candidates["region_id"] == gap.region_id)
-                & (unlock_candidates["capability"] == gap.capability)
-            ]
-            if not isinstance(unlock_groups, list)
-            else pd.DataFrame()
-        )
+        unlock_group = unlock_candidates[
+            (unlock_candidates["region_id"] == gap.region_id)
+            & (unlock_candidates["capability"] == gap.capability)
+        ]
 
         if not unlock_group.empty:
             best = unlock_group.iloc[0]
@@ -67,11 +63,15 @@ def generate_recommendations(
                 }
             )
         else:
-            alternative = _select_alternative(facility_capabilities, gap.capability, gap.region_id)
-            if alternative:
+            alternatives = _select_alternatives(
+                facility_capabilities, gap.capability, gap.region_id
+            )
+            if len(alternatives) >= config.min_alternatives:
+                top = alternatives.iloc[0]
                 action = (
-                    f"Refer patients to {alternative['facility_name']} "
-                    f"(confidence {alternative['confidence']:.2f})"
+                    f"Refer patients to {top['facility_name']} "
+                    f"(confidence {float(top['confidence']):.2f}); "
+                    f"{len(alternatives)} alternatives available."
                 )
             else:
                 action = "Escalate to national coordination team (no alternatives available)"
@@ -82,8 +82,8 @@ def generate_recommendations(
                     "region_name": gap.region_name,
                     "capability": gap.capability,
                     "recommendation_type": "refer",
-                    "facility_id": alternative["facility_id"] if alternative else None,
-                    "facility_name": alternative["facility_name"] if alternative else None,
+                    "facility_id": top["facility_id"] if len(alternatives) >= config.min_alternatives else None,
+                    "facility_name": top["facility_name"] if len(alternatives) >= config.min_alternatives else None,
                     "action": action,
                     "severity_score": gap.severity_score,
                     "rationale": gap.reason,

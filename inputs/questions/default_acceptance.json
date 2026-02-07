@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": "q_c_section_absent",
+      "type": "capability_status_count",
+      "prompt": "Where are C-sections unavailable?",
+      "capability": "c_section",
+      "statuses": ["absent"],
+      "required": false
+    },
+    {
+      "id": "q_icu_without_oxygen",
+      "type": "missing_prerequisite",
+      "prompt": "Which hospitals claim ICUs but lack oxygen?",
+      "capability": "icu",
+      "prerequisite": "oxygen_supply",
+      "required": false
+    }
+  ]
+}

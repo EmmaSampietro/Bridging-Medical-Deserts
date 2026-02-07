@@ -9,6 +9,7 @@ map:
 filters:
   default_capability: null
   default_confidence_min: 0.5
+  default_ranking_strategy: confidence
 
 desert:
   hard_threshold: 0.0   # no facilities above this = hard desert

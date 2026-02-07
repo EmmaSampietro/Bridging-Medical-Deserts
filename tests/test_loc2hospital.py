@@ -58,6 +58,12 @@ def test_apply_ranking_prioritizes_confidence():
     assert ranked.iloc[0]["facility_id"] == "f1"
 
 
+def test_apply_ranking_supports_capability_completeness_alias():
+    facilities = _sample_facilities()
+    ranked = apply_ranking(facilities, strategy="capability_completeness")
+    assert ranked.iloc[0]["facility_id"] == "f1"
+
+
 def test_loc2hospital_service_search():
     facilities = _sample_facilities()
     service = Loc2HospitalService(facilities)
