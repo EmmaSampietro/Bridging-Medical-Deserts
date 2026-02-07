@@ -1,0 +1,15 @@
+# Pipeline: Loc2Med — map UI, desert overlays.
+# Used by scripts/launch_ui.py
+
+map:
+  default_center: [7.9465, -1.0232]  # Ghana default
+  default_zoom: 6
+  tile_provider: null  # optional API key in secrets
+
+filters:
+  default_capability: null
+  default_confidence_min: 0.5
+
+desert:
+  hard_threshold: 0.0   # no facilities above this = hard desert
+  soft_percentile: 25   # below this = soft desert

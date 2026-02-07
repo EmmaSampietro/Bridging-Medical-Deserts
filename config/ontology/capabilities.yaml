@@ -1,0 +1,34 @@
+# Capability ontology — canonical labels, synonyms, evidence strength hints.
+# Add capabilities here; no code change required.
+
+categories:
+  emergency_maternal:
+    - emergency_obstetric_care
+    - c_section
+    - blood_transfusion
+    - neonatal_resuscitation
+  surgery_anesthesia:
+    - general_surgery
+    - anesthesia
+    - operating_theatre
+    - sterilization
+  critical_care:
+    - icu
+    - oxygen_supply
+    - ventilators
+    - triage
+  diagnostics:
+    - ultrasound
+    - x_ray
+    - lab_tests
+    - blood_bank
+  infectious_chronic:
+    - hiv_care
+    - tb_diagnostics
+    - dialysis
+
+# capabilities:
+#   - id: c_section
+#     synonyms: [cesarean, caesarean, c-section]
+#     strong_phrases: [performs c-section, c-section available]
+#     weak_phrases: [maternal care, obstetric]

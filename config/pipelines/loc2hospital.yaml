@@ -1,0 +1,13 @@
+# Pipeline: Loc2Hospital — geo retrieval, filtering, ranking.
+# Used by scripts/aggregate_regions.py and Loc2Med UI
+
+geo:
+  region_field: region  # admin region column
+  fallback_radius_km: 50
+
+filter:
+  min_confidence: 0.0  # default; override in UI
+
+ranking:
+  primary: confidence
+  secondary: capability_completeness

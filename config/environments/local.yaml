@@ -1,0 +1,9 @@
+# Environment: local development.
+# Load with: --config-name environments/local
+
+datastore:
+  type: local
+  base_uri: .
+
+experiment:
+  tracking_uri: null

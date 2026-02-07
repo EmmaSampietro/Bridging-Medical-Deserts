@@ -1,0 +1,15 @@
+# Pipeline: Planning — gap analysis, unlock engine, exports.
+# Used by scripts/run_planning.py
+
+gap_analysis:
+  top_n_missing: 5
+  min_facilities_for_referral: 1
+
+unlock:
+  max_prerequisites_missing: 2
+  rank_by: coverage_proxy  # coverage_proxy | feasibility
+
+exports:
+  csv: true
+  pdf: false
+  trace_export: false

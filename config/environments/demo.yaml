@@ -1,0 +1,12 @@
+# Environment: demo / hackathon run.
+# Load with: --config-name environments/demo
+
+datastore:
+  type: local
+  base_uri: .
+
+experiment:
+  tracking_uri: null
+
+logging:
+  level: INFO

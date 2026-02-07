@@ -1,0 +1,24 @@
+# Base configuration — global defaults (paths, logging, experiment tracking).
+# Override via config/environments/*.yaml or --config-name.
+
+# defaults: load via --config-name environments/local (or databricks, demo)
+paths:
+  data_raw: data/raw
+  data_interim: data/interim
+  data_processed: data/processed
+  data_external: data/external
+  outputs_reports: outputs/reports
+  outputs_traces: outputs/traces
+  outputs_tiles: outputs/tiles
+
+logging:
+  level: INFO
+  format: "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+
+experiment:
+  tracking_uri: null  # set to MLflow URI in env overlay
+  run_id: null
+
+datastore:
+  type: local  # local | databricks
+  base_uri: .

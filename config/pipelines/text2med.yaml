@@ -1,0 +1,28 @@
+# Pipeline: Text2Med — chunking, extraction, verification, confidence.
+# Used by scripts/build_text2med.py, scripts/verify_capabilities.py
+
+chunking:
+  strategy: sentence  # sentence | bullet | paragraph
+  max_chunk_chars: 512
+
+retrieval:
+  embedding_model: null  # set in env
+  index_type: faiss  # faiss | lancedb
+
+llm:
+  model_name: null
+  temperature: 0.1
+
+verification:
+  prerequisite_strict: true
+  contradiction_penalty: 0.3
+
+confidence:
+  weights:
+    specificity: 0.3
+    multi_evidence: 0.2
+    prerequisite_penalty: -0.2
+    contradiction_penalty: -0.3
+
+tracing:
+  export_traces: false  # stretch: agent-step citations

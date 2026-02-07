@@ -1,0 +1,9 @@
+# Environment: Databricks. Override paths and cluster settings.
+# Load with: --config-name environments/databricks
+
+datastore:
+  type: databricks
+  base_uri: /dbfs/FileStore  # adjust to workspace
+
+experiment:
+  tracking_uri: databricks

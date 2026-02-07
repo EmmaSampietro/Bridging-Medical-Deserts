@@ -1,0 +1,12 @@
+# Pipeline: ingest — VF CSV + optional scrape.
+# Used by scripts/ingest_data.py
+
+sources:
+  vf_csv_path: data/raw
+  scrape_enabled: true
+  scrape_cache_dir: data/raw/scraped
+
+scraper:
+  timeout_sec: 30
+  retries: 2
+  respect_robots: true

@@ -1,0 +1,12 @@
+# Prerequisite rules for verification (e.g. ICU => oxygen + monitoring).
+# Used by Text2Med verifier.
+
+# rules:
+#   icu:
+#     requires: [oxygen, monitoring, trained_staff]
+#   c_section:
+#     requires: [anesthesia, sterile_theatre, blood_access]
+#   dialysis:
+#     requires: [dialysis_machines, water_treatment, technician]
+#   x_ray:
+#     requires: [imaging_equipment, radiology_tech_or_service]
