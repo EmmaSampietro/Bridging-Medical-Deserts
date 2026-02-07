@@ -87,7 +87,7 @@ def main() -> None:
     scraped_documents: List[DocumentRecord] = []
     scraper_settings = getattr(cfg, "scraper", {}) or {}
 
-    scrape_requests: List[ScrapeRequest] = list(ingest_result.scrape_requests)
+    scrape_requests: List[ScrapeRequest] = []
     search_settings = getattr(cfg, "search", {}) or {}
     if search_allowed and search_settings.get("enabled", False):
         search_config = SearchExpansionConfig(
@@ -113,6 +113,12 @@ def main() -> None:
         logger.info(
             "Search expansion complete",
             extra={"new_requests": len(expanded_requests), "total_requests": len(scrape_requests)},
+        )
+
+    if not scrape_requests:
+        logger.info(
+            "No scrape requests generated (search disabled or no search results); proceeding with CSV-only text.",
+            extra={"search_allowed": search_allowed},
         )
 
     if scrape_enabled and scrape_requests:
@@ -161,7 +167,10 @@ def main() -> None:
             )
         documents.extend(scraped_documents)
     else:
-        logger.info("Skipping scrape step", extra={"scrape_enabled": scrape_enabled})
+        logger.info(
+            "Skipping scrape step",
+            extra={"scrape_enabled": scrape_enabled, "scrape_requests": len(scrape_requests)},
+        )
 
     chunker_settings = getattr(cfg, "chunker", {}) or {}
     chunker_cfg = ChunkerConfig(

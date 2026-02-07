@@ -22,8 +22,9 @@
    - Converts each fetched page into `DocumentRecord`s tagged as `scraped_web`.
 
 5. **Search expansion (`src/data_ingest/search.py`)**
-   - Builds DuckDuckGo queries from facility metadata (name, city, region + configurable terms) to discover additional URLs when none are provided.
+   - Builds DuckDuckGo queries from facility metadata (name, city, region + configurable terms) to discover additional URLs.
    - Controlled via `search.*` + `sources.search_enabled` in `config/pipelines/ingest.yaml`; dedupes against CSV-provided URLs.
+   - Current mode ignores any `source_url` in the CSV—search is the only way new scrape targets are created, which avoids broken legacy links.
 
 6. **Ingest script (`scripts/ingest_data.py`)**
    - CLI supporting additional config overlays/overrides, dry-run mode, and logging/MLflow hooks.

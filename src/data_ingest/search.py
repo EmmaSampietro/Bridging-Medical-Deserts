@@ -20,7 +20,11 @@ class SearchExpansionConfig:
     max_results: int = 3
     extra_terms: List[str] = field(default_factory=lambda: ["hospital"])
     country_hint: str = "Ghana"
-    user_agent: str = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0 Safari/537.36"
+    max_core_terms: int = 3
+    user_agent: str = (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0 Safari/537.36"
+    )
 
 
 class DuckDuckGoSearchClient:
@@ -78,26 +82,44 @@ class SearchExpander:
         self.client = DuckDuckGoSearchClient(user_agent=config.user_agent)
 
     def _build_query(self, row: pd.Series) -> Optional[str]:
-        terms = []
-        for key in ["facility_name", "name", "city", "district", "region"]:
-            value = row.get(key)
-            if isinstance(value, str) and value.strip():
-                terms.append(value.strip())
+        priority_fields = ["facility_name", "name", "city", "district", "region"]
+        terms: List[str] = []
+        seen = set()
+        for field in priority_fields:
+            value = row.get(field)
+            if not isinstance(value, str):
+                continue
+            cleaned = value.strip()
+            if not cleaned:
+                continue
+            canonical = cleaned.lower()
+            if canonical in seen:
+                continue
+            seen.add(canonical)
+            terms.append(cleaned)
+            if len(terms) >= max(1, self.config.max_core_terms):
+                break
+
         if not terms:
             return None
-        terms.extend(self.config.extra_terms)
-        if self.config.country_hint:
-            terms.append(self.config.country_hint)
-        # Remove duplicates while preserving order
-        seen = set()
-        ordered_terms = []
-        for term in terms:
+
+        for term in self.config.extra_terms:
+            if not term:
+                continue
             canonical = term.lower()
             if canonical in seen:
                 continue
             seen.add(canonical)
-            ordered_terms.append(term)
-        query = " ".join(ordered_terms)
+            terms.append(term)
+            if len(terms) >= self.config.max_core_terms + 1:
+                break
+
+        if self.config.country_hint:
+            country = self.config.country_hint.strip()
+            if country and country.lower() not in seen:
+                terms.append(country)
+
+        query = " ".join(terms[: self.config.max_core_terms + 2])
         return query if query else None
 
     def expand(

@@ -246,10 +246,18 @@ class WebScraper:
                 return self._build_document(request, text, status_code=response.status_code)
             except Exception as exc:
                 last_error = exc
+                status_code = getattr(getattr(exc, "response", None), "status_code", None)
                 self.logger.warning(
                     "Scrape attempt failed",
-                    extra={"url": request.url, "attempt": attempt + 1, "error": str(exc)},
+                    extra={
+                        "url": request.url,
+                        "attempt": attempt + 1,
+                        "error": str(exc),
+                        "status": status_code,
+                    },
                 )
+                if status_code is not None and status_code not in retry_on:
+                    break
 
         if getattr(self.config, "use_playwright_fallback", False):
             doc = _fetch_with_playwright(request, self.logger)
