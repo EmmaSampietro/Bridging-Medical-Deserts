@@ -1,0 +1,13 @@
+# Core config & validation
+omegaconf>=2.3.0
+pydantic>=2.0,<3
+PyYAML>=6.0
+
+# Data
+pandas>=2.0
+
+# HTTP (scraper)
+httpx>=0.25.0
+
+# Experiment tracking (optional; used by src.common.logging)
+mlflow>=2.9.0

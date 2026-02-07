@@ -1,6 +1,10 @@
 # Pipeline: Planning — gap analysis, unlock engine, exports.
 # Used by scripts/run_planning.py
 
+regions:
+  region_field: region
+  region_lookup_path: null
+
 gap_analysis:
   top_n_missing: 5
   min_facilities_for_referral: 1

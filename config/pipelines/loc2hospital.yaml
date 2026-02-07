@@ -2,8 +2,8 @@
 # Used by scripts/aggregate_regions.py and Loc2Med UI
 
 geo:
-  region_field: region  # admin region column
-  fallback_radius_km: 50
+  region_field: region  # admin region column in facility_capabilities
+  region_lookup_path: null  # optional CSV for canonical IDs (relative to data/raw)
 
 filter:
   min_confidence: 0.0  # default; override in UI
@@ -11,3 +11,7 @@ filter:
 ranking:
   primary: confidence
   secondary: capability_completeness
+
+desert:
+  hard_threshold: 0.0
+  soft_percentile: 25
