@@ -6,6 +6,7 @@ sources:
   country: Ghana
   scrape_enabled: true
   scrape_cache_dir: data/raw/scraped
+  search_enabled: true
 
 scraper:
   timeout_sec: 30
@@ -13,8 +14,25 @@ scraper:
   respect_robots: true
   concurrency: 4
   user_agent: "BMD-Ingestor/0.1 (+https://example.org)"
+  # Exponential backoff between retries (seconds); cap at backoff_max_sec.
+  backoff_base_sec: 1.0
+  backoff_max_sec: 60
+  # Retry on rate-limit (429) and server errors (502, 503).
+  retry_on_status: [429, 502, 503]
+  # Set true to try Playwright (headless browser) when httpx fails (e.g. JS-heavy sites).
+  use_playwright_fallback: false
+  # Min seconds between requests to the same host; 0 = disabled.
+  delay_between_requests_per_domain: 0.5
 
 chunker:
   max_chars: 900
   min_chars: 120
   overlap_chars: 120
+
+search:
+  enabled: true
+  max_results: 3
+  extra_terms:
+    - hospital
+    - clinic
+  country_hint: Ghana

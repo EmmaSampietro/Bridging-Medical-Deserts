@@ -44,7 +44,7 @@ class LoggingSetupResult:
 
 
 def _build_dict_config(cfg: AppConfig) -> MutableMapping[str, object]:
-    formatter_name = "json" if cfg.logging.json else "standard"
+    formatter_name = "json" if cfg.logging.json_format else "standard"
     formatters = {
         "standard": {
             "format": cfg.logging.format,
@@ -123,7 +123,7 @@ def setup_logging(
     dict_config = _build_dict_config(cfg)
     logging.config.dictConfig(dict_config)
     logger = logging.getLogger(cfg.logging.name)
-    logger.debug("Logging configured", extra={"json": cfg.logging.json})
+    logger.debug("Logging configured", extra={"json": cfg.logging.json_format})
 
     run_id = _init_mlflow(cfg, run_name, mlflow_tags)
     if run_id:

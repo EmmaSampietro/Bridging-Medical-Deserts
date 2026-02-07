@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Any, Iterable, List, Mapping, MutableMapping, Optional, Sequence, Union
 
 from omegaconf import OmegaConf
-from pydantic import BaseModel, Extra, Field, validator
+from pydantic import BaseModel, ConfigDict, Field
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 CONFIG_ROOT = PROJECT_ROOT / "config"
@@ -19,6 +19,8 @@ ENV_VAR_CONFIG_NAME = "BMD_CONFIG_NAME"
 class PathsConfig(BaseModel):
     """Filesystem layout for data + outputs."""
 
+    model_config = ConfigDict(extra="allow")
+
     data_raw: Path
     data_interim: Path
     data_processed: Path
@@ -27,56 +29,49 @@ class PathsConfig(BaseModel):
     outputs_traces: Path
     outputs_tiles: Path
 
-    class Config:
-        extra = Extra.allow
-
     def resolved(self, base_dir: Path) -> "PathsConfig":
         def _resolve(value: Path) -> Path:
             return value if value.is_absolute() else (base_dir / value).resolve()
 
-        resolved_fields = {field: _resolve(getattr(self, field)) for field in self.__fields__}
+        resolved_fields = {f: _resolve(getattr(self, f)) for f in self.model_fields}
         return type(self)(**resolved_fields)
 
 
 class LoggingConfig(BaseModel):
     """Runtime logging preferences."""
 
+    model_config = ConfigDict(extra="allow", populate_by_name=True)
+
     level: str = "INFO"
     format: str = "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
     datefmt: Optional[str] = None
-    json: bool = False
+    json_format: bool = Field(False, alias="json")
     name: str = "bridging_medical_deserts"
-
-    class Config:
-        extra = Extra.allow
 
 
 class ExperimentConfig(BaseModel):
+    model_config = ConfigDict(extra="allow")
+
     tracking_uri: Optional[str] = None
     run_id: Optional[str] = None
 
-    class Config:
-        extra = Extra.allow
-
 
 class DatastoreConfig(BaseModel):
-    type: str = Field("local", regex="^(local|databricks)$")
-    base_uri: str = "."
+    model_config = ConfigDict(extra="allow")
 
-    class Config:
-        extra = Extra.allow
+    type: str = Field("local", pattern="^(local|databricks)$")
+    base_uri: str = "."
 
 
 class AppConfig(BaseModel):
     """Top-level validated configuration object."""
 
+    model_config = ConfigDict(extra="allow")
+
     paths: PathsConfig
     logging: LoggingConfig
     experiment: ExperimentConfig
     datastore: DatastoreConfig
-
-    class Config:
-        extra = Extra.allow
 
 
 class ConfigLoaderError(RuntimeError):

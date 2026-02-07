@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="ROBOTS" content="index, FOLLOW" />
+  <meta name="revisit-after" content="3 days">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="author" content="BL.INK">
+  <meta http-equiv="Content-Security-Policy" content="base-uri 'self';connect-src 'self';default-src 'self';font-src fonts.gstatic.com;img-src 'self'  static.bl.ink blink-logos.s3.amazonaws.com www.bl.ink data:;object-src 'none';script-src 'self' www.googletagmanager.com 'unsafe-inline' 'unsafe-eval' static.bl.ink;style-src 'self' 'unsafe-inline' static.bl.ink;style-src-elem 'self' 'unsafe-inline' static.bl.ink">
+  <link rel="shortcut icon" href="https://8422896.fs1.hubspotusercontent-na1.net/hubfs/8422896/blink-icon%2060x60.png" type="image/x-icon" />
+  <link href="https://static.bl.ink/vendor/google/fonts/blink-managed.css" rel="stylesheet">
+  <link href="https://static.bl.ink/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <script src="https://static.bl.ink/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <title>Sign In</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <style>
+    .auth0-lock-header {
+      display: none;
+      height: 0px;
+      opacity: 0;
+    }
+    .auth0-lock.auth0-lock .auth0-lock-submit {
+     border-radius: 5px 5px 5px 5px!important;
+    }
+    .auth0-lock.auth0-lock .auth0-lock-center {
+      padding: 0px!important;
+    }
+    .auth0-lock.auth0-lock .auth0-lock-form {
+       padding: 0px!important;
+    }
+    .auth0-lock.auth0-lock .auth0-lock-form p span {
+        font-size: 16px;
+    }
+    a {
+        font: 13px "Roboto",sans-serif;
+        font-weight: bold;
+        color: #382f8e;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    a {
+        color: #2fd4e0;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .footer {
+        background: white;
+        text-align: center;
+        margin: auto -20px 0 !important;
+        padding: 10px;
+        max-width: none !important;
+        width: calc(100% + 40px) !important;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+        border-left: 1px solid #e8e8e8;
+        color: #999;
+        font: 11px 'Roboto', sans-serif;
+        -webkit-box-shadow: inset 5px 0px 6px -2px rgb(0 0 0 / 17%);
+        box-shadow: inset 5px 0px 6px -2px rgb(0 0 0 / 17%);
+    }
+    .footer a {
+        color: inherit;
+        font-weight: normal;
+    }
+    .footer .bar1 {
+        background-color: #212121;
+        color: #ddd;
+        padding: 45px 0 70px 0;
+        border-color: #444;
+        border-top-style: solid;
+        border-top-width: 1px;
+    }
+    .footer .bar1 .section-title {
+        margin-top: 0.85em;
+        color: #919191;
+        letter-spacing: 1px;
+        line-height: 49px !important;
+        font: 15px "Roboto",sans-serif;
+        font-weight: bold;
+    }
+    .footer .bar1 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .footer .bar1 ul a {
+        display: block;
+        line-height: 21px;
+        font-weight: 400;
+        padding: 8px 0;
+        color: #fff;
+        font: 14px "Roboto",sans-serif;
+    }
+    .footer .bar2 {
+        overflow: hidden;
+        background-color: #333;
+        color: #eee;
+        border-color: #444;
+        border-top-style: solid;
+        border-top-width: 1px;
+        padding: 10px 0;
+        font: 11px "Roboto",sans-serif;
+    }
+    .footer .bar2 a {
+        color: #eee;
+        font: 11px "Roboto",sans-serif;
+    }
+    .footer .bar2 .social {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer .bar2 .social li {
+        float: left;
+    }
+    
+    .footer .bar2 .social li a {
+        color: #999;
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: block;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+        text-align: center;
+    }
+  </style>
+</head>
+<body class="main-body"tyle="background-color:white;font: 16px 'Roboto', sans-serif;">
+
+    <div class="main-content">
+        <header class="main-header">
+        </header><!-- Header -->
+        <main class="main main-content-wrapper d-flex flex-column">
+            <section class="page-wrapper" style="
+                padding: 20px 0px;
+                background-color: #FFF;
+                min-height: 100vh;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            "
+            >
+                <div style="
+                    width: 100%;
+                    max-width: 100%;
+                    background-repeat: no-repeat;
+                    background-image: none;
+                    background-attachment: scroll;
+                    background-position: bottom left;
+                    padding-bottom:225px;">
+                    <div class="text-center" style="margin-top:55px; margin-bottom:33px;">
+                        <p>
+                          
+                            <img id="image" style="max-width: 300px" src="https://blink-logos.s3.amazonaws.com/default.png" />
+                          
+                      	</p>
+                    </div>
+                    <div>
+                        <div class="container" style="max-width:375px;">
+                            <div id="auth0-container"></div>
+                            <div class="text-center">
+                            <p style="margin-top:30px;display:none" id="password-reset">
+                              <a href="/reset_password"
+                                 id='passwordResetLink'
+                                 style='text-decoration: underline; font: 17px "Roboto", sans-serif;'>
+                                Forgot your password?</a>
+                              </p>
+<p style="font-size: 16px; font-family: Arial, sans-serif; text-align: center; margin-top:50px;">By creating or logging into an account, you agree to BL.INK's 
+    <a class="css-75tarh" href="https://www.bl.ink/terms-of-service" target="_blank" rel="noopener noreferrer" style="font-size: inherit; font-family: inherit;">Terms of Service</a> 
+    and 
+    <a class="css-75tarh" href="https://www.bl.ink/privacy-policy" target="_blank" rel="noopener noreferrer" style="font-size: inherit; font-family: inherit;">Privacy Policy.&nbsp;</a>
+</p>
+                            </div>
+                         
+                        </div>
+
+                    </div>
+                </div>
+<!--                <footer class="footer">
+                    <div class="bar1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <section>
+                                        <div class="section-title">Solutions For:</div>
+                                        <div>
+                                            <ul>
+                                                <li><a href="https://bl.ink/solo-and-expert/">Solo &amp; Expert</a></li>
+                                                <li><a href="https://bl.ink/team-business/">Team &amp; Business</a></li>
+                                                <li><a href="https://bl.ink/enterprise/">Enterprise</a></li>
+                                                <li><a href="https://bl.ink/developers/">Developers</a></li>
+                                            </ul>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="col-md-2 offset-md-1">
+                                    <section>
+                                        <div class="section-title">Product</div>
+                                        <div>
+                                            <ul>
+                                                <li><a href="https://bl.ink/features/">Features</a></li>
+                                                <li><a href="https://bl.ink/pricing/">Pricing</a></li>
+                                                <li><a href="/">Login</a></li>
+                                                <li><a href="/register">Sign Up</a></li>
+                                                <li><a href="https://bl.ink/request-a-demo/">Request A Demo</a></li>
+                                            </ul>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="col-md-2 offset-md-1">
+                                    <section>
+                                        <div class="section-title">Resources</div>
+                                        <div>
+                                            <ul>
+                                                <li><a href="https://bl.ink/help-center/">Help Center</a></li>
+                                                <li><a href="https://bl.ink/api-documentation/">API Documentation</a></li>
+                                                <li><a href="https://bl.ink/blog">Blog</a></li>
+                                                <li><a href="https://bl.ink/contact-us/">Contact Us</a></li>
+                                                <li><a href="https://bl.ink/case-studies/">Case Studies</a></li>
+                                            </ul>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="col-md-2 offset-md-1">
+                                    <section>
+                                        <div class="section-title">Company</div>
+                                        <div>
+                                            <ul>
+                                                <li><a href="https://bl.ink/about/">About</a></li>
+                                                <li><a href="https://bl.ink/customers/">Customers</a></li>
+                                                <li><a href="https://bl.ink/careers/">Careers</a></li>
+                                                <li><a href="https://bl.ink/team/">Team</a></li>
+                                                <li><a href="https://bl.ink/press/">Press</a></li>
+                                            </ul>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer><!-- Footer -->
+            </section><!-- Main -->
+
+        </main>
+    </div><!-- Page Content -->
+		<script>
+      var config = JSON.parse(decodeURIComponent(escape(window.atob('eyJpY29uIjoiaHR0cHM6Ly84NDIyODk2LmZzMS5odWJzcG90dXNlcmNvbnRlbnQtbmExLm5ldC9odWJmcy84NDIyODk2L2JsaW5rLWljb24lMjA2MHg2MC5wbmciLCJhc3NldHNVcmwiOiIiLCJhdXRoMERvbWFpbiI6ImxvZ2luLmJsLmluayIsImF1dGgwVGVuYW50IjoiYnVkdXJsIiwiY2xpZW50Q29uZmlndXJhdGlvbkJhc2VVcmwiOiJodHRwczovL2xvZ2luLmJsLmluay8iLCJjYWxsYmFja09uTG9jYXRpb25IYXNoIjpmYWxzZSwiY2FsbGJhY2tVUkwiOiJodHRwczovL2FwcC5ibC5pbmsvYXV0aGVudGljYXRlZCIsImNkbiI6Imh0dHBzOi8vY2RuLmF1dGgwLmNvbS8iLCJjbGllbnRJRCI6IjZCZ1ZXRmdBcjVRT1g2eU1BRjB4UzM3cFcwdXpCMHd2IiwiZGljdCI6eyJzaWduaW4iOnsidGl0bGUiOiJCTC5JTksifX0sImV4dHJhUGFyYW1zIjp7InByb3RvY29sIjoib2F1dGgyIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBuYW1lIGVtYWlsIGVtYWlsX3ZlcmlmaWVkIiwiYXVkaWVuY2UiOiJodHRwczovL2JsaW5rLXByb2QvYXBpL3YzLyIsInJlc3BvbnNlX21vZGUiOiJxdWVyeSIsInJlc3BvbnNlX3R5cGUiOiJjb2RlIiwiaG9zdCI6ImFwcC5ibC5pbmsiLCJyZXNldF9wYXNzd29yZF9saW5rIjoiYXBwLmJsLmluay9yZXNldF9wYXNzd29yZCIsInNob3dfcmVzZXRfcGFzc3dvcmQiOiJ0cnVlIiwibG9nb191cmkiOiJodHRwczovL2JsaW5rLWxvZ29zLnMzLmFtYXpvbmF3cy5jb20vYXBwLmJsLmluay5wbmciLCJub25jZSI6Ijg5Mjc0YzkxZTkyNjQ2NjczMjNlZWEwZDgwZTc1NmFiIiwiX2NzcmYiOiIyeDk3a3hZRi1FMXNrWGNxWklKMGVYNl85QjRBSmxoc3VhWXciLCJfaW50c3RhdGUiOiJkZXByZWNhdGVkIiwic3RhdGUiOiJoS0ZvMlNCMFVXRlRVa1JKWW5kb1NXZHlRMVp1ZEVOa1JVSmFZMkZXVUc1elNFZEZSYUZ1cFd4dloybHVvM1JwWk5rZ1ZsVkNZV1JLZVRabU1XSkVRWFJNV205MFlYVkxjamhaUTNORGNEVnplVWFqWTJsazJTQTJRbWRXVjBablFYSTFVVTlZTm5sTlFVWXdlRk16TjNCWE1IVjZRakIzZGcifSwiaW50ZXJuYWxPcHRpb25zIjp7InByb3RvY29sIjoib2F1dGgyIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBuYW1lIGVtYWlsIGVtYWlsX3ZlcmlmaWVkIiwiYXVkaWVuY2UiOiJodHRwczovL2JsaW5rLXByb2QvYXBpL3YzLyIsInJlc3BvbnNlX21vZGUiOiJxdWVyeSIsInJlc3BvbnNlX3R5cGUiOiJjb2RlIiwiaG9zdCI6ImFwcC5ibC5pbmsiLCJyZXNldF9wYXNzd29yZF9saW5rIjoiYXBwLmJsLmluay9yZXNldF9wYXNzd29yZCIsInNob3dfcmVzZXRfcGFzc3dvcmQiOiJ0cnVlIiwibG9nb191cmkiOiJodHRwczovL2JsaW5rLWxvZ29zLnMzLmFtYXpvbmF3cy5jb20vYXBwLmJsLmluay5wbmciLCJub25jZSI6Ijg5Mjc0YzkxZTkyNjQ2NjczMjNlZWEwZDgwZTc1NmFiIiwiX2NzcmYiOiIyeDk3a3hZRi1FMXNrWGNxWklKMGVYNl85QjRBSmxoc3VhWXciLCJfaW50c3RhdGUiOiJkZXByZWNhdGVkIiwic3RhdGUiOiJoS0ZvMlNCMFVXRlRVa1JKWW5kb1NXZHlRMVp1ZEVOa1JVSmFZMkZXVUc1elNFZEZSYUZ1cFd4dloybHVvM1JwWk5rZ1ZsVkNZV1JLZVRabU1XSkVRWFJNV205MFlYVkxjamhaUTNORGNEVnplVWFqWTJsazJTQTJRbWRXVjBablFYSTFVVTlZTm5sTlFVWXdlRk16TjNCWE1IVjZRakIzZGcifSwid2lkZ2V0VXJsIjoiaHR0cHM6Ly9jZG4uYXV0aDAuY29tL3cyL2F1dGgwLXdpZGdldC01LjIubWluLmpzIiwiaXNUaGlyZFBhcnR5Q2xpZW50IjpmYWxzZSwiYXV0aG9yaXphdGlvblNlcnZlciI6eyJ1cmwiOiJodHRwczovL2xvZ2luLmJsLmluayIsImlzc3VlciI6Imh0dHBzOi8vbG9naW4uYmwuaW5rLyJ9LCJjb2xvcnMiOnsicGFnZV9iYWNrZ3JvdW5kIjoiIzAwMDAwMCIsInByaW1hcnkiOiIjMzEyRTU2In19'))));
+      if (config.dict.signin.title == 'Bosch') {
+				var targetNode = document.getElementById('auth0-container');
+				var config = { attributes: false, childList: true, subtree: true };
+				var callback = function(mutationsList, observer) {
+		  		  for(var mutation of mutationsList) {
+    		  		  if (mutation.type === 'childList') {
+  	  			        var elements = document.querySelectorAll('.auth0-lock-social-button-text');
+			      	      if(elements.length > 0) {
+        	      			  elements.forEach(function(element) {
+          			  	      console.log(element);
+        		    		        element.textContent = 'Log in';
+    		      	    	  });
+		        	        	// Stop observing after the changes have been made
+	        	      		  observer.disconnect();
+  	    	    		  }
+    		  		  }
+    				}
+        }    
+			} else if (config.dict.signin.title == 'AJ' || config.dict.signin.title == 'Go') {
+					var targetNode = document.getElementById('auth0-container');
+					var config = { attributes: false, childList: true, subtree: true };
+					var callback = function(mutationsList, observer) {
+		  			  for(var mutation of mutationsList) {
+    		  			  if (mutation.type === 'childList') {
+  	  			  	      var elements = document.querySelectorAll('.auth0-lock-social-button-text');
+			      	  	    if(elements.length > 0) {
+        	      				  elements.forEach(function(element) {
+          			  		      console.log(element);
+        		    		  	      element.textContent = 'Log In to BLINK with Single-Sign-On';
+    		      	    	  	});
+		        	        		// Stop observing after the changes have been made
+	        	      		 	 observer.disconnect();
+  	    	    		  	}
+    		  		  	}
+    					}
+          }
+				}
+
+				var observer = new MutationObserver(callback);
+				observer.observe(targetNode, config);
+      
+		</script>
+    <script src="https://static.bl.ink/vendor/auth0/js/lock.min.js"></script>
+    <script type="module">
+      // Decode utf8 characters properly
+      var config = JSON.parse(decodeURIComponent(escape(window.atob('eyJpY29uIjoiaHR0cHM6Ly84NDIyODk2LmZzMS5odWJzcG90dXNlcmNvbnRlbnQtbmExLm5ldC9odWJmcy84NDIyODk2L2JsaW5rLWljb24lMjA2MHg2MC5wbmciLCJhc3NldHNVcmwiOiIiLCJhdXRoMERvbWFpbiI6ImxvZ2luLmJsLmluayIsImF1dGgwVGVuYW50IjoiYnVkdXJsIiwiY2xpZW50Q29uZmlndXJhdGlvbkJhc2VVcmwiOiJodHRwczovL2xvZ2luLmJsLmluay8iLCJjYWxsYmFja09uTG9jYXRpb25IYXNoIjpmYWxzZSwiY2FsbGJhY2tVUkwiOiJodHRwczovL2FwcC5ibC5pbmsvYXV0aGVudGljYXRlZCIsImNkbiI6Imh0dHBzOi8vY2RuLmF1dGgwLmNvbS8iLCJjbGllbnRJRCI6IjZCZ1ZXRmdBcjVRT1g2eU1BRjB4UzM3cFcwdXpCMHd2IiwiZGljdCI6eyJzaWduaW4iOnsidGl0bGUiOiJCTC5JTksifX0sImV4dHJhUGFyYW1zIjp7InByb3RvY29sIjoib2F1dGgyIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBuYW1lIGVtYWlsIGVtYWlsX3ZlcmlmaWVkIiwiYXVkaWVuY2UiOiJodHRwczovL2JsaW5rLXByb2QvYXBpL3YzLyIsInJlc3BvbnNlX21vZGUiOiJxdWVyeSIsInJlc3BvbnNlX3R5cGUiOiJjb2RlIiwiaG9zdCI6ImFwcC5ibC5pbmsiLCJyZXNldF9wYXNzd29yZF9saW5rIjoiYXBwLmJsLmluay9yZXNldF9wYXNzd29yZCIsInNob3dfcmVzZXRfcGFzc3dvcmQiOiJ0cnVlIiwibG9nb191cmkiOiJodHRwczovL2JsaW5rLWxvZ29zLnMzLmFtYXpvbmF3cy5jb20vYXBwLmJsLmluay5wbmciLCJub25jZSI6Ijg5Mjc0YzkxZTkyNjQ2NjczMjNlZWEwZDgwZTc1NmFiIiwiX2NzcmYiOiIyeDk3a3hZRi1FMXNrWGNxWklKMGVYNl85QjRBSmxoc3VhWXciLCJfaW50c3RhdGUiOiJkZXByZWNhdGVkIiwic3RhdGUiOiJoS0ZvMlNCMFVXRlRVa1JKWW5kb1NXZHlRMVp1ZEVOa1JVSmFZMkZXVUc1elNFZEZSYUZ1cFd4dloybHVvM1JwWk5rZ1ZsVkNZV1JLZVRabU1XSkVRWFJNV205MFlYVkxjamhaUTNORGNEVnplVWFqWTJsazJTQTJRbWRXVjBablFYSTFVVTlZTm5sTlFVWXdlRk16TjNCWE1IVjZRakIzZGcifSwiaW50ZXJuYWxPcHRpb25zIjp7InByb3RvY29sIjoib2F1dGgyIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBuYW1lIGVtYWlsIGVtYWlsX3ZlcmlmaWVkIiwiYXVkaWVuY2UiOiJodHRwczovL2JsaW5rLXByb2QvYXBpL3YzLyIsInJlc3BvbnNlX21vZGUiOiJxdWVyeSIsInJlc3BvbnNlX3R5cGUiOiJjb2RlIiwiaG9zdCI6ImFwcC5ibC5pbmsiLCJyZXNldF9wYXNzd29yZF9saW5rIjoiYXBwLmJsLmluay9yZXNldF9wYXNzd29yZCIsInNob3dfcmVzZXRfcGFzc3dvcmQiOiJ0cnVlIiwibG9nb191cmkiOiJodHRwczovL2JsaW5rLWxvZ29zLnMzLmFtYXpvbmF3cy5jb20vYXBwLmJsLmluay5wbmciLCJub25jZSI6Ijg5Mjc0YzkxZTkyNjQ2NjczMjNlZWEwZDgwZTc1NmFiIiwiX2NzcmYiOiIyeDk3a3hZRi1FMXNrWGNxWklKMGVYNl85QjRBSmxoc3VhWXciLCJfaW50c3RhdGUiOiJkZXByZWNhdGVkIiwic3RhdGUiOiJoS0ZvMlNCMFVXRlRVa1JKWW5kb1NXZHlRMVp1ZEVOa1JVSmFZMkZXVUc1elNFZEZSYUZ1cFd4dloybHVvM1JwWk5rZ1ZsVkNZV1JLZVRabU1XSkVRWFJNV205MFlYVkxjamhaUTNORGNEVnplVWFqWTJsazJTQTJRbWRXVjBablFYSTFVVTlZTm5sTlFVWXdlRk16TjNCWE1IVjZRakIzZGcifSwid2lkZ2V0VXJsIjoiaHR0cHM6Ly9jZG4uYXV0aDAuY29tL3cyL2F1dGgwLXdpZGdldC01LjIubWluLmpzIiwiaXNUaGlyZFBhcnR5Q2xpZW50IjpmYWxzZSwiYXV0aG9yaXphdGlvblNlcnZlciI6eyJ1cmwiOiJodHRwczovL2xvZ2luLmJsLmluayIsImlzc3VlciI6Imh0dHBzOi8vbG9naW4uYmwuaW5rLyJ9LCJjb2xvcnMiOnsicGFnZV9iYWNrZ3JvdW5kIjoiIzAwMDAwMCIsInByaW1hcnkiOiIjMzEyRTU2In19'))));
+      config.extraParams = config.extraParams || {};
+   
+      var connection = config.connection;
+      var prompt = config.prompt;
+
+      var languageDictionary;
+      var language;
+      
+      var passwordResetElement = document.getElementById('password-reset')
+      
+      if (config.extraParams.show_reset_password !== 'false') {
+         passwordResetElement.style.display = 'block';
+          var passwordResetLink = 'https://' + config.extraParams.reset_password_link;
+          document.getElementById("passwordResetLink").setAttribute("href",passwordResetLink);
+      }  
+      
+      if (config.dict && config.dict.signin && config.dict.signin.title) {
+        languageDictionary = { 
+            title: config.dict.signin.title,
+	          loginAtLabel: "Log in at",
+            enterpriseLoginIntructions: "Log in with your corporate credentials"
+        };
+        
+      } else if (typeof config.dict === 'string') {
+        language = config.dict;
+      }
+      var loginHint = config.extraParams.login_hint;
+      var colors = config.colors || {};
+      var host = config.extraParams.host;
+      var imageSrc = 'https://blink-logos.s3.amazonaws.com/';
+      
+      if (host) {
+        imageSrc = imageSrc + host + '.png';
+      }
+      document.getElementById('image').src = imageSrc;
+  
+      // Available Lock configuration options: https://auth0.com/docs/libraries/lock/v11/configuration
+      var lock = new Auth0Lock(config.clientID, config.auth0Domain, {
+        container: 'auth0-container',
+        autofocus: false,
+        allowShowPassword: true,
+        allowForgotPassword: false,
+        auth: {
+          redirectUrl: config.callbackURL,
+          responseType: (config.internalOptions || {}).response_type ||
+            (config.callbackOnLocationHash ? 'token' : 'code'),
+          params: config.internalOptions
+        },
+        socialButtonStyle: 'big',
+        configurationBaseUrl: config.clientConfigurationBaseUrl,
+        overrides: {
+          __tenant: config.auth0Tenant,
+          __token_issuer: config.authorizationServer.issuer
+        },
+        assetsUrl:  config.assetsUrl,
+        allowedConnections: connection ? [connection] : null,
+        rememberLastLogin: false,
+        language: language,
+        languageBaseUrl: config.languageBaseUrl,
+        languageDictionary: languageDictionary,
+        theme: {
+          logo:            '',
+          primaryColor:    colors.primary ? colors.primary : '#382F8E'
+        },
+        prefill: loginHint ? { email: loginHint, username: loginHint } : null,
+        closable: false,
+        defaultADUsernameFromEmailPrefix: false
+      });
+      
+      console.log({
+        container: 'auth0-container',
+        autofocus: false,
+        allowShowPassword: true,
+        allowForgotPassword: false,
+        auth: {
+          redirectUrl: config.callbackURL,
+          responseType: (config.internalOptions || {}).response_type ||
+            (config.callbackOnLocationHash ? 'token' : 'code'),
+          params: config.internalOptions
+        },
+        socialButtonStyle: 'big',
+        configurationBaseUrl: config.clientConfigurationBaseUrl,
+        overrides: {
+          __tenant: config.auth0Tenant,
+          __token_issuer: config.authorizationServer.issuer
+        },
+        assetsUrl:  config.assetsUrl,
+        allowedConnections: connection ? [connection] : null,
+        rememberLastLogin: false,
+        language: language,
+        languageBaseUrl: config.languageBaseUrl,
+        languageDictionary: languageDictionary,
+        theme: {
+          logo:            '',
+          primaryColor:    colors.primary ? colors.primary : '#382F8E'
+        },
+        prefill: loginHint ? { email: loginHint, username: loginHint } : null,
+        closable: false,
+        defaultADUsernameFromEmailPrefix: false
+      });
+  
+      if(colors.page_background) {
+        var css = '.auth0-lock.auth0-lock .auth0-lock-overlay { background: ' +
+                    colors.page_background +
+                  ' }';
+        var style = document.createElement('style');
+  
+        style.appendChild(document.createTextNode(css));
+  
+        document.body.appendChild(style);
+      }
+  
+      lock.show();
+    </script>
+  </body>
+</html>

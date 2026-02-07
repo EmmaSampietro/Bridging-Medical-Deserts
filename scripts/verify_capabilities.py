@@ -151,13 +151,14 @@ def _prepare_input_for_verification(frame: pd.DataFrame) -> pd.DataFrame:
         "status": "absent",
         "raw_explanation": "",
         "verification_notes": "",
-        "evidence_count": 0,
-        "source_support_count": 0,
+        "evidence_count": None,  # None so it is computed from len(evidence_ids) below
+        "source_support_count": None,  # None so it is computed from evidence_source_refs below
     }
     for column, default in required_defaults.items():
         if column not in prepared.columns:
             prepared[column] = default
-        prepared[column] = prepared[column].fillna(default)
+        if default is not None:
+            prepared[column] = prepared[column].fillna(default)
 
     for list_column in [
         "flags",

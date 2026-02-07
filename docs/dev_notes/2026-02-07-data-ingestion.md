@@ -21,7 +21,11 @@
    - Advanced HTTP client (httpx) with robots.txt respect, caching, retry logic, concurrency, and HTML-to-text cleaning (BeautifulSoup fallback).
    - Converts each fetched page into `DocumentRecord`s tagged as `scraped_web`.
 
-5. **Ingest script (`scripts/ingest_data.py`)**
+5. **Search expansion (`src/data_ingest/search.py`)**
+   - Builds DuckDuckGo queries from facility metadata (name, city, region + configurable terms) to discover additional URLs when none are provided.
+   - Controlled via `search.*` + `sources.search_enabled` in `config/pipelines/ingest.yaml`; dedupes against CSV-provided URLs.
+
+6. **Ingest script (`scripts/ingest_data.py`)**
    - CLI supporting additional config overlays/overrides, dry-run mode, and logging/MLflow hooks.
    - Runs loader → optional scraper → chunker → Parquet writer, logging counts at each step and writing to `data/interim/raw_documents.parquet`.
 

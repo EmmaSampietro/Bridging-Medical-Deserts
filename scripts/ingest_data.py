@@ -14,7 +14,9 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from src.common import load_config, setup_logging
 from src.data_ingest import ChunkerConfig, TextChunker, WebScraper, write_raw_documents
+from src.data_ingest.document_store import DocumentRecord
 from src.data_ingest.scraper import ScrapeRequest, ScraperConfig
+from src.data_ingest.search import SearchExpander, SearchExpansionConfig
 from src.data_ingest.vf_loader import load_vf_data
 
 
@@ -63,6 +65,7 @@ def main() -> None:
     csv_root = Path(sources_cfg.get("vf_csv_path", cfg.paths.data_raw))
     country = sources_cfg.get("country")
     scrape_enabled = bool(sources_cfg.get("scrape_enabled", True))
+    search_allowed = bool(sources_cfg.get("search_enabled", True))
     scrape_cache = Path(sources_cfg.get("scrape_cache_dir", csv_root / "scraped"))
 
     logger.info(
@@ -81,9 +84,44 @@ def main() -> None:
         },
     )
 
-    scraped_documents = []
+    scraped_documents: List[DocumentRecord] = []
     scraper_settings = getattr(cfg, "scraper", {}) or {}
-    if scrape_enabled and ingest_result.scrape_requests:
+
+    scrape_requests: List[ScrapeRequest] = list(ingest_result.scrape_requests)
+    search_settings = getattr(cfg, "search", {}) or {}
+    if search_allowed and search_settings.get("enabled", False):
+        search_config = SearchExpansionConfig(
+            enabled=True,
+            max_results=int(search_settings.get("max_results", 3)),
+            extra_terms=list(search_settings.get("extra_terms", ["hospital"])),
+            country_hint=str(search_settings.get("country_hint", country or "Ghana")),
+            user_agent=str(
+                search_settings.get(
+                    "user_agent",
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0 Safari/537.36",
+                )
+            ),
+        )
+        expander = SearchExpander(search_config, logger)
+        existing_urls = {req.url for req in scrape_requests}
+        expanded_requests = expander.expand(
+            ingest_result.dataframe,
+            existing_urls=existing_urls,
+        )
+        scrape_requests.extend(expanded_requests)
+        logger.info(
+            "Search expansion complete",
+            extra={"new_requests": len(expanded_requests), "total_requests": len(scrape_requests)},
+        )
+
+    if scrape_enabled and scrape_requests:
+        def _tuple_or_default(key: str, default: tuple) -> tuple:
+            val = scraper_settings.get(key, default)
+            if val is None:
+                return default
+            return tuple(val) if isinstance(val, (list, tuple)) else default
+
         scraper_cfg = ScraperConfig(
             timeout_sec=float(scraper_settings.get("timeout_sec", 30)),
             retries=int(scraper_settings.get("retries", 2)),
@@ -91,14 +129,36 @@ def main() -> None:
             cache_dir=scrape_cache,
             concurrency=int(scraper_settings.get("concurrency", 4)),
             user_agent=str(scraper_settings.get("user_agent", "BMD-Ingestor/0.1")),
+            backoff_base_sec=float(scraper_settings.get("backoff_base_sec", 1.0)),
+            backoff_max_sec=float(scraper_settings.get("backoff_max_sec", 60)),
+            retry_on_status=_tuple_or_default("retry_on_status", (429, 502, 503)),
+            use_playwright_fallback=bool(scraper_settings.get("use_playwright_fallback", False)),
+            delay_between_requests_per_domain=float(
+                scraper_settings.get("delay_between_requests_per_domain", 0.0)
+            ),
         )
         scraper = WebScraper(scraper_cfg, logger)
         logger.info(
             "Starting scrape jobs",
-            extra={"requests": len(ingest_result.scrape_requests), "cache_dir": str(scrape_cache)},
+            extra={"requests": len(scrape_requests), "cache_dir": str(scrape_cache)},
         )
-        scraped_documents = scraper.scrape(ingest_result.scrape_requests)
-        logger.info("Scraping complete", extra={"scraped_docs": len(scraped_documents)})
+        scraped_documents = scraper.scrape(scrape_requests)
+        total_urls = len(scrape_requests)
+        succeeded = len(scraped_documents)
+        logger.info(
+            "Scraping complete",
+            extra={
+                "scraped_docs": succeeded,
+                "total_urls": total_urls,
+                "failed": total_urls - succeeded,
+            },
+        )
+        if total_urls and succeeded == 0:
+            logger.warning(
+                "No URLs could be scraped; only CSV-derived documents will be used. "
+                "Failures may be due to timeouts, robots.txt, or server errors. "
+                "To skip scraping and avoid these messages, set sources.scrape_enabled=false.",
+            )
         documents.extend(scraped_documents)
     else:
         logger.info("Skipping scrape step", extra={"scrape_enabled": scrape_enabled})
