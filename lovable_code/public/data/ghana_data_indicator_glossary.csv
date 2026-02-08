@@ -1,0 +1,845 @@
+indicator_code,indicator_name,source_theme
+AH_CIGA_M_DKM,Cigarettes smoked: don't know or missing,tobacco
+AH_CIGA_M_NUM,Number of men cigarette smokers,tobacco
+AH_CIGA_M_TOT,Cigarettes smoked: Total,tobacco
+AH_CIGA_M_UNW,Number of men cigarette smokers (unweighted),tobacco
+AH_HINS_M_EBI,Other employer-base health insurance [Men],health-insurance
+AH_HINS_M_MUT,Mutual health organzation or community-base health insurance [Men],health-insurance
+AH_HINS_M_NON,No health insurance [Men],health-insurance
+AH_HINS_M_NUM,Number of men,health-insurance
+AH_HINS_M_OTH,Other health insurance [Men],health-insurance
+AH_HINS_M_PRV,Privately purchased commercial insurance [Men],health-insurance
+AH_HINS_M_SOS,Social security health insurance [Men],health-insurance
+AH_HINS_M_UNW,Number of men (unweighted),health-insurance
+AH_HINS_W_EBI,Other employer-base health insurance [Women],health-insurance
+AH_HINS_W_MUT,Mutual health organzation or community-base health insurance [Women],health-insurance
+AH_HINS_W_NON,No health insurance [Women],health-insurance
+AH_HINS_W_NUM,Number of women,health-insurance
+AH_HINS_W_OTH,Other health insurance [Women],health-insurance
+AH_HINS_W_PRV,Privately purchased commercial insurance [Women],health-insurance
+AH_HINS_W_SOS,Social security health insurance [Women],health-insurance
+AH_HINS_W_UNW,Number of women (unweighted),health-insurance
+AH_TOBC_M_ANY,Men who smoke any type of tobacco,sdgs
+AH_TOBC_M_CIG,Men who smoke cigarettes,dhs-mobile
+AH_TOBC_M_NON,Men who do not smoke,covid-19-additional-factors
+AH_TOBC_M_NUM,Number of men,tobacco
+AH_TOBC_M_OTH,Men who smoke other tobacco,tobacco
+AH_TOBC_M_PIP,Men who smoke pipe,tobacco
+AH_TOBC_M_UNW,Number of men (unweighted),tobacco
+AH_TOBC_W_ANY,Women who smoke any type of tobacco,sdgs
+AH_TOBC_W_CIG,Women who smoke cigarettes,dhs-mobile
+AH_TOBC_W_NON,Women who do not smoke,covid-19-additional-factors
+AH_TOBC_W_NUM,Number of women,tobacco
+AH_TOBC_W_OTH,Women who smoke other tobacco,tobacco
+AH_TOBC_W_PIP,Women who smoke pipe,tobacco
+AH_TOBC_W_UNW,Number of women (unweighted),tobacco
+AN_ANEM_W_ANY,Women with any anemia,anemia
+AN_ANEM_W_MLD,Women with mild anemia,anemia
+AN_ANEM_W_MOD,Women with moderate anemia,anemia
+AN_ANEM_W_NUM,Number of women,anemia
+AN_ANEM_W_SEV,Women with severe anemia,anemia
+AN_ANEM_W_UNW,Number of women (unweighted),anemia
+AN_MIAM_W_90P,Women with a birth in the past five years who took iron tablets or syrup for 90+ days,micronutrients
+AN_MIAM_W_DKM,Women with a birth in the past five years with 'Don't know' or missing information on iron tablets or syrup,micronutrients
+AN_MIAM_W_DWM,Women with a birth in the past five years who took deworming medication during pregnancy of last birth,micronutrients
+AN_MIAM_W_IOD,Women living in households using adequately iodized salt,micronutrients
+AN_MIAM_W_L60,Women with a birth in the past five years who took iron tablets or syrup for <60 days,micronutrients
+AN_MIAM_W_L89,Women with a birth in the past five years who took iron tablets or syrup for 60-89 days,micronutrients
+AN_MIAM_W_NBA,Women with a birth in the past five years suffering from night blindness during pregnancy (reported),micronutrients
+AN_MIAM_W_NBR,Women with a birth in the past five years suffering from night blindness during pregnancy (adjusted),micronutrients
+AN_MIAM_W_NM1,Number of women with a birth in the past five years living in households tested for iodized salt,micronutrients
+AN_MIAM_W_NON,Women with a birth in the past five years who took no iron tablets or syrup,micronutrients
+AN_MIAM_W_NUM,Number of women with a birth in the past five years,micronutrients
+AN_MIAM_W_TOT,Women with a birth in the past five years: Total,micronutrients
+AN_MIAM_W_UN1,Number of women with a birth in the past five years living in households tested for iodized salt (unweighted),micronutrients
+AN_MIAM_W_UNW,Number of women with a birth in the past five years (unweighted),micronutrients
+AN_MIAM_W_VAP,Women with a birth in the past five years who received a vitamin A dose in the first two months after delivery,micronutrients
+AN_NUTS_M_BMI,Mean Body Mass Index (BMI) for men,anthropometry
+AN_NUTS_M_NM1,Number of men,anthropometry
+AN_NUTS_M_NRM,Men with normal BMI (18.5-24.9),anthropometry
+AN_NUTS_M_NUM,Number of men,anthropometry
+AN_NUTS_M_OBS,Men who are obese according to BMI (>=30.0),anthropometry
+AN_NUTS_M_OVW,Men who are overweight according to BMI (25.0-29.9),anthropometry
+AN_NUTS_M_OWT,Men who are overweight or obese according to BMI (>=25.0),anthropometry
+AN_NUTS_M_SHT,Men with height below 145 cm,anthropometry
+AN_NUTS_M_TH1,Men who are mildly thin according to BMI (17.0-18.4),anthropometry
+AN_NUTS_M_TH2,Men who are moderately thin according to BMI (<17.0),anthropometry
+AN_NUTS_M_THN,Men who are thin according to BMI (<18.5),anthropometry
+AN_NUTS_M_UN1,Number of men (unweighted),anthropometry
+AN_NUTS_M_UNW,Number of men (unweighted),anthropometry
+AN_NUTS_W_BMI,Mean Body Mass Index (BMI) for women,anthropometry
+AN_NUTS_W_NM1,Number of women,anthropometry
+AN_NUTS_W_NRM,Women with normal BMI (18.5-24.9),anthropometry
+AN_NUTS_W_NUM,Number of women,anthropometry
+AN_NUTS_W_OBS,Women who are obese according to BMI (>=30.0),anthropometry
+AN_NUTS_W_OVW,Women who are overweight according to BMI (25.0-29.9),anthropometry
+AN_NUTS_W_OWT,Women who are overweight or obese according to BMI (>=25.0),anthropometry
+AN_NUTS_W_SHT,Women with height below 145 cm,anthropometry
+AN_NUTS_W_TH1,Women who are mildly thin according to BMI (17.0-18.4),anthropometry
+AN_NUTS_W_TH2,Women who are moderately thin according to BMI (<17.0),anthropometry
+AN_NUTS_W_THN,Women who are thin according to BMI (<18.5),anthropometry
+AN_NUTS_W_UN1,Number of women (unweighted),anthropometry
+AN_NUTS_W_UNW,Number of women (unweighted),anthropometry
+CH_ARIS_C_ABI,Children with symptoms of ARI who received antibiotics,mics-indicators
+CH_ARIS_C_ADV,Children with ARI for whom advice or treatment was sought,access-to-health-care
+CH_ARIS_C_ARI,Children with symptoms of ARI,dhs-mobile
+CH_ARIS_C_NM2,Number of children with symptoms of ARI born in the last five (or three) years,access-to-health-care
+CH_ARIS_C_NUM,Number of children born in the last five (or three) years,symptoms-of-acute-respiratory-infection-ari
+CH_ARIS_C_UN2,Number of children with symptoms of ARI born in the last five (or three) years (unweighted),symptoms-of-acute-respiratory-infection-ari
+CH_ARIS_C_UNW,Number of children born in the last five (or three) years (unweighted),symptoms-of-acute-respiratory-infection-ari
+CH_DIAR_C_DIA,Children with diarrhea,dhs-mobile
+CH_DIAR_C_DIB,Children with diarrhea with blood in the stools,diarrhea
+CH_DIAR_C_NUM,Number of children born in the last five (or three) years,diarrhea
+CH_DIAR_C_UNW,Number of children born in the last five (or three) years (unweighted),diarrhea
+CH_DIAT_C_ABI,Treatment of diarrhea: Antibiotics,diarrhea
+CH_DIAT_C_ADV,Treatment of diarrhea: Advice or treatment was sought,diarrhea
+CH_DIAT_C_AMO,Treatment of diarrhea: Antimotility drugs,diarrhea
+CH_DIAT_C_DKM,Treatment of diarrhea: don't know or missing,diarrhea
+CH_DIAT_C_HOM,Treatment of diarrhea: Home remedy - other,diarrhea
+CH_DIAT_C_INC,Treatment of diarrhea: Increased fluids,diarrhea
+CH_DIAT_C_INJ,Treatment of diarrhea: Injection,diarrhea
+CH_DIAT_C_IVS,Treatment of diarrhea: Intravenous solution,diarrhea
+CH_DIAT_C_NON,"Treatment of diarrhea: No ORS, RHF or increased fluids",diarrhea
+CH_DIAT_C_NOT,Treatment of diarrhea: No treatment,diarrhea
+CH_DIAT_C_NUM,Number of children born in the last five (or three) years,diarrhea
+CH_DIAT_C_ORI,Treatment of diarrhea: ORT or increased fluids,diarrhea
+CH_DIAT_C_ORS,Treatment of diarrhea: Oral rehydration solution (ORS),diarrhea
+CH_DIAT_C_ORT,Treatment of diarrhea: Either ORS or RHF,dhs-mobile
+CH_DIAT_C_RHF,Treatment of diarrhea: Recommended home fluids (RHF) at home,diarrhea
+CH_DIAT_C_UNW,Number of children born in the last five (or three) years (unweighted),diarrhea
+CH_DIAT_C_ZNC,Treatment of diarrhea: Zinc supplements,diarrhea
+CH_DIFP_C_FAL,"Feeding practices during diarrhea: Continued feeding, and ORT and/or increased fluids",dhs-mobile
+CH_DIFP_C_FCF,Feeding practices during diarrhea: Given increased fluids and continued feeding,diarrhea
+CH_DIFP_C_FDC,Feeding practices during diarrhea: Decreased amount of food,diarrhea
+CH_DIFP_C_FDK,Feeding practices during diarrhea: don't know or missing on food given,diarrhea
+CH_DIFP_C_FLS,Feeding practices during diarrhea: Somewhat less food,diarrhea
+CH_DIFP_C_FML,Feeding practices during diarrhea: Much less food,diarrhea
+CH_DIFP_C_FMR,Feeding practices during diarrhea: Increased amount of food,diarrhea
+CH_DIFP_C_FNO,Feeding practices during diarrhea: Stopped food completely,diarrhea
+CH_DIFP_C_FNV,Feeding practices during diarrhea: Never gave food,diarrhea
+CH_DIFP_C_FSM,Feeding practices during diarrhea: Same amount of food,diarrhea
+CH_DIFP_C_FTO,Feeding practices during diarrhea: Total,diarrhea
+CH_DIFP_C_LDC,Feeding practices during diarrhea: Decreased amount of fluids,diarrhea
+CH_DIFP_C_LDK,Feeding practices during diarrhea: don't know or missing on fluids given,diarrhea
+CH_DIFP_C_LLS,Feeding practices during diarrhea: Somewhat less fluids,diarrhea
+CH_DIFP_C_LML,Feeding practices during diarrhea: Much less fluids,diarrhea
+CH_DIFP_C_LMR,Feeding practices during diarrhea: Increased amount of fluids,diarrhea
+CH_DIFP_C_LNO,Feeding practices during diarrhea: Stopped fluids completely,diarrhea
+CH_DIFP_C_LSM,Feeding practices during diarrhea: Same amount of fluids,diarrhea
+CH_DIFP_C_LTO,Feeding practices during diarrhea: Total,diarrhea
+CH_DIFP_C_NUM,Number of children born in the last five (or three) years who had diarrhea in the last two weeks,diarrhea
+CH_DIFP_C_UNW,Number of children born in the last five (or three) years who had diarrhea in the last two weeks (unweighted),diarrhea
+CH_DSTL_C_SAF,Appropriate disposal of stools,mics-indicators
+CH_FEVR_C_FEV,Children with fever in the last two weeks,dhs-mobile
+CH_FEVT_C_ABI,Child took antibiotic drugs for fever,access-to-health-care
+CH_FEVT_C_ADV,Children with fever for whom advice or treatment was sought,dhs-mobile
+CH_FEVT_C_AML,Child took antimalarial drugs for fever,access-to-health-care
+CH_FEVT_C_NUM,Number of children with fever in the last two weeks,access-to-health-care
+CH_FEVT_C_UNW,Number of children with fever in the last two weeks (unweighted),access-to-health-care
+CH_KORS_W_NUM,Number of women with a live birth in the last five years,diarrhea
+CH_KORS_W_ORS,Knowledge of ORS,diarrhea
+CH_KORS_W_UNW,Number of women with a live birth in the last five years (unweighted),diarrhea
+CH_SZWT_C_REP,Birth weight of child reported,mics-indicators
+CH_VACC_C_BAS,Fully vaccinated (8 basic antigens),dhs-mobile
+CH_VACC_C_BCG,BCG vaccination received,dhs-mobile
+CH_VACC_C_DP1,DPT 1 vaccination received,immunization
+CH_VACC_C_DP2,DPT 2 vaccination received,immunization
+CH_VACC_C_DP3,DPT 3 vaccination received,dhs-mobile
+CH_VACC_C_HB1,Haemophilus influenza type b 1 vaccination received,immunization
+CH_VACC_C_HB2,Haemophilus influenza type b 2 vaccination received,immunization
+CH_VACC_C_HB3,Haemophilus influenza type b 3 vaccination received,immunization
+CH_VACC_C_HP0,Hepatitis 0 vaccination received,immunization
+CH_VACC_C_HP1,Hepatitis 1 vaccination received,immunization
+CH_VACC_C_HP2,Hepatitis 2 vaccination received,immunization
+CH_VACC_C_HP3,Hepatitis 3 vaccination received,immunization
+CH_VACC_C_MSL,Measles vaccination received,dhs-mobile
+CH_VACC_C_NON,Received no vaccinations,immunization
+CH_VACC_C_NUM,Number of children 12-23 months,immunization
+CH_VACC_C_OP0,Polio 0 vaccination received,immunization
+CH_VACC_C_OP1,Polio 1 vaccination received,immunization
+CH_VACC_C_OP2,Polio 2 vaccination received,immunization
+CH_VACC_C_OP3,Polio 3 vaccination received,dhs-mobile
+CH_VACC_C_PN3,Pneumococcal 3 vaccination received,sdgs
+CH_VACC_C_UNW,Number of children 12-23 months (unweighted),immunization
+CM_ECMR_C_CMR,Child mortality rate,child-mortality-rates
+CM_ECMR_C_IMR,Infant mortality rate,child-mortality-rates
+CM_ECMR_C_NNR,Neonatal mortality rate,child-mortality-rates
+CM_ECMR_C_PNR,Postneonatal mortality rate,child-mortality-rates
+CM_ECMR_C_U5M,Under-five mortality rate,child-mortality-rates
+CM_PNMR_C_NEN,Early neonatal deaths,child-mortality-rates
+CM_PNMR_C_NSB,Stillbirths,child-mortality-rates
+CM_PNMR_C_NUM,Number of pregnancies of 7+ months duration,child-mortality-rates
+CM_PNMR_C_PMR,Perinatal mortality rate (5 years),child-mortality-rates
+CM_PNMR_C_UNW,Number of pregnancies of 7+ months duration (unweighted),child-mortality-rates
+CN_ANMC_C_ANY,Children with any anemia,anemia
+CN_ANMC_C_MLD,Children with mild anemia,anemia
+CN_ANMC_C_MOD,Children with moderate anemia,anemia
+CN_ANMC_C_NUM,Number of children under age 5,anemia
+CN_ANMC_C_SEV,Children with severe anemia,anemia
+CN_ANMC_C_UNW,Number of children under age 5 (unweighted),anemia
+CN_BFDR_C_MDA,Median duration of any breastfeeding,dhs-mobile
+CN_BFDR_C_MDE,Median duration of exclusive breastfeeding,dhs-mobile
+CN_BFDR_C_MDP,Median duration of predominant breastfeeding,dhs-mobile
+CN_BRFI_C_1HR,Children who started breastfeeding within 1 hour of birth,iycf
+CN_BRFI_C_EVR,Children ever breastfed,iycf
+CN_IODZ_H_IOD,Households with iodized salt,dhs-mobile
+CN_IODZ_H_NM1,Number of households,iodized-salt
+CN_IODZ_H_NM2,Number of households with salt tested,iodized-salt
+CN_IODZ_H_NSL,Households with no salt,iodized-salt
+CN_IODZ_H_SLT,Households with salt tested for iodine content,iodized-salt
+CN_IODZ_H_UN1,Number of households (unweighted),iodized-salt
+CN_IODZ_H_UN2,Number of households with salt tested (unweighted),iodized-salt
+CN_IYCF_C_3PA,Children 6-23 months with 3 IYCF practices,dhs-mobile
+CN_IYCF_C_3PN,Non-breastfed children 6-23 months with 3 IYCF practices,dhs-mobile
+CN_IYCF_C_4FA,Children 6-23 months fed 5+ food groups,iycf
+CN_IYCF_C_BTB,Breastfed children 6-23 months fed both 4+ food groups and the minimum meal frequency,dhs-mobile
+CN_IYCF_C_MKN,Non-breastfed children 6-23 months fed milk or milk products,iycf
+CN_IYCF_C_MNA,Children 6-23 months fed the minimum meal frequency,iycf
+CN_MIAC_C_DWM,Children given deworming medication in past 6 months,micronutrients
+CN_MIAC_C_IOD,Children under five living in households using adequately iodized salt,micronutrients
+CN_MIAC_C_IRF,Children 6-23 months that consumed foods rich in iron in the last 24 hours,dhs-mobile
+CN_MIAC_C_IRS,Children given iron supplements in past 7 days,micronutrients
+CN_MIAC_C_NM1,Number of youngest children age 6-23 months living with mother,micronutrients
+CN_MIAC_C_NM2,Number of children age 6-59 months,micronutrients
+CN_MIAC_C_NM3,Number of children under five,micronutrients
+CN_MIAC_C_UN1,Number of youngest children age 6-23 months living with mother (unweighted),micronutrients
+CN_MIAC_C_UN2,Number of children age 6-59 months (unweighted),micronutrients
+CN_MIAC_C_UN3,Number of children under five (unweighted),micronutrients
+CN_MIAC_C_VAF,Children 6-23 months that consumed foods rich in vitamin A in the last 24 hours,dhs-mobile
+CN_MIAC_C_VAS,Children consuming vitamin A supplements,dhs-mobile
+CN_NUTS_C_HA2,Children stunted,anthropometry
+CN_NUTS_C_HA3,Children severely stunted,anthropometry
+CN_NUTS_C_HAM,Mean height for age of children,anthropometry
+CN_NUTS_C_WA2,Children underweight,anthropometry
+CN_NUTS_C_WA3,Children severely underweight,anthropometry
+CN_NUTS_C_WAM,Mean weight for age of children,anthropometry
+CN_NUTS_C_WAP,Children overweight for their age,anthropometry
+CN_NUTS_C_WH2,Children wasted,anthropometry
+CN_NUTS_C_WH3,Children severely wasted,anthropometry
+CN_NUTS_C_WHM,Mean weight for height of children,anthropometry
+CN_NUTS_C_WHP,Children overweight,anthropometry
+CO_INUS_M_U12,Men who used the internet in the past 12 months,covid-19-additional-factors
+CO_INUS_W_U12,Women who used the internet in the past 12 months,covid-19-additional-factors
+CO_MOBB_M_MBF,Men who use a mobile phone for financial transactions,sdgs
+CO_MOBB_M_MOB,Men who own a mobile phone,covid-19-additional-factors
+CO_MOBB_W_MBF,Women who use a mobile phone for financial transactions,sdgs
+CO_MOBB_W_MOB,Women who own a mobile phone,covid-19-additional-factors
+CP_BREG_C_CRT,Children who had a birth certificate,birth-registration
+CP_BREG_C_NCT,Children who did not have a birth certificate but were registered,birth-registration
+CP_BREG_C_NUM,Number of children under 5,birth-registration
+CP_BREG_C_REG,Children registered,birth-registration
+CP_BREG_C_UNW,Number of children under 5 (unweighted),birth-registration
+DV_EXPV_W_EVR,Ever experienced physical violence since age 15,dhs-mobile
+DV_EXSV_W_EVR,Women who ever experienced sexual violence,dhs-mobile
+DV_SPV1_W_ANY,Physical or sexual or emotional violence committed by husband/partner in last 12 months,covid-19-additional-factors
+DV_SPV1_W_EMT,Emotional violence committed by husband/partner in last 12 months,sdgs
+DV_SPV1_W_PHS,Physical violence committed by husband/partner in last 12 months,sdgs
+DV_SPV1_W_POS,Physical or sexual violence committed by husband/partner in last 12 months,dhs-mobile
+DV_SPV1_W_SEX,Sexual violence committed by husband/partner in last 12 months,sdgs
+DV_SPVL_W_ANY,Physical or sexual or emotional violence committed by husband/partner,covid-19-additional-factors
+DV_SPVL_W_POS,Physical or sexual violence committed by husband/partner,dhs-mobile
+ED_EDUC_M_NED,Men with no education,dhs-mobile
+ED_EDUC_M_PRI,Men with primary education,select-education-indicators
+ED_EDUC_M_SEH,Men with secondary or higher education,dhs-mobile
+ED_EDUC_W_NED,Women with no education,dhs-mobile
+ED_EDUC_W_PRI,Women with primary education,select-education-indicators
+ED_EDUC_W_SEH,Women with secondary or higher education,dhs-mobile
+ED_LITR_M_BLD,Men who are blind/visually impaired,literacy
+ED_LITR_M_LIT,Men who are literate,dhs-mobile
+ED_LITR_M_MIS,Men with missing information on literacy,literacy
+ED_LITR_M_NCD,Men for whom no card with required language was available,literacy
+ED_LITR_M_NRD,Men who cannot read at all,literacy
+ED_LITR_M_NUM,Number of men,literacy
+ED_LITR_M_RDP,Men who can read part of a sentence,literacy
+ED_LITR_M_RDW,Men who can read a whole sentence,literacy
+ED_LITR_M_SCH,Men with secondary or higher education,literacy
+ED_LITR_M_TOT,Men's literacy: Total,literacy
+ED_LITR_M_UNW,Number of men (unweighted),literacy
+ED_LITR_W_BLD,Women who are blind/visually impaired,literacy
+ED_LITR_W_LIT,Women who are literate,dhs-mobile
+ED_LITR_W_MIS,Women with missing information on literacy,literacy
+ED_LITR_W_NCD,Women for whom no card with required language was available,literacy
+ED_LITR_W_NRD,Women who cannot read at all,literacy
+ED_LITR_W_NUM,Number of women,literacy
+ED_LITR_W_RDP,Women who can read part of a sentence,literacy
+ED_LITR_W_RDW,Women who can read a whole sentence,literacy
+ED_LITR_W_SCH,Women with secondary or higher education,literacy
+ED_LITR_W_TOT,Women's literacy: Total,literacy
+ED_LITR_W_UNW,Number of women (unweighted),literacy
+ED_MDIA_M_3MD,"Men with access to newspaper, television and radio at least once a week",covid-19-additional-factors
+ED_MDIA_W_3MD,"Women with access to newspaper, television and radio at least once a week",covid-19-additional-factors
+ED_NARP_B_BTH,Net primary school attendance rate: Total,mdgs
+ED_NARP_B_GPI,Gender parity index for net primary school attendance,dhs-mobile
+ED_NARP_M_MAL,Net primary school attendance rate: Male,mdgs
+ED_NARP_W_FEM,Net primary school attendance rate: Female,mdgs
+ED_NARS_B_GPI,Gender parity index for net secondary school attendance,dhs-mobile
+ED_SCHA_C_SCR,"Ratio of orphans to non-orphans who are in school - mother, father or both dead",mdgs
+EM_WERN_W_WIF,Women who decide themselves how their earnings are used,dhs-mobile
+FE_AAFB_W_M2B,Median age at first birth for women age 25-49,dhs-mobile
+FE_FRTR_W_A10,Age specific fertility rate: 10-14,sdgs
+FE_FRTR_W_A15,Age specific fertility rate: 15-19,fertility-rates
+FE_FRTR_W_A20,Age specific fertility rate: 20-24,fertility-rates
+FE_FRTR_W_A25,Age specific fertility rate: 25-29,fertility-rates
+FE_FRTR_W_A30,Age specific fertility rate: 30-34,fertility-rates
+FE_FRTR_W_A35,Age specific fertility rate: 35-39,fertility-rates
+FE_FRTR_W_A40,Age specific fertility rate: 40-44,fertility-rates
+FE_FRTR_W_A45,Age specific fertility rate: 45-49,fertility-rates
+FE_FRTR_W_CBR,Crude birth rate,fertility-rates
+FE_FRTR_W_GFR,General fertility rate,dhs-mobile
+FE_FRTR_W_TF4,Total fertility rate 15-44,fertility-rates
+FE_FRTR_W_TFR,Total fertility rate 15-49,dhs-mobile
+FG_PFCC_W_WCC,Women circumcised (FGC),dhs-mobile
+FP_CUSA_W_DFJ,"Current use of diaphragm, foam or jelly (all women)",fp2020
+FP_CUSA_W_DIA,Current use of diaphragm (all women),fp2020
+FP_CUSA_W_EMC,Current use of emergency contraception (all women),fp2020
+FP_CUSA_W_FCN,Current use of female condom (all women),fp2020
+FP_CUSA_W_FOM,Current use of foam or jelly (all women),fp2020
+FP_CUSA_W_FST,Current use of female sterilization (all women),fp2020
+FP_CUSA_W_IMP,Current use of implants (all women),fp2020
+FP_CUSA_W_INJ,Current use of injections (all women),fp2020
+FP_CUSA_W_IUD,Current use of IUD (all women),fp2020
+FP_CUSA_W_LAM,Current use of lactational amenorrhea (all women),fp2020
+FP_CUSA_W_MCN,Current use of condom (all women),fp2020
+FP_CUSA_W_MOD,Current use of any modern method of contraception (all women),fp2020
+FP_CUSA_W_MST,Current use of male sterilization (all women),fp2020
+FP_CUSA_W_OMD,Current use of other modern methods (all women),fp2020
+FP_CUSA_W_PIL,Current use of pill (all women),fp2020
+FP_CUSA_W_STD,Current use of standard days method (all women),fp2020
+FP_CUSM_W_ANY,Married women currently using any method of contraception,dhs-mobile
+FP_CUSM_W_DFJ,"Married women currently using diaphragm, foam or jelly",fp2020
+FP_CUSM_W_DIA,Married women currently using diaphragm,fp2020
+FP_CUSM_W_EMC,Married women currently using emergency contraception,fp2020
+FP_CUSM_W_FCN,Married women currently using female condom,fp2020
+FP_CUSM_W_FOM,Married women currently using foam or jelly,fp2020
+FP_CUSM_W_FST,Married women currently using female sterilization,fp2020
+FP_CUSM_W_IMP,Married women currently using implants,fp2020
+FP_CUSM_W_INJ,Married women currently using injections,fp2020
+FP_CUSM_W_IUD,Married women currently using IUD,fp2020
+FP_CUSM_W_LAM,Married women currently using lactational amenorrhea,fp2020
+FP_CUSM_W_MCN,Married women currently using condom,fp2020
+FP_CUSM_W_MOD,Married women currently using any modern method of contraception,dhs-mobile
+FP_CUSM_W_MST,Married women currently using male sterilization,fp2020
+FP_CUSM_W_OMD,Married women currently using other modern methods,fp2020
+FP_CUSM_W_PIL,Married women currently using pill,fp2020
+FP_CUSM_W_STD,Married women currently using standard days method,fp2020
+FP_CUSU_W_EMC,Current use of emergency contraception (sexually active unmarried women),fp2020
+FP_CUSU_W_FCN,Current use of female condom (sexually active unmarried women),fp2020
+FP_CUSU_W_FOM,Current use of foam or jelly (sexually active unmarried women),fp2020
+FP_CUSU_W_FST,Current use of female sterilization (sexually active unmarried women),fp2020
+FP_CUSU_W_IMP,Current use of implants (sexually active unmarried women),fp2020
+FP_CUSU_W_INJ,Current use of injections (sexually active unmarried women),fp2020
+FP_CUSU_W_IUD,Current use of IUD (sexually active unmarried women),fp2020
+FP_CUSU_W_LAM,Current use of lactational amenorrhea (sexually active unmarried women),fp2020
+FP_CUSU_W_MCN,Current use of condom (sexually active unmarried women),fp2020
+FP_CUSU_W_MOD,Current use of any modern method of contraception (sexually active unmarried women),fp2020
+FP_CUSU_W_OMD,Current use of other modern methods (sexually active unmarried women),fp2020
+FP_CUSU_W_PIL,Current use of pill (sexually active unmarried women),fp2020
+FP_CUSU_W_STD,Current use of standard days method (sexually active unmarried women),fp2020
+FP_EFPM_M_NON,Family planning messages in none of these three media [Men],mens-fertility-and-family-planning
+FP_EFPM_M_NWS,Family planning messages in newspapers or magazines [Men],mens-fertility-and-family-planning
+FP_EFPM_M_RDO,Family planning messages on the radio [Men],mens-fertility-and-family-planning
+FP_EFPM_M_TLV,Family planning messages on television [Men],mens-fertility-and-family-planning
+FP_KMET_M_ANY,Knowledge of any method of contraception among married men,mens-fertility-and-family-planning
+FP_KMET_M_MOD,Knowledge of any modern method of contraception amonth married men,mens-fertility-and-family-planning
+FP_NADA_W_PDM,Demand for family planning satisfied by modern methods (all women),fp2020
+FP_NADA_W_UNT,"Unmet need for family planning, total (all women)",fp2020
+FP_NADM_W_MNT,"Met need for family planning (currently using), total",select-family-planning-indicators
+FP_NADM_W_PDM,Demand for family planning satisfied by modern methods,dhs-mobile
+FP_NADM_W_PDS,Demand for family planning satisfied,dhs-mobile
+FP_NADM_W_TDT,Total demand for family planning,select-family-planning-indicators
+FP_NADM_W_UNT,Unmet need for family planning,dhs-mobile
+FP_NADU_W_PDM,Demand for family planning satisfied by modern methods (sexually active unmarried women),fp2020
+FP_NADU_W_UNT,"Unmet need for family planning, total (sexually active unmarried women)",fp2020
+FP_SOCM_W_CON,Using social marketing brand of condom,social-marketing
+FP_SOCM_W_NCN,Number of women using condoms,social-marketing
+FP_SOCM_W_NPL,Number of women using pills,social-marketing
+FP_SOCM_W_PIL,Using social marketing brand of pill,social-marketing
+FP_SOCM_W_UCN,Number of women using condoms (unweighted),social-marketing
+FP_SOCM_W_UPL,Number of women using pills (unweighted),social-marketing
+HA_AATT_M_AAT,Accepting attitudes towards those living with HIV - Composite of 4 components [Men],dhs-mobile
+HA_AATT_M_CRE,Accepting attitudes - Willing to care for family member sick with AIDS (1) [Men],hiv-attitudes
+HA_AATT_M_FTC,Accepting attitudes - Female teacher who is HIV+ but not sick should be allowed to continue teaching in school (3) [Men],hiv-attitudes
+HA_AATT_M_NUM,Number of men who have heard of AIDS,hiv-attitudes
+HA_AATT_M_SEC,Accepting attitudes - Not secretive about family member's HIV status (4) [Men],hiv-attitudes
+HA_AATT_M_UNW,Number of men who have heard of AIDS (unweighted),hiv-attitudes
+HA_AATT_M_VEG,Accepting attitudes - Would buy fresh vegetables from a shopkeeper with AIDS (2) [Men],hiv-attitudes
+HA_AATT_W_AAT,Accepting attitudes towards those living with HIV - Composite of 4 components [Women],dhs-mobile
+HA_AATT_W_CRE,Accepting attitudes - Willing to care for family member sick with AIDS (1) [Women],hiv-attitudes
+HA_AATT_W_FTC,Accepting attitudes - Female teacher who is HIV+ but not sick should be allowed to continue teaching in school (3) [Women],hiv-attitudes
+HA_AATT_W_NUM,Number of women who have heard of AIDS,hiv-attitudes
+HA_AATT_W_SEC,Accepting attitudes - Not secretive about family member's HIV status (4) [Women],hiv-attitudes
+HA_AATT_W_UNW,Number of women who have heard of AIDS (unweighted),hiv-attitudes
+HA_AATT_W_VEG,Accepting attitudes - Would buy fresh vegetables from a shopkeeper with AIDS (2) [Women],hiv-attitudes
+HA_ANSS_M_CND,Woman is justified in asking that they use a condom if she knows that her husband has an sti [Men],hiv-attitudes
+HA_ANSS_M_NUM,Number of men,hiv-attitudes
+HA_ANSS_M_RSX,Woman is justified in refusing to have sexual intercourse with her husband if she knows he has sex with other women [Men],hiv-attitudes
+HA_ANSS_M_UNW,Number of men (unweighted),hiv-attitudes
+HA_ANSS_W_CND,Woman is justified in asking that they use a condom if she knows that her husband has an sti [Women],hiv-attitudes
+HA_ANSS_W_NUM,Number of women,hiv-attitudes
+HA_ANSS_W_RSX,Woman is justified in refusing to have sexual intercourse with her husband if she knows he has sex with other women [Women],hiv-attitudes
+HA_ANSS_W_UNW,Number of women (unweighted),hiv-attitudes
+HA_ASEC_M_AGR,Adult support of education on condom use for prevention of HIV/AIDS among young men,hiv-attitudes
+HA_ASEC_M_NUM,Number of men,hiv-attitudes
+HA_ASEC_M_UNW,Number of men (unweighted),hiv-attitudes
+HA_ASEC_W_AGR,Adult support of education on condom use for prevention of HIV/AIDS among young women,hiv-attitudes
+HA_ASEC_W_NUM,Number of women,hiv-attitudes
+HA_ASEC_W_UNW,Number of women (unweighted),hiv-attitudes
+HA_CATH_W_ATN,"Pregnant women tested for HIV during ANC or labor, but did not receive the results",hiv-counseling-and-testing
+HA_CATH_W_ATR,Pregnant women tested for HIV during ANC or labor and receiving the results,hiv-counseling-and-testing
+HA_CATH_W_CSL,Pregnant women counselled for HIV during ANC visit,hiv-counseling-and-testing
+HA_CATH_W_CTR,Pregnant women counselled for HIV and tested for HIV during ANC and who received the results,hiv-counseling-and-testing
+HA_CATH_W_NRS,Pregnant women tested for HIV during ANC not receiving results,hiv-counseling-and-testing
+HA_CATH_W_NUM,Number of women who gave birth in past two years,hiv-counseling-and-testing
+HA_CATH_W_TNC,"Pregnant women tested for HIV during ANC, receiving results but not post-test counselling",hiv-counseling-and-testing
+HA_CATH_W_TRC,"Pregnant women tested for HIV during ANC, receiving results and post-test counselling",hiv-counseling-and-testing
+HA_CATH_W_UNW,Number of women who gave birth in past two years (unweighted),hiv-counseling-and-testing
+HA_CKNA_M_CKA,Comprehensive correct knowledge about AIDS [Men],dhs-mobile
+HA_CKNA_M_HLT,No incorrect beliefs about AIDS - Healthy-looking person can have the AIDS virus [Men],hiv-knowledge
+HA_CKNA_M_MOS,No incorrect beliefs about AIDS - AIDS cannot be transmitted by mosquito bites [Men],hiv-knowledge
+HA_CKNA_M_NUM,Number of men,hiv-knowledge
+HA_CKNA_M_REJ,No incorrect beliefs about AIDS - Composite of 3 components [Men],hiv-knowledge
+HA_CKNA_M_SHR,No incorrect beliefs about AIDS - Cannot become infected by sharing food with someone who has AIDS [Men],hiv-knowledge
+HA_CKNA_M_SUP,No incorrect beliefs about AIDS - AIDS cannot be transmitted by supernatural means [Men],hiv-knowledge
+HA_CKNA_M_UNW,Number of men (unweighted),hiv-knowledge
+HA_CKNA_W_CKA,Comprehensive correct knowledge about AIDS [Women],dhs-mobile
+HA_CKNA_W_HLT,No incorrect beliefs about AIDS - Healthy-looking person can have the AIDS virus [Women],hiv-knowledge
+HA_CKNA_W_MOS,No incorrect beliefs about AIDS - AIDS cannot be transmitted by mosquito bites [Women],hiv-knowledge
+HA_CKNA_W_NUM,Number of women,hiv-knowledge
+HA_CKNA_W_REJ,No incorrect beliefs about AIDS - Composite of 3 components [Women],hiv-knowledge
+HA_CKNA_W_SHR,No incorrect beliefs about AIDS - Cannot become infected by sharing food with someone who has AIDS [Women],hiv-knowledge
+HA_CKNA_W_SUP,No incorrect beliefs about AIDS - AIDS cannot be transmitted by supernatural means [Women],hiv-knowledge
+HA_CKNA_W_UNW,Number of women (unweighted),hiv-knowledge
+HA_CPHT_M_ETN,Men ever tested for HIV and did not receive test results,hiv-counseling-and-testing
+HA_CPHT_M_ETR,Men ever tested for HIV and received test results,hiv-counseling-and-testing
+HA_CPHT_M_EVT,Men ever receiving an HIV test,hiv-counseling-and-testing
+HA_CPHT_M_KNW,Men who know where to get an HIV test,hiv-counseling-and-testing
+HA_CPHT_M_NEV,Men never tested for HIV,hiv-counseling-and-testing
+HA_CPHT_M_NUM,Number of men,hiv-counseling-and-testing
+HA_CPHT_M_T1R,Men receiving an HIV test and receiving test results in the last 12 months,dhs-mobile
+HA_CPHT_M_TOT,Men's HIV testing: Total,hiv-counseling-and-testing
+HA_CPHT_M_UNW,Number of men (unweighted),hiv-counseling-and-testing
+HA_CPHT_W_ETN,Women ever tested for HIV and did not receive test results,hiv-counseling-and-testing
+HA_CPHT_W_ETR,Women ever tested for HIV and received test results,hiv-counseling-and-testing
+HA_CPHT_W_EVT,Women ever receiving an HIV test,hiv-counseling-and-testing
+HA_CPHT_W_KNW,Women who know where to get an HIV test,hiv-counseling-and-testing
+HA_CPHT_W_NEV,Women never tested for HIV,hiv-counseling-and-testing
+HA_CPHT_W_NUM,Number of women,hiv-counseling-and-testing
+HA_CPHT_W_T1R,Women receiving an HIV test and receiving test results in the last 12 months,dhs-mobile
+HA_CPHT_W_TOT,Women's HIV testing: Total,hiv-counseling-and-testing
+HA_CPHT_W_UNW,Number of women (unweighted),hiv-counseling-and-testing
+HA_HIVP_B_HIV,HIV prevalence among general population,dhs-mobile
+HA_HIVP_B_NUM,Number of persons interviewed and tested,hiv-prevalence
+HA_HIVP_B_UNW,Number of persons interviewed and tested (unweighted),hiv-prevalence
+HA_HIVP_M_HIV,HIV prevalence among men,dhs-mobile
+HA_HIVP_M_NUM,Number of men interviewed and tested,hiv-prevalence
+HA_HIVP_M_UNW,Number of men interviewed and tested (unweighted),hiv-prevalence
+HA_HIVP_W_HIV,HIV prevalence among women,dhs-mobile
+HA_HIVP_W_NUM,Number of women interviewed and tested,hiv-prevalence
+HA_HIVP_W_UNW,Number of women interviewed and tested (unweighted),hiv-prevalence
+HA_HIVY_B_HIV,HIV prevalence among young people aged 15-24,hiv-prevalence
+HA_HIVY_B_NUM,Number of young persons interviewed and tested,hiv-prevalence
+HA_HIVY_B_UNW,Number of young persons interviewed and tested (unweighted),hiv-prevalence
+HA_HIVY_M_HIV,HIV prevalence among young men aged 15-24,hiv-prevalence
+HA_HIVY_M_NUM,Number of young men interviewed and tested,hiv-prevalence
+HA_HIVY_M_UNW,Number of young men interviewed and tested (unweighted),hiv-prevalence
+HA_HIVY_W_HIV,HIV prevalence among young women aged 15-24,hiv-prevalence
+HA_HIVY_W_NUM,Number of young women interviewed and tested,hiv-prevalence
+HA_HIVY_W_UNW,Number of young women interviewed and tested (unweighted),hiv-prevalence
+HA_HPAC_B_CNN,Couple both HIV negative,hiv-prevalence
+HA_HPAC_B_CNP,"Woman HIV positive, man HIV negative",hiv-prevalence
+HA_HPAC_B_CPN,"Man HIV positive, woman HIV negative",hiv-prevalence
+HA_HPAC_B_CPP,Couple both HIV positive,hiv-prevalence
+HA_HPAC_B_NUM,Number of couples,hiv-prevalence
+HA_HPAC_B_TOT,HIV prevalence among couples: Total,hiv-prevalence
+HA_HPAC_B_UNW,Number of couples (unweighted),hiv-prevalence
+HA_HPMC_M_HVC,Circumcised men HIV positive,hiv-prevalence
+HA_HPMC_M_HVU,Uncircumcised men HIV positive,hiv-prevalence
+HA_HPMC_M_NM1,Number of circumcised men,hiv-prevalence
+HA_HPMC_M_NM2,Number of uncircumcised men,hiv-prevalence
+HA_HPMC_M_UN1,Number of circumcised men (unweighted),hiv-prevalence
+HA_HPMC_M_UN2,Number of uncircumcised men (unweighted),hiv-prevalence
+HA_HRSX_M_CND,"Condom use at last higher risk sex (with a non-marital, non-cohabiting partner) [Men]",hiv-behavior
+HA_HRSX_M_HRS,Higher risk sex in the last year [Men],hiv-behavior
+HA_HRSX_M_NM1,Number of men reporting sexual activity in the last 12 months,hiv-behavior
+HA_HRSX_M_NM2,"Number of men who had sex with a non-marital, non-cohabiting partner in the last 12 months",hiv-behavior
+HA_HRSX_M_UN1,Number of men reporting sexual activity in the last 12 months (unweighted),hiv-behavior
+HA_HRSX_M_UN2,"Number of men who had sex with a non-marital, non-cohabiting partner in the last 12 months (unweighted)",hiv-behavior
+HA_HRSX_W_CND,"Condom use at last higher risk sex (with a non-marital, non-cohabiting partner) [Women]",hiv-behavior
+HA_HRSX_W_HRS,Higher risk sex in the last year [Women],hiv-behavior
+HA_HRSX_W_NM1,Number of women reporting sexual activity in the last 12 months,hiv-behavior
+HA_HRSX_W_NM2,"Number of women who had sex with a non-marital, non-cohabiting partner in the last 12 months",hiv-behavior
+HA_HRSX_W_UN1,Number of women reporting sexual activity in the last 12 months (unweighted),hiv-behavior
+HA_HRSX_W_UN2,"Number of women who had sex with a non-marital, non-cohabiting partner in the last 12 months (unweighted)",hiv-behavior
+HA_KAID_M_HRD,Men who have heard of HIV or AIDS,hiv-knowledge
+HA_KAID_M_NUM,Number of men,hiv-knowledge
+HA_KAID_M_UNW,Number of men (unweighted),hiv-knowledge
+HA_KAID_W_HRD,Women who have heard of HIV or AIDS,hiv-knowledge
+HA_KAID_W_NUM,Number of women,hiv-knowledge
+HA_KAID_W_UNW,Number of women (unweighted),hiv-knowledge
+HA_KHVP_M_CND,Knowledge of HIV prevention methods - Use of condoms (prompted) [Men],hiv-knowledge
+HA_KHVP_M_CS1,Knowledge of HIV prevention methods - Composite of 2 components (prompted) [Men],hiv-knowledge
+HA_KHVP_M_NUM,Number of men,hiv-knowledge
+HA_KHVP_M_SX1,Knowledge of HIV prevention methods - Only one partner (prompted) [Men],hiv-knowledge
+HA_KHVP_M_UNW,Number of men (unweighted),hiv-knowledge
+HA_KHVP_W_CND,Knowledge of HIV prevention methods - Use of condoms (prompted) [Women],hiv-knowledge
+HA_KHVP_W_CS1,Knowledge of HIV prevention methods - Composite of 2 components (prompted) [Women],hiv-knowledge
+HA_KHVP_W_NUM,Number of women,hiv-knowledge
+HA_KHVP_W_SX1,Knowledge of HIV prevention methods - Only one partner (prompted) [Women],hiv-knowledge
+HA_KHVP_W_UNW,Number of women (unweighted),hiv-knowledge
+HA_KMTC_M_BFD,Knowledge of prevention of mother to child transmission of HIV [Men],dhs-mobile
+HA_KMTC_M_BRF,Knowledge of MTCT - Through breastfeeding [Men],hiv-knowledge
+HA_KMTC_M_DRG,Knowledge of prevention of MTCT - Can be prevented by mother taking special drugs during pregnancy [Men],hiv-knowledge
+HA_KMTC_M_NUM,Number of men,hiv-knowledge
+HA_KMTC_M_UNW,Number of men (unweighted),hiv-knowledge
+HA_KMTC_W_BFD,Knowledge of prevention of mother to child transmission of HIV [Women],dhs-mobile
+HA_KMTC_W_BRF,Knowledge of MTCT - Through breastfeeding [Women],hiv-knowledge
+HA_KMTC_W_DRG,Knowledge of prevention of MTCT - Can be prevented by mother taking special drugs during pregnancy [Women],hiv-knowledge
+HA_KMTC_W_NUM,Number of women,hiv-knowledge
+HA_KMTC_W_UNW,Number of women (unweighted),hiv-knowledge
+HA_MCRC_M_MCC,Men circumcised,dhs-mobile
+HA_MCRC_M_NUM,Number of men,male-circumcision
+HA_MCRC_M_UNW,Number of men (unweighted),male-circumcision
+HA_MSXP_M_2PP,Higher-risk Sex (with multiple partners among all respondents) [Men],hiv-behavior
+HA_MSXP_M_CND,Condom use during higher-risk sex (with multiple partners) [Men],dhs-mobile
+HA_MSXP_M_MNP,Mean number of sexual partners in lifetime [Men],hiv-behavior
+HA_MSXP_M_NM1,Number of men,hiv-behavior
+HA_MSXP_M_NM2,Number of men,hiv-behavior
+HA_MSXP_M_NM3,Number of men who ever had sexual intercourse,hiv-behavior
+HA_MSXP_M_UN1,Number of men (unweighted),hiv-behavior
+HA_MSXP_M_UN2,Number of men (unweighted),hiv-behavior
+HA_MSXP_M_UN3,Number of men who ever had sexual intercourse (unweighted),hiv-behavior
+HA_MSXP_W_2PP,Higher-risk Sex (with multiple partners among all respondents) [Women],hiv-behavior
+HA_MSXP_W_CND,Condom use during higher-risk sex (with multiple partners) [Women],dhs-mobile
+HA_MSXP_W_MNP,Mean number of sexual partners in lifetime [Women],hiv-behavior
+HA_MSXP_W_NM1,Number of women,hiv-behavior
+HA_MSXP_W_NM2,Number of women,hiv-behavior
+HA_MSXP_W_NM3,Number of women who ever had sexual intercourse,hiv-behavior
+HA_MSXP_W_UN1,Number of women (unweighted),hiv-behavior
+HA_MSXP_W_UN2,Number of women (unweighted),hiv-behavior
+HA_MSXP_W_UN3,Number of women who ever had sexual intercourse (unweighted),hiv-behavior
+HA_PYSX_M_EPD,Ever paid for sexual intercourse,hiv-behavior
+HA_PYSX_M_NUM,Number of men,hiv-behavior
+HA_PYSX_M_PD1,Paid for sexual intercourse in the past 12 months,hiv-behavior
+HA_PYSX_M_UN1,Number of men who paid for sex in the last 12 months (unweighted),hiv-behavior
+HA_PYSX_M_UNW,Number of men (unweighted),hiv-behavior
+HA_STIS_M_AST,"Men reporting an STI, genital dicharge, or a sore or ulcer",dhs-mobile
+HA_STIS_W_AST,"Women reporting an STI, genital dicharge, or a sore or ulcer",dhs-mobile
+HC_CKFL_H_SLD,Households using solid fuel for cooking,mics-indicators
+HC_CKFL_P_CLN,Population using clean fuel for cooking,sdgs
+HC_ELEC_H_ELC,Households with electricity,dhs-mobile
+HC_ELEC_P_ELC,Population with electricity,covid-19-additional-factors
+HC_HEFF_H_FRG,Households possessing a refrigerator,covid-19-additional-factors
+HC_HEFF_H_MPH,Households possessing a mobile telephone,covid-19-additional-factors
+HC_HEFF_H_TLV,Households possessing a television,covid-19-additional-factors
+HC_LVAR_C_BTH,Children living with both parents,orphans
+HC_LVAR_C_FMA,"Children living with father, mother alive",orphans
+HC_LVAR_C_FMD,"Children living with father, mother dead",orphans
+HC_LVAR_C_MFA,"Children living with mother, father alive",orphans
+HC_LVAR_C_MFD,"Children living with mother, father dead",orphans
+HC_LVAR_C_NBA,"Children living with neither parent, both alive",orphans
+HC_LVAR_C_NBD,"Children living with neither parent, both dead",orphans
+HC_LVAR_C_NBP,Children not living with a biological parent,mics-indicators
+HC_LVAR_C_NFA,"Children living with neither parent, father alive",orphans
+HC_LVAR_C_NMA,"Children living with neither parent, mother alive",orphans
+HC_LVAR_C_NMS,Children with missing information on whether father/mother alive,orphans
+HC_LVAR_C_NUM,Number of children,orphans
+HC_LVAR_C_P1D,"Prevalence of orphanhood: children under 18 who are orphans - mother, father or both dead",dhs-mobile
+HC_LVAR_C_TOT,Children: Total,orphans
+HC_LVAR_C_UNW,Number of children (unweighted),orphans
+HC_MEMB_H_MNM,Mean number of household members,covid-19-prevention
+HC_OLDR_H_3GN,Households with 3 generations,covid-19-additional-factors
+HC_OLDR_H_O65,Households with only members age 65+,covid-19-additional-factors
+HC_OLDR_H_W65,Households with members age 65+,covid-19-additional-factors
+HC_OLDR_P_65P,De jure population age 65+,covid-19-additional-factors
+HC_OLDR_P_NNC,Population living in non-nuclear families,covid-19-additional-factors
+HC_ORPH_H_DBL,Households with double orphans,orphans
+HC_ORPH_H_FOR,Households with orphans and/or children not living with a biological parent,orphans
+HC_ORPH_H_FOS,Households with children not living with a biological parent,orphans
+HC_ORPH_H_NUM,Number of households,orphans
+HC_ORPH_H_SNG,Households with single orphans,orphans
+HC_ORPH_H_UNW,Number of households (unweighted),orphans
+HC_PPRM_H_MNP,Mean number of persons per sleeping room,covid-19-prevention
+HC_RMSL_H_1RM,Households with one room for sleeping,covid-19-prevention
+MA_AAFM_M_M25,Median age at first marriage [Men]: 25-29,mens-fertility-and-family-planning
+MA_AAFM_M_M2B,"Median age at first marriage [Men]: 25-49(54,59)",dhs-mobile
+MA_AAFM_M_M30,Median age at first marriage [Men]: 30-34,mens-fertility-and-family-planning
+MA_AAFM_M_M35,Median age at first marriage [Men]: 35-39,mens-fertility-and-family-planning
+MA_AAFM_M_M40,Median age at first marriage [Men]: 40-44,mens-fertility-and-family-planning
+MA_AAFM_M_M45,Median age at first marriage [Men]: 45-49,mens-fertility-and-family-planning
+MA_AAFM_M_M50,Median age at first marriage [Men]: 50-54,mens-fertility-and-family-planning
+MA_AAFM_W_M2B,Median age at first marriage [Women]: 25-49,dhs-mobile
+MA_WIVE_M_1WV,Number of wives: One wife,mens-fertility-and-family-planning
+MA_WIVE_M_2PW,Number of wives: Two or more wives,mens-fertility-and-family-planning
+ML_AMLD_C_ACT,Children who took any ACT,dhs-mobile
+ML_FEVT_C_ACT,Children with fever who took a combination with artemisinin,mics-indicators
+ML_FEVT_C_ADV,Children with fever for whom advice or treatment was sought,dhs-mobile
+ML_FEVT_C_BLD,Children with fever who had blood taken from a finger or heel for testing,dhs-mobile
+ML_HEMO_C_HL8,Children with hemoglobin lower than 8.0 g/dl,anemia
+ML_HEMO_C_NUM,Number of children age 6-59 months,anemia
+ML_HEMO_C_UNW,Number of children age 6-59 months (unweighted),anemia
+ML_IPTP_W_2SA,"SP/Fansidar 2+ doses, at least one during ANC visit",select-malaria-indicators
+ML_IPTP_W_3SP,SP/Fansidar 3+ doses during pregnancy,dhs-mobile
+ML_IRSM_H_I2I,Households with at least one insecticide-treated mosquito net (ITN) for every two persons and/or indoor residual spraying (IRS) in the past 12 months,mics-indicators
+ML_IRSM_H_IIR,Households with at least one insecticide-treated mosquito net (ITN) and/or indoor residual spraying (IRS) in the past 12 months,mics-indicators
+ML_ITNA_P_ACC,Persons with access to an insecticide-treated mosquito net (ITN),dhs-mobile
+ML_ITNA_P_NUM,Number of persons,insecticide-treated-nets
+ML_ITNA_P_UNW,Number of persons (unweighted),insecticide-treated-nets
+ML_ITNU_N_ITN,Existing insecticide-treated mosquito nets (ITNs) used last night,insecticide-treated-nets
+ML_ITNU_N_NUM,Number of insecticide-treated mosquito nets (ITNs),insecticide-treated-nets
+ML_ITNU_N_UNW,Number of insecticide-treated mosquito nets (ITNs) (unweighted),insecticide-treated-nets
+ML_NETC_C_ANY,Children under 5 who slept under any net,insecticide-treated-nets
+ML_NETC_C_IT1,Children under 5 who slept under an insecticide-treated mosquito net (ITN) last night of those living in a household with at least one ITN,insecticide-treated-nets
+ML_NETC_C_ITI,Children under 5 who slept under an insecticide-treated net (ITN) or in a dwelling sprayed with indoor residual spraying (IRS) in the past 12 months,insecticide-treated-nets
+ML_NETC_C_ITN,Children under 5 who slept under an insecticide-treated net (ITN),dhs-mobile
+ML_NETC_C_LLN,Children under 5 who slept under a long-lasting insecticide-treated net (LLIN),insecticide-treated-nets
+ML_NETC_C_NM1,Number of children under 5 in households with at least one insecticide-treated mosquito net (ITN),insecticide-treated-nets
+ML_NETC_C_NUM,Number of children under 5,insecticide-treated-nets
+ML_NETC_C_UN1,Number of children under 5 in households with at least one insecticide-treated mosquito net (ITN) (unweighted),insecticide-treated-nets
+ML_NETC_C_UNW,Number of children under 5 (unweighted),insecticide-treated-nets
+ML_NETP_H_IT2,Households with at least one insecticide-treated mosquito net (ITN) for every two persons who stayed in the household the previous night,dhs-mobile
+ML_NETP_H_ITN,Households with at least one insecticide-treated mosquito net (ITN),dhs-mobile
+ML_NETP_H_LL2,Households with at least one long-lasting insecticidal net (LLIN) for every two persons who stayed in the household the previous night,insecticide-treated-nets
+ML_NETP_H_LLN,Households with at least one long-lasting insecticidal net (LLIN),insecticide-treated-nets
+ML_NETP_H_MNI,Mean number of insecticide-treated mosquito nets (ITNs) per household,insecticide-treated-nets
+ML_NETP_H_MNL,Mean number of long-lasting insecticide-treated mosquito nets (LLINs) per household,insecticide-treated-nets
+ML_NETP_H_MNM,Mean number of mosquito nets per household,insecticide-treated-nets
+ML_NETP_H_MOS,Households with at least one mosquito net,insecticide-treated-nets
+ML_NETP_H_MS2,Households with at least one mosquito net for every two persons who stayed in the household the previous night,insecticide-treated-nets
+ML_NETP_H_NM2,Number of households with a least one person who stayed in the household last night,insecticide-treated-nets
+ML_NETP_H_NUM,Number of households,insecticide-treated-nets
+ML_NETP_H_UN2,Number of households with a least one person who stayed in the household last night (unweighted),insecticide-treated-nets
+ML_NETP_H_UNW,Number of households (unweighted),insecticide-treated-nets
+ML_NETU_P_ANY,Population who slept under any net last night,insecticide-treated-nets
+ML_NETU_P_IT1,Population who slept under an insecticide-treated mosquito net (ITN) last night of those living in a household with at least one insecticide-treated mosquito net (ITN),insecticide-treated-nets
+ML_NETU_P_ITI,Population who slept under an insecticide-treated mosquito net (ITN) last night or in a dwelling sprayed with indoor residual spraying (IRS) in the past 12 months,insecticide-treated-nets
+ML_NETU_P_ITN,Population who slept under an insecticide-treated mosquito net (ITN) last night,dhs-mobile
+ML_NETU_P_LLN,Population who slept under an LLIN last night,insecticide-treated-nets
+ML_NETU_P_NM1,Number of persons living in a household with at least one insecticide-treated mosquito net (ITN),insecticide-treated-nets
+ML_NETU_P_NUM,Number of persons,insecticide-treated-nets
+ML_NETU_P_UN1,Number of persons living in a household with at least one insecticide-treated mosquito net (ITN) (unweighted),insecticide-treated-nets
+ML_NETU_P_UNW,Number of persons (unweighted),insecticide-treated-nets
+ML_NETW_W_ANY,Pregnant women who slept under any net,insecticide-treated-nets
+ML_NETW_W_IT1,Pregnant women who slept under insecticide-treated mosquito net (ITN) last night of those living in a household with at least one ITN,insecticide-treated-nets
+ML_NETW_W_ITI,Pregnant women who slept under an insecticide-treated net (ITN) or in a dwelling sprayed with indoor residual spraying (IRS) in the past 12 months,insecticide-treated-nets
+ML_NETW_W_ITN,Pregnant women who slept under an insecticide-treated net (ITN),dhs-mobile
+ML_NETW_W_LLN,Pregnant women who slept under a long-lasting insecticide-treated net (LLIN),insecticide-treated-nets
+ML_NETW_W_NM1,Number of pregnant women in households with at least one insecticide-treated mosquito net (ITN),insecticide-treated-nets
+ML_NETW_W_NUM,Number of pregnant women,insecticide-treated-nets
+ML_NETW_W_UN1,Number of pregnant women in households with at least one insecticide-treated mosquito net (ITN) (unweighted),insecticide-treated-nets
+ML_NETW_W_UNW,Number of pregnant women (unweighted),insecticide-treated-nets
+ML_PMAL_C_MSY,Malaria prevalence according to microscopy,dhs-mobile
+ML_PMAL_C_NMM,Number of children 6-59 months tested using microscopy,malaria-parasitemia
+ML_PMAL_C_NMR,Number of children 6-59 months tested using RDT,malaria-parasitemia
+ML_PMAL_C_RDT,Malaria prevalence according to RDT,dhs-mobile
+ML_PMAL_C_UNM,Number of children 6-59 months tested using microscopy (unweighted),malaria-parasitemia
+ML_PMAL_C_UNR,Number of children 6-59 months tested using RDT (unweighted),malaria-parasitemia
+PR_DESL_M_WNM,Men who want no more children,mens-fertility-and-family-planning
+PR_DESL_W_WNM,Women who want no more children,dhs-mobile
+PR_MIDL_W_MNA,Mean ideal number of children for all women,dhs-mobile
+PR_WTFR_W_WFR,Total wanted fertility rate,dhs-mobile
+RH_ANCN_W_N4P,Antenatal visits for pregnancy: 4+ visits,dhs-mobile
+RH_ANCP_W_AUX,Antenatal care provider: Auxiliary nurse/midwife,access-to-health-care
+RH_ANCP_W_CHW,Antenatal care provider: Community health worker,access-to-health-care
+RH_ANCP_W_DOC,Antenatal care provider: Doctor,access-to-health-care
+RH_ANCP_W_MIS,Antenatal care provider: Missing,access-to-health-care
+RH_ANCP_W_NON,No antenatal care,access-to-health-care
+RH_ANCP_W_NRS,Antenatal care provider: Nurse/midwife,access-to-health-care
+RH_ANCP_W_NUM,Number of women with a live birth (or stillbirth) in the last two (or three/five) years,access-to-health-care
+RH_ANCP_W_OHW,Antenatal care provider: Other health worker,access-to-health-care
+RH_ANCP_W_OTH,Antenatal care provider: Other,access-to-health-care
+RH_ANCP_W_SKP,Antenatal care from a skilled provider,access-to-health-care
+RH_ANCP_W_TBA,Antenatal care provider: Traditional birth attendant,access-to-health-care
+RH_ANCP_W_TOT,Antenatal care: Total,access-to-health-care
+RH_ANCP_W_UNW,Number of women with a live birth (or stillbirth) in the last two (or three/five) years (unweighted),access-to-health-care
+RH_DELA_C_AUX,Assistance during delivery: Auxiliary nurse/midwife,access-to-health-care
+RH_DELA_C_CSC,Delivery by cesarean section,access-to-health-care
+RH_DELA_C_DKM,Assistance during delivery: don't know or missing,access-to-health-care
+RH_DELA_C_DOC,Assistance during delivery: Doctor,access-to-health-care
+RH_DELA_C_NON,Assistance during delivery: No one,access-to-health-care
+RH_DELA_C_NRS,Assistance during delivery: Nurse/midwife,access-to-health-care
+RH_DELA_C_NUM,Number of live births (or stillbirths) in the last two (or three/five) years,access-to-health-care
+RH_DELA_C_OHW,Assistance during delivery: Other health worker,access-to-health-care
+RH_DELA_C_REL,Assistance during delivery: Relative or other,access-to-health-care
+RH_DELA_C_SKP,Assistance during delivery from a skilled provider,access-to-health-care
+RH_DELA_C_TBA,Assistance during delivery: Traditional birth attendant,access-to-health-care
+RH_DELA_C_TOT,Assistance during delivery: Total,access-to-health-care
+RH_DELA_C_UNW,Number of live births (or stillbirths) in the last two (or three/five) years (unweighted),access-to-health-care
+RH_DELP_C_DHF,Place of delivery: Health facility,access-to-health-care
+RH_DELP_C_DKM,Place of delivery: don't know or missing,access-to-health-care
+RH_DELP_C_HOM,Place of delivery: At home,access-to-health-care
+RH_DELP_C_NUM,Number of live births (or stillbirths) in the last two (or three/five) years,access-to-health-care
+RH_DELP_C_OTH,Place of delivery: Other,access-to-health-care
+RH_DELP_C_PRV,Place of delivery: Private sector,access-to-health-care
+RH_DELP_C_PUB,Place of delivery: Public sector,access-to-health-care
+RH_DELP_C_TOT,Place of delivery: Total,access-to-health-care
+RH_DELP_C_UNW,Number of live births (or stillbirths) in the last two (or three/five) years (unweighted),access-to-health-care
+RH_PCCP_C_CHW,Provider of newborns' first postnatal checkup: Community health worker,access-to-health-care
+RH_PCCP_C_DOC,Provider of newborns' first postnatal checkup: Doctor/nurse/midwife,access-to-health-care
+RH_PCCP_C_NON,No postnatal checkup for newborn within first two days of birth,access-to-health-care
+RH_PCCP_C_NRS,Provider of newborns' first postnatal checkup: Auxiliary nurse/midwife,access-to-health-care
+RH_PCCP_C_NUM,Number of newborns,access-to-health-care
+RH_PCCP_C_OHW,Provider of newborns' first postnatal checkup: Other health worker,access-to-health-care
+RH_PCCP_C_TBA,Provider of newborns' first postnatal checkup: Traditional birth attendant,access-to-health-care
+RH_PCCP_C_TOT,Provider of newborns' first postnatal checkup: Total,access-to-health-care
+RH_PCCP_C_UNW,Number of newborns (unweighted),access-to-health-care
+RH_PCCT_C_DY2,Newborn's first postnatal checkup in the first two days after birth,dhs-mobile
+RH_PCMP_W_CHW,Provider of mothers' first postnatal checkup: Community health worker,access-to-health-care
+RH_PCMP_W_DOC,Provider of mothers' first postnatal checkup: Doctor/nurse/midwife,access-to-health-care
+RH_PCMP_W_NON,No postnatal checkup for mother within first two days of birth,access-to-health-care
+RH_PCMP_W_NRS,Provider of mothers' first postnatal checkup: Auxiliary nurse/midwife,access-to-health-care
+RH_PCMP_W_NUM,Number of mothers,access-to-health-care
+RH_PCMP_W_OHW,Provider of mothers' first postnatal checkup: Other health worker,access-to-health-care
+RH_PCMP_W_TBA,Provider of mothers' first postnatal checkup: Traditional birth attendant,access-to-health-care
+RH_PCMP_W_TOT,Provider of mothers' first postnatal checkup: Total,access-to-health-care
+RH_PCMP_W_UNW,Number of mothers (unweighted),access-to-health-care
+RH_PCMT_W_DY2,Mother's first postnatal checkup in the first two days after birth,dhs-mobile
+RH_TTIJ_W_PRT,Tetanus protection at birth,dhs-mobile
+SX_AAFS_M_M20,Median age at first sexual intercourse [Men]: 20-24,mens-fertility-and-family-planning
+SX_AAFS_M_M25,Median age at first sexual intercourse [Men]: 25-29,mens-fertility-and-family-planning
+SX_AAFS_M_M2A,"Median age at first sexual intercourse [Men]: 20-49(54,59)",mens-fertility-and-family-planning
+SX_AAFS_M_M2B,"Median age at first sexual intercourse [Men]: 25-49(54,59)",dhs-mobile
+SX_AAFS_M_M30,Median age at first sexual intercourse [Men]: 30-34,mens-fertility-and-family-planning
+SX_AAFS_M_M35,Median age at first sexual intercourse [Men]: 35-39,mens-fertility-and-family-planning
+SX_AAFS_M_M40,Median age at first sexual intercourse [Men]: 40-44,mens-fertility-and-family-planning
+SX_AAFS_M_M45,Median age at first sexual intercourse [Men]: 45-49,mens-fertility-and-family-planning
+SX_AAFS_M_M50,Median age at first sexual intercourse [Men]: 50-54,mens-fertility-and-family-planning
+SX_AAFS_W_M20,Median age at first sexual intercourse [Women]: 20-24,sexual-intercourse
+SX_AAFS_W_M25,Median age at first sexual intercourse [Women]: 25-29,sexual-intercourse
+SX_AAFS_W_M2A,Median age at first sexual intercourse [Women]: 20-49,sexual-intercourse
+SX_AAFS_W_M2B,Median age at first sexual intercourse [Women]: 25-49,dhs-mobile
+SX_AAFS_W_M30,Median age at first sexual intercourse [Women]: 30-34,sexual-intercourse
+SX_AAFS_W_M35,Median age at first sexual intercourse [Women]: 35-39,sexual-intercourse
+SX_AAFS_W_M40,Median age at first sexual intercourse [Women]: 40-44,sexual-intercourse
+SX_AAFS_W_M45,Median age at first sexual intercourse [Women]: 45-49,sexual-intercourse
+SX_LSEX_M_1PY,Recent sexual activity [Men]: One or more years ago,mens-fertility-and-family-planning
+SX_LSEX_M_1YR,Recent sexual activity [Men]: Within the last year,mens-fertility-and-family-planning
+SX_LSEX_M_4WK,Recent sexual activity [Men]: Active 4 Weeks,mens-fertility-and-family-planning
+SX_LSEX_M_MIS,Recent sexual activity [Men]: Missing,sexual-intercourse
+SX_LSEX_M_NSX,Recent sexual activity [Men]: Never had sex,mens-fertility-and-family-planning
+SX_LSEX_M_NUM,Number of men,sexual-intercourse
+SX_LSEX_M_TOT,Men: Total,sexual-intercourse
+SX_LSEX_M_UNW,Number of men (unweighted),sexual-intercourse
+SX_LSEX_W_1PY,Recent sexual activity [Women]: One or more years ago,sexual-intercourse
+SX_LSEX_W_1YR,Recent sexual activity [Women]: Within the last year,sexual-intercourse
+SX_LSEX_W_4WK,Recent sexual activity: Active in last 4 weeks,sexual-intercourse
+SX_LSEX_W_MIS,Recent sexual activity [Women]: Missing,sexual-intercourse
+SX_LSEX_W_NSX,Recent sexual activity: Never had sex,sexual-intercourse
+SX_LSEX_W_NUM,Number of women,sexual-intercourse
+SX_LSEX_W_TOT,Women: Total,sexual-intercourse
+SX_LSEX_W_UNW,Number of women (unweighted),sexual-intercourse
+WE_AWBT_M_AGR,Wife beating justified for at least one specific reason [Men],dhs-mobile
+WE_AWBT_W_AGR,Wife beating justified for at least one specific reason [Women],dhs-mobile
+WE_DMAK_M_OHC,Final say in own health care [Men],covid-19-additional-factors
+WE_DMAK_W_3DC,Final say in all of the decisions [Women],select-gender-indicators
+WE_DMAK_W_OHC,Final say in own health care [Women],covid-19-additional-factors
+WE_IDMH_W_RCH,Own decision making about all three decisions,sdgs
+WE_OWNA_M_LNO,Do not own land [Men],select-gender-indicators
+WE_OWNA_W_LNO,Do not own land [Women],select-gender-indicators
+WS_HNDW_H_OBS,Households with a place for handwashing was observed,mics-indicators
+WS_HNDW_P_BAS,"Population with a basic handwashing facility, with soap and water available",covid-19-prevention
+WS_HNDW_P_LTD,"Population with a limited handwashing facility, lacking soap and/or water",covid-19-prevention
+WS_HNDW_P_OBS,Population with a place for handwashing was observed,covid-19-prevention
+WS_SRCE_H_BOT,Households using bottled water,water
+WS_SRCE_H_DKM,Households with don't know or missing information on water source,water
+WS_SRCE_H_IMP,Households using an improved water source,water
+WS_SRCE_H_NIM,Households using an unimproved water source,water
+WS_SRCE_H_OTH,Households using other water source,water
+WS_SRCE_H_PIP,Households using water piped into dwelling,water
+WS_SRCE_H_PSG,Households using a protected spring,water
+WS_SRCE_H_PWL,Households using a protected well,water
+WS_SRCE_H_RNW,Households using rainwater,water
+WS_SRCE_H_SRF,Households using surface water,water
+WS_SRCE_H_TAP,Households using a public tap/standpipe,water
+WS_SRCE_H_TNK,Households using tanker truck,water
+WS_SRCE_H_TOT,Households: Total,water
+WS_SRCE_H_TUB,Households using a tubewell/borehole,water
+WS_SRCE_H_USG,Households using an unprotected spring,water
+WS_SRCE_H_UWL,Households using an unprotected well water,water
+WS_SRCE_P_BAS,Population with basic water service,covid-19-prevention
+WS_SRCE_P_BOT,Population using bottled water/demi john,water
+WS_SRCE_P_DKM,Population with don't know or missing information on water source,water
+WS_SRCE_P_IMP,Population using an improved water source,covid-19-prevention
+WS_SRCE_P_IOP,Population with improved water source on the premises,covid-19-prevention
+WS_SRCE_P_LTD,Population with limited water service,covid-19-prevention
+WS_SRCE_P_NIM,Population using an unimproved water source,water
+WS_SRCE_P_OTH,Population using other water source,water
+WS_SRCE_P_PIP,Population using water piped into dwelling,covid-19-prevention
+WS_SRCE_P_PSG,Population using a protected spring,water
+WS_SRCE_P_PWL,Population using a protected well,water
+WS_SRCE_P_PYD,Population using water piped into yard/plot,covid-19-prevention
+WS_SRCE_P_RNW,Population using rainwater,water
+WS_SRCE_P_SRF,Population using surface water,water
+WS_SRCE_P_TAP,Population using a public tap/standpipe,covid-19-prevention
+WS_SRCE_P_TNK,Population using tanker truck,water
+WS_SRCE_P_TOT,Population: Total,water
+WS_SRCE_P_TUB,Population using a tubewell/borehole,water
+WS_SRCE_P_USG,Population using an unprotected spring,water
+WS_SRCE_P_UWL,Population using an unprotected well water,water
+WS_TIME_H_DKM,Household with unknown or missing information on round trip time to water,water
+WS_TIME_H_L30,Households with water 30 minutes or less away round trip,water
+WS_TIME_H_M30,Households with water more than 30 minutes away round trip,water
+WS_TIME_H_ONP,Households with water on the premises,water
+WS_TIME_H_TOT,Households: Total,water
+WS_TIME_P_DKM,Population with unknown or missing information on round trip time to water,water
+WS_TIME_P_L30,Population with water 30 minutes or less away round trip,water
+WS_TIME_P_M30,Population with water more than 30 minutes away round trip,covid-19-prevention
+WS_TIME_P_ONP,Population with water on the premises,water
+WS_TIME_P_TOT,Population: Total,water
+WS_TLET_H_COM,Households with a composting toilet,toilet-facilities
+WS_TLET_H_DKM,Households with don't know or missing information on toilet facility,toilet-facilities
+WS_TLET_H_FPT,Households with a flush or pour flush toilet to a pit latrine,toilet-facilities
+WS_TLET_H_FSP,Households with a flush or pour flush toilet to a septic tank,toilet-facilities
+WS_TLET_H_FSW,Households with a flush or pour flush toilet to a piped sewer system,toilet-facilities
+WS_TLET_H_IMP,Households with an improved sanitation facility,toilet-facilities
+WS_TLET_H_NBK,Households with a bucket toilet,toilet-facilities
+WS_TLET_H_NFC,Households using open defecation,toilet-facilities
+WS_TLET_H_NFL,"Households with a flush or pour flush toilet not to a sewer, septic tank or pit latrine",toilet-facilities
+WS_TLET_H_NHG,Households with a hanging toilet or hanging latrine,toilet-facilities
+WS_TLET_H_NIM,Households with an unimproved sanitation facility,toilet-facilities
+WS_TLET_H_NPT,Households with a pit latrine without a slab or an open pit,toilet-facilities
+WS_TLET_H_NUM,Number of households,toilet-facilities
+WS_TLET_H_PSL,Households with a pit latrine with a slab,toilet-facilities
+WS_TLET_H_TOT,Households total,toilet-facilities
+WS_TLET_H_UNW,Number of households (unweighted),toilet-facilities
+WS_TLET_H_VIP,Households with a ventilated improved pit latrine (VIP),toilet-facilities
+WS_TLET_P_BAS,Population with basic sanitation service,covid-19-prevention
+WS_TLET_P_COM,Population with a composting toilet,toilet-facilities
+WS_TLET_P_DKM,Population with don't know or missing information on toilet facility,toilet-facilities
+WS_TLET_P_FPT,Population with a flush or pour flush toilet to a pit latrine,toilet-facilities
+WS_TLET_P_FSP,Population with a flush or pour flush toilet to a septic tank,toilet-facilities
+WS_TLET_P_FSW,Population with a flush or pour flush toilet to a piped sewer system,toilet-facilities
+WS_TLET_P_IMP,Population with an improved sanitation facility,covid-19-prevention
+WS_TLET_P_LTD,Population with limited sanitation service,covid-19-prevention
+WS_TLET_P_NBK,Population with a bucket toilet,toilet-facilities
+WS_TLET_P_NFC,Population using open defecation,covid-19-prevention
+WS_TLET_P_NFL,"Population with a flush or pour flush toilet not to a sewer, septic tank or pit latrine",toilet-facilities
+WS_TLET_P_NHG,Population with a hanging toilet or hanging latrine,toilet-facilities
+WS_TLET_P_NIM,Population with an unimproved sanitation facility,covid-19-prevention
+WS_TLET_P_NPT,Population with a pit latrine without a slab or an open pit,toilet-facilities
+WS_TLET_P_NUM,Number of persons,toilet-facilities
+WS_TLET_P_PSL,Population with a pit latrine with a slab,toilet-facilities
+WS_TLET_P_TOT,Population total,toilet-facilities
+WS_TLET_P_UNW,Number of persons (unweighted),toilet-facilities
+WS_TLET_P_VIP,Population with a ventilated improved pit latrine (VIP),toilet-facilities
+WS_WTRT_H_APP,Households using an appropriate treatment method,mics-indicators
+WS_WTRT_H_BLC,Households treating water by adding bleach/chlorine,water
+WS_WTRT_H_BOL,Households treating water by boiling,water
+WS_WTRT_H_CER,"Households treating water using a ceramic, sand or other filter",water
+WS_WTRT_H_DKM,Households with missing information on treatment of water,water
+WS_WTRT_H_NTR,Households not treating water,water
+WS_WTRT_H_NUM,Number of households,water
+WS_WTRT_H_OTH,Households treating water using other methods,water
+WS_WTRT_H_SOL,Households treating water using solar disinfection,water
+WS_WTRT_H_STN,Households treating water by straining through a cloth,water
+WS_WTRT_H_UNW,Number of households (unweighted),water
+WS_WTRT_P_APP,Population using an appropriate treatment method,water
+WS_WTRT_P_BLC,Population treating water by adding bleach/chlorine,water
+WS_WTRT_P_BOL,Population treating water by boiling,water
+WS_WTRT_P_CER,"Population treating water using a ceramic, sand or other filter",water
+WS_WTRT_P_DKM,Population with missing information on treatment of water,water
+WS_WTRT_P_NTR,Population not treating water,water
+WS_WTRT_P_NUM,Number of persons,water
+WS_WTRT_P_OTH,Population treating water using other methods,water
+WS_WTRT_P_SOL,Population treating water using solar disinfection,water
+WS_WTRT_P_STN,Population treating water by straining through a cloth,water
+WS_WTRT_P_UNW,Number of persons (unweighted),water

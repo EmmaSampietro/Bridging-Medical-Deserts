@@ -1,0 +1,915 @@
+region_name,source_theme,indicator_count,mean_value,min_value,max_value
+Ahafo,access-to-health-care,36,64.67222222222222,0.0,214.0
+Ahafo,anemia,15,91.94,0.3,428.0
+Ahafo,anthropometry,37,66.4972972972973,-1.0,431.0
+Ahafo,birth-registration,5,168.04000000000002,18.5,505.0
+Ahafo,child-mortality-rates,10,79.5,2.0,503.0
+Ahafo,covid-19-additional-factors,23,43.839130434782604,0.9,99.0
+Ahafo,covid-19-prevention,19,30.326315789473682,1.1,81.6
+Ahafo,dhs-mobile,97,41.336836734693875,1.0,141.0
+Ahafo,dhs-quickstats,23,34.2,2.6,92.2
+Ahafo,diarrhea,39,42.6575,0.0,487.0
+Ahafo,fertility-rates,12,86.35000000000001,3.7,196.0
+Ahafo,fp2020,42,12.652380952380952,0.0,60.0
+Ahafo,health-insurance,14,132.87857142857143,0.0,849.0
+Ahafo,hiv-attitudes,10,401.79,72.7,1698.0
+Ahafo,hiv-behavior,30,167.75,2.6,849.0
+Ahafo,hiv-counseling-and-testing,21,121.03809523809522,2.5,849.0
+Ahafo,hiv-knowledge,16,379.61875,67.0,849.0
+Ahafo,immunization,20,76.62,8.3,97.0
+Ahafo,insecticide-treated-nets,40,583.28,2.1,3786.0
+Ahafo,iodized-salt,7,424.34285714285716,8.2,1062.0
+Ahafo,iycf,7,41.15714285714286,20.5,94.9
+Ahafo,literacy,20,108.82000000000001,0.0,849.0
+Ahafo,malaria-parasitemia,6,113.53333333333335,11.8,237.0
+Ahafo,male-circumcision,3,196.76666666666665,98.3,359.0
+Ahafo,mdgs,23,48.89043478260869,0.57,97.7
+Ahafo,mens-fertility-and-family-planning,29,34.310344827586206,3.1,100.0
+Ahafo,micronutrients,9,136.56666666666666,54.0,414.0
+Ahafo,mics-indicators,57,44.67035087719298,1.0,97.7
+Ahafo,orphans,21,195.46190476190475,0.1,1743.0
+Ahafo,rbm,16,54.525,1.1,80.0
+Ahafo,sdgs,34,40.04705882352941,0.0,93.4
+Ahafo,select-child-mortality-indicators,5,15.2,5.0,29.0
+Ahafo,select-education-indicators,8,39.8,9.3,80.6
+Ahafo,select-family-planning-indicators,6,44.31666666666666,24.1,66.9
+Ahafo,select-gender-indicators,9,50.0,17.0,84.0
+Ahafo,select-malaria-indicators,15,58.3,1.1,80.9
+Ahafo,select-nutrition-indicators,10,25.669999999999998,4.2,92.4
+Ahafo,sexual-intercourse,31,76.71290322580644,7.1,849.0
+Ahafo,social-marketing,4,35.175,8.0,75.7
+Ahafo,symptoms-of-acute-respiratory-infection-ari,4,173.85,3.4,487.0
+Ahafo,tobacco,13,143.43076923076922,0.0,849.0
+Ahafo,toilet-facilities,32,225.78125,0.0,3802.0
+Ahafo,water,60,129.725,0.0,3802.0
+Ashanti,access-to-health-care,81,86.03314763231198,0.0,995.0
+Ashanti,anemia,15,239.82564102564103,0.0,1486.0
+Ashanti,anthropometry,37,142.5543209876543,-1.4,1493.0
+Ashanti,birth-registration,5,411.06666666666666,11.3,1518.0
+Ashanti,child-mortality-rates,10,153.33333333333334,4.0,1572.0
+Ashanti,covid-19-additional-factors,23,38.534905660377355,1.0,100.0
+Ashanti,covid-19-prevention,19,31.035714285714285,0.2,96.7
+Ashanti,dhs-mobile,109,40.00716071428571,0.0,209.0
+Ashanti,dhs-quickstats,27,35.284246575342465,0.4,145.0
+Ashanti,diarrhea,45,95.81190476190476,0.0,1495.0
+Ashanti,fertility-rates,12,95.079,3.0,283.0
+Ashanti,fp2020,52,10.872573839662447,0.0,154.0
+Ashanti,health-insurance,16,289.28793103448277,0.0,2928.0
+Ashanti,hiv-attitudes,28,452.35483870967744,5.5,2928.0
+Ashanti,hiv-behavior,33,405.32457627118646,0.8,2928.0
+Ashanti,hiv-counseling-and-testing,27,229.86595744680852,0.9,2928.0
+Ashanti,hiv-knowledge,42,434.84200000000004,11.8,2928.0
+Ashanti,hiv-prevalence,28,345.9839285714285,0.0,1784.0
+Ashanti,immunization,20,82.49166666666666,0.0,359.0
+Ashanti,insecticide-treated-nets,46,1042.5320512820513,0.0,11685.0
+Ashanti,iodized-salt,7,981.1285714285715,9.3,3469.0
+Ashanti,iycf,9,43.438709677419354,0.0,98.1
+Ashanti,literacy,22,216.89805825242718,0.0,2928.0
+Ashanti,malaria-parasitemia,6,286.9375,7.5,705.0
+Ashanti,male-circumcision,7,422.91,1.1,1179.0
+Ashanti,mdgs,26,56.32014388489208,0.87,154.0
+Ashanti,mens-fertility-and-family-planning,30,34.73254437869823,1.5,100.0
+Ashanti,micronutrients,27,234.1578947368421,1.5,1360.0
+Ashanti,mics-indicators,68,45.060900621118016,0.0,154.0
+Ashanti,orphans,21,457.77542372881356,0.0,5272.0
+Ashanti,rbm,16,42.37582417582417,0.0,145.0
+Ashanti,sdgs,36,40.10785714285714,0.0,154.0
+Ashanti,select-child-mortality-indicators,5,48.8,11.0,145.0
+Ashanti,select-education-indicators,8,41.06153846153846,4.1,90.1
+Ashanti,select-family-planning-indicators,6,31.736842105263158,6.5,67.4
+Ashanti,select-gender-indicators,10,51.46363636363636,2.0,88.0
+Ashanti,select-malaria-indicators,15,42.265853658536585,0.0,89.9
+Ashanti,select-nutrition-indicators,12,25.206666666666667,0.0,87.7
+Ashanti,sexual-intercourse,33,129.35297029702969,0.0,2928.0
+Ashanti,social-marketing,6,54.199999999999996,12.0,124.0
+Ashanti,symptoms-of-acute-respiratory-infection-ari,6,292.59166666666664,1.4,1495.0
+Ashanti,tobacco,16,346.49411764705883,0.0,2928.0
+Ashanti,toilet-facilities,34,494.1448598130841,0.0,11844.0
+Ashanti,water,64,289.1708994708995,0.0,11844.0
+Bono,access-to-health-care,36,64.53888888888889,0.0,174.0
+Bono,anemia,15,100.33999999999999,0.0,432.0
+Bono,anthropometry,37,77.2054054054054,-0.9,433.0
+Bono,birth-registration,5,168.95999999999998,7.2,429.0
+Bono,child-mortality-rates,10,85.3,3.0,433.0
+Bono,covid-19-additional-factors,23,47.16956521739131,0.7,99.7
+Bono,covid-19-prevention,19,33.642105263157895,1.9,91.8
+Bono,dhs-mobile,98,40.29121212121212,0.0,119.0
+Bono,dhs-quickstats,23,34.982608695652175,3.4,90.7
+Bono,diarrhea,39,41.045,0.0,415.0
+Bono,fertility-rates,11,79.61818181818181,3.4,192.0
+Bono,fp2020,42,10.007142857142858,0.0,47.3
+Bono,health-insurance,14,153.57857142857142,0.0,835.0
+Bono,hiv-attitudes,10,421.86,68.7,1670.0
+Bono,hiv-behavior,30,196.10666666666665,2.6,835.0
+Bono,hiv-counseling-and-testing,21,134.3190476190476,1.8,835.0
+Bono,hiv-knowledge,16,409.975,73.2,835.0
+Bono,immunization,20,83.82,0.0,100.0
+Bono,insecticide-treated-nets,40,623.8975,1.7,3478.0
+Bono,iodized-salt,7,490.5142857142857,9.1,1030.0
+Bono,iycf,9,35.577777777777776,0.0,97.8
+Bono,literacy,20,124.28,0.0,835.0
+Bono,malaria-parasitemia,6,109.83333333333333,9.9,193.0
+Bono,male-circumcision,3,212.20000000000002,90.6,324.0
+Bono,mdgs,23,50.88956521739131,0.99,98.8
+Bono,mens-fertility-and-family-planning,28,34.90714285714286,6.1,100.0
+Bono,micronutrients,9,153.60000000000002,61.6,365.0
+Bono,mics-indicators,59,42.983559322033905,0.0,98.8
+Bono,orphans,21,212.95238095238096,0.2,1513.0
+Bono,rbm,16,51.38125,1.7,72.7
+Bono,sdgs,34,40.15294117647059,0.3,94.5
+Bono,select-child-mortality-indicators,5,19.4,11.0,36.0
+Bono,select-education-indicators,8,42.2125,7.6,81.1
+Bono,select-family-planning-indicators,6,39.43333333333333,23.7,62.2
+Bono,select-gender-indicators,9,50.17777777777778,8.4,85.2
+Bono,select-malaria-indicators,15,53.06666666666667,1.7,80.2
+Bono,select-nutrition-indicators,11,25.41818181818182,0.0,95.6
+Bono,sexual-intercourse,31,86.08064516129032,8.6,835.0
+Bono,social-marketing,4,39.1,15.0,93.4
+Bono,symptoms-of-acute-respiratory-infection-ari,4,174.5,1.0,415.0
+Bono,tobacco,13,165.76923076923077,0.0,835.0
+Bono,toilet-facilities,32,249.64374999999998,0.0,3456.0
+Bono,water,60,142.19666666666666,0.0,3456.0
+Bono East,access-to-health-care,36,86.25555555555555,0.0,294.0
+Bono East,anemia,15,128.77333333333334,0.7,474.0
+Bono East,anthropometry,37,92.38108108108108,-0.8,475.0
+Bono East,birth-registration,5,249.68,36.3,657.0
+Bono East,child-mortality-rates,10,128.7,4.0,665.0
+Bono East,covid-19-additional-factors,23,44.46086956521739,1.2,99.5
+Bono East,covid-19-prevention,19,29.789473684210527,1.7,82.3
+Bono East,dhs-mobile,97,39.995000000000005,0.5,157.0
+Bono East,dhs-quickstats,23,33.130434782608695,4.1,86.2
+Bono East,diarrhea,39,57.315,0.0,636.0
+Bono East,fertility-rates,12,95.55,4.3,210.0
+Bono East,fp2020,42,10.49047619047619,0.0,92.0
+Bono East,health-insurance,14,187.67142857142858,0.0,974.0
+Bono East,hiv-attitudes,10,500.21000000000004,64.1,1948.0
+Bono East,hiv-behavior,28,258.7285714285714,2.1,974.0
+Bono East,hiv-counseling-and-testing,21,165.59047619047618,1.0,974.0
+Bono East,hiv-knowledge,16,502.05,60.1,974.0
+Bono East,immunization,20,86.98,0.7,154.0
+Bono East,insecticide-treated-nets,40,760.475,1.8,4373.0
+Bono East,iodized-salt,7,507.37142857142857,6.7,1054.0
+Bono East,iycf,9,31.788888888888884,4.4,97.6
+Bono East,literacy,20,146.82,0.0,974.0
+Bono East,malaria-parasitemia,6,163.03333333333333,12.1,287.0
+Bono East,male-circumcision,3,290.46666666666664,94.4,461.0
+Bono East,mdgs,23,49.60608695652174,1.03,99.2
+Bono East,mens-fertility-and-family-planning,27,36.022222222222226,10.2,99.8
+Bono East,micronutrients,9,213.88888888888889,58.9,555.0
+Bono East,mics-indicators,58,43.55706896551724,1.0,99.2
+Bono East,orphans,21,258.26190476190476,0.0,2075.0
+Bono East,rbm,16,53.925,3.1,75.2
+Bono East,sdgs,34,40.258823529411764,0.0,92.0
+Bono East,select-child-mortality-indicators,5,26.4,12.0,48.0
+Bono East,select-education-indicators,8,38.65,12.7,64.3
+Bono East,select-family-planning-indicators,6,31.033333333333335,20.7,51.7
+Bono East,select-gender-indicators,9,46.03333333333333,10.0,92.8
+Bono East,select-malaria-indicators,15,56.526666666666664,3.1,86.9
+Bono East,select-nutrition-indicators,11,22.709090909090907,0.9,77.6
+Bono East,sexual-intercourse,30,104.28666666666666,11.0,974.0
+Bono East,social-marketing,4,37.625,9.0,80.5
+Bono East,symptoms-of-acute-respiratory-infection-ari,4,272.675,2.7,636.0
+Bono East,tobacco,13,202.53846153846155,0.0,974.0
+Bono East,toilet-facilities,32,295.625,0.0,4362.0
+Bono East,water,60,167.735,0.0,4362.0
+Brong Ahafo,access-to-health-care,81,69.96134453781512,0.0,682.0
+Brong Ahafo,anemia,15,178.93076923076924,0.0,1334.0
+Brong Ahafo,anthropometry,37,107.81234567901234,-1.3,1339.0
+Brong Ahafo,birth-registration,5,354.12666666666667,16.2,1591.0
+Brong Ahafo,child-mortality-rates,10,124.66666666666667,3.0,1601.0
+Brong Ahafo,covid-19-additional-factors,23,33.762264150943395,1.0,100.0
+Brong Ahafo,covid-19-prevention,19,27.606349206349208,0.7,90.8
+Brong Ahafo,dhs-mobile,110,40.09983957219251,0.0,255.0
+Brong Ahafo,dhs-quickstats,27,33.2972602739726,0.4,129.0
+Brong Ahafo,diarrhea,45,77.82000000000001,0.0,1538.0
+Brong Ahafo,fertility-rates,12,109.41739130434782,3.6,299.0
+Brong Ahafo,fp2020,52,12.488262910798122,0.0,149.0
+Brong Ahafo,health-insurance,16,216.90689655172415,0.0,2658.0
+Brong Ahafo,hiv-attitudes,28,354.56666666666666,5.4,5316.0
+Brong Ahafo,hiv-behavior,35,300.71311475409834,0.4,2658.0
+Brong Ahafo,hiv-counseling-and-testing,27,182.88085106382977,0.8,2658.0
+Brong Ahafo,hiv-knowledge,42,342.268,12.8,2658.0
+Brong Ahafo,hiv-prevalence,29,228.1421052631579,0.0,1080.0
+Brong Ahafo,immunization,20,78.14479166666666,0.0,345.0
+Brong Ahafo,insecticide-treated-nets,46,811.7188034188034,0.0,11637.0
+Brong Ahafo,iodized-salt,7,808.5761904761904,7.6,3146.0
+Brong Ahafo,iycf,9,41.303225806451614,0.0,99.1
+Brong Ahafo,literacy,22,161.47184466019417,0.0,2658.0
+Brong Ahafo,malaria-parasitemia,6,233.48749999999998,11.3,717.0
+Brong Ahafo,male-circumcision,7,312.99,1.4,1144.0
+Brong Ahafo,mdgs,26,54.75014388489209,0.54,149.0
+Brong Ahafo,mens-fertility-and-family-planning,30,34.602409638554214,3.9,100.0
+Brong Ahafo,micronutrients,27,188.5754385964912,0.0,1334.0
+Brong Ahafo,mics-indicators,70,45.47433436532508,0.0,149.0
+Brong Ahafo,orphans,21,331.8754237288136,0.1,5331.0
+Brong Ahafo,rbm,16,50.982417582417575,0.3,129.0
+Brong Ahafo,sdgs,36,38.903623188405795,0.0,149.0
+Brong Ahafo,select-child-mortality-indicators,5,45.31428571428572,10.0,129.0
+Brong Ahafo,select-education-indicators,8,38.857692307692304,6.8,78.1
+Brong Ahafo,select-family-planning-indicators,6,33.43157894736842,5.2,65.5
+Brong Ahafo,select-gender-indicators,10,47.012121212121215,1.7,88.3
+Brong Ahafo,select-malaria-indicators,15,51.22716049382716,0.3,87.3
+Brong Ahafo,select-nutrition-indicators,12,21.753333333333334,0.0,87.7
+Brong Ahafo,sexual-intercourse,33,98.751,0.0,2658.0
+Brong Ahafo,social-marketing,6,44.69,10.0,106.0
+Brong Ahafo,symptoms-of-acute-respiratory-infection-ari,7,227.04,2.3,1538.0
+Brong Ahafo,tobacco,16,264.2274509803922,0.0,2658.0
+Brong Ahafo,toilet-facilities,34,350.3200934579439,0.0,11620.0
+Brong Ahafo,water,64,208.4164021164021,0.0,11620.0
+Central,access-to-health-care,81,63.2908077994429,0.0,588.0
+Central,anemia,15,144.56153846153845,0.3,894.0
+Central,anthropometry,37,88.65679012345679,-1.4,905.0
+Central,birth-registration,5,275.0133333333333,16.5,887.0
+Central,child-mortality-rates,10,114.76666666666667,0.0,894.0
+Central,covid-19-additional-factors,23,37.136792452830186,2.0,100.0
+Central,covid-19-prevention,19,30.16904761904762,0.6,92.6
+Central,dhs-mobile,110,40.35206773618538,0.0,231.0
+Central,dhs-quickstats,27,35.37945205479452,0.2,210.0
+Central,diarrhea,45,67.50285714285714,0.0,841.0
+Central,fertility-rates,12,105.53152173913043,0.0,304.0
+Central,fp2020,52,12.5605,0.0,171.0
+Central,health-insurance,16,179.6551724137931,0.0,1703.0
+Central,hiv-attitudes,28,260.2258064516129,2.8,1958.0
+Central,hiv-behavior,35,229.1625,0.4,1703.0
+Central,hiv-counseling-and-testing,27,142.11489361702127,0.6,1703.0
+Central,hiv-knowledge,42,257.37933333333336,6.8,1703.0
+Central,hiv-prevalence,29,180.60701754385966,0.0,821.0
+Central,immunization,20,72.52291666666666,0.0,193.0
+Central,insecticide-treated-nets,46,648.7851063829787,0.0,6868.0
+Central,iodized-salt,7,612.6666666666666,7.9,1950.0
+Central,iycf,9,44.516129032258064,0.0,100.0
+Central,literacy,22,132.6961165048544,0.0,1703.0
+Central,malaria-parasitemia,6,193.60833333333335,9.6,397.0
+Central,male-circumcision,7,232.25,0.3,686.0
+Central,mdgs,26,56.969927536231886,0.3,210.0
+Central,mens-fertility-and-family-planning,30,34.37294117647058,2.2,100.0
+Central,micronutrients,27,164.02631578947367,2.5,760.0
+Central,mics-indicators,69,45.67897832817337,0.0,210.0
+Central,orphans,21,287.49237288135595,0.0,3187.0
+Central,rbm,16,46.996703296703295,0.8,210.0
+Central,sdgs,36,41.93503649635037,0.0,210.0
+Central,select-child-mortality-indicators,5,60.4,12.0,210.0
+Central,select-education-indicators,8,39.95961538461539,3.7,86.0
+Central,select-family-planning-indicators,6,32.33421052631579,4.9,73.1
+Central,select-gender-indicators,10,50.21212121212121,0.2,84.7
+Central,select-malaria-indicators,15,45.312345679012346,0.8,88.7
+Central,select-nutrition-indicators,12,22.706666666666667,0.0,68.1
+Central,sexual-intercourse,33,83.44079601990049,0.0,1703.0
+Central,social-marketing,4,26.75,3.0,100.0
+Central,symptoms-of-acute-respiratory-infection-ari,6,183.7458333333333,3.0,841.0
+Central,tobacco,13,220.30888888888887,0.0,1703.0
+Central,toilet-facilities,34,309.23130841121497,0.0,6957.0
+Central,water,64,184.80555555555554,0.0,6957.0
+Eastern,access-to-health-care,82,61.965745856353585,0.0,514.0
+Eastern,anemia,15,138.32692307692307,0.4,630.0
+Eastern,anthropometry,37,86.73456790123457,-1.4,635.0
+Eastern,birth-registration,5,243.06666666666666,9.0,616.0
+Eastern,child-mortality-rates,10,101.28333333333333,0.0,638.0
+Eastern,covid-19-additional-factors,23,36.885849056603774,1.6,100.0
+Eastern,covid-19-prevention,19,28.61031746031746,0.2,95.4
+Eastern,dhs-mobile,109,38.53618279569892,0.0,209.0
+Eastern,dhs-quickstats,27,33.69657534246575,0.3,138.0
+Eastern,diarrhea,45,69.52952380952381,0.0,611.0
+Eastern,fertility-rates,12,93.12857142857143,2.9,266.0
+Eastern,fp2020,52,11.728991596638656,0.0,134.0
+Eastern,health-insurance,16,173.04655172413794,0.0,1220.0
+Eastern,hiv-attitudes,28,278.3462365591398,6.6,1708.0
+Eastern,hiv-behavior,33,230.79916666666668,0.7,1220.0
+Eastern,hiv-counseling-and-testing,27,141.8159574468085,0.2,1220.0
+Eastern,hiv-knowledge,42,270.946,13.1,1220.0
+Eastern,hiv-prevalence,28,207.02142857142857,0.0,972.0
+Eastern,immunization,20,71.36666666666666,0.0,118.0
+Eastern,insecticide-treated-nets,46,673.5907488986784,0.0,5287.0
+Eastern,iodized-salt,7,641.5,5.4,1701.0
+Eastern,iycf,9,40.851612903225806,2.4,100.0
+Eastern,literacy,22,135.57184466019416,0.0,1220.0
+Eastern,malaria-parasitemia,6,169.70416666666668,6.7,294.0
+Eastern,male-circumcision,7,254.115,1.4,484.0
+Eastern,mdgs,26,53.57277372262774,0.3,138.0
+Eastern,mens-fertility-and-family-planning,30,34.544378698224854,3.9,100.0
+Eastern,micronutrients,27,142.53157894736842,2.3,546.0
+Eastern,mics-indicators,69,43.44950464396285,0.0,138.0
+Eastern,orphans,21,298.9025423728813,0.1,2286.0
+Eastern,rbm,16,43.885555555555555,0.0,138.0
+Eastern,sdgs,36,38.285815602836884,0.0,138.0
+Eastern,select-child-mortality-indicators,5,45.4,11.0,138.0
+Eastern,select-education-indicators,8,41.04038461538461,1.8,88.5
+Eastern,select-family-planning-indicators,6,33.276315789473685,5.8,64.5
+Eastern,select-gender-indicators,10,50.85454545454546,0.6,86.5
+Eastern,select-malaria-indicators,15,42.503846153846155,0.0,89.2
+Eastern,select-nutrition-indicators,12,20.74,1.6,68.8
+Eastern,sexual-intercourse,33,88.14334975369458,0.0,1220.0
+Eastern,social-marketing,4,29.3,11.0,79.4
+Eastern,symptoms-of-acute-respiratory-infection-ari,7,164.23703703703703,1.0,611.0
+Eastern,tobacco,16,211.17291666666665,0.0,1220.0
+Eastern,toilet-facilities,34,326.83785046728974,0.0,5234.0
+Eastern,water,64,194.2748677248677,0.0,5234.0
+Greater Accra,access-to-health-care,81,65.85961002785515,0.0,858.0
+Greater Accra,anemia,15,184.28205128205127,0.0,1246.0
+Greater Accra,anthropometry,37,129.64382716049383,-0.9,1269.0
+Greater Accra,birth-registration,5,312.68666666666667,6.9,1063.0
+Greater Accra,child-mortality-rates,10,107.15,4.0,1100.0
+Greater Accra,covid-19-additional-factors,23,44.69905660377359,2.1,100.0
+Greater Accra,covid-19-prevention,19,36.07857142857143,0.2,99.9
+Greater Accra,dhs-mobile,108,39.35873873873874,0.0,159.0
+Greater Accra,dhs-quickstats,27,35.082191780821915,0.4,104.0
+Greater Accra,diarrhea,45,68.94904761904762,0.0,1057.0
+Greater Accra,fertility-rates,12,68.98865979381443,0.0,245.0
+Greater Accra,fp2020,52,10.213389121338912,0.0,86.0
+Greater Accra,health-insurance,16,268.52241379310345,0.0,2327.0
+Greater Accra,hiv-attitudes,28,419.67956989247307,14.3,2327.0
+Greater Accra,hiv-behavior,33,365.51500000000004,0.8,2327.0
+Greater Accra,hiv-counseling-and-testing,27,205.9063829787234,0.7,2327.0
+Greater Accra,hiv-knowledge,42,401.1226666666667,13.6,2327.0
+Greater Accra,hiv-prevalence,28,315.61785714285713,0.0,1703.0
+Greater Accra,immunization,20,80.06458333333333,0.0,207.0
+Greater Accra,insecticide-treated-nets,46,853.4277056277056,0.0,9198.0
+Greater Accra,iodized-salt,7,924.852380952381,8.5,3183.0
+Greater Accra,iycf,9,47.15806451612904,15.8,98.7
+Greater Accra,literacy,22,199.9766990291262,0.0,2327.0
+Greater Accra,malaria-parasitemia,6,201.25833333333333,1.0,462.0
+Greater Accra,male-circumcision,7,387.84000000000003,1.1,1076.0
+Greater Accra,mdgs,26,54.56733333333334,0.43,104.0
+Greater Accra,mens-fertility-and-family-planning,28,36.92716049382716,0.4,100.0
+Greater Accra,micronutrients,27,181.7877192982456,0.6,943.0
+Greater Accra,mics-indicators,68,42.236335403726706,0.0,104.0
+Greater Accra,orphans,21,363.65677966101697,0.1,3679.0
+Greater Accra,rbm,16,32.22747252747253,0.0,104.0
+Greater Accra,sdgs,36,40.339436619718306,0.0,104.0
+Greater Accra,select-child-mortality-indicators,5,34.714285714285715,4.0,104.0
+Greater Accra,select-education-indicators,8,42.978846153846156,1.8,93.9
+Greater Accra,select-family-planning-indicators,6,34.28684210526316,10.6,66.0
+Greater Accra,select-gender-indicators,10,52.78484848484849,2.2,94.2
+Greater Accra,select-malaria-indicators,15,31.039473684210527,0.0,79.8
+Greater Accra,select-nutrition-indicators,12,25.995555555555555,0.6,80.1
+Greater Accra,sexual-intercourse,33,119.73819095477387,0.0,2327.0
+Greater Accra,social-marketing,4,24.5625,9.0,59.0
+Greater Accra,symptoms-of-acute-respiratory-infection-ari,6,207.47916666666666,0.9,1057.0
+Greater Accra,tobacco,16,316.598,0.0,2327.0
+Greater Accra,toilet-facilities,34,422.2401869158878,0.0,9217.0
+Greater Accra,water,64,247.79656084656085,0.0,9217.0
+Northeast,access-to-health-care,35,88.43142857142857,0.0,379.0
+Northeast,anemia,15,134.53333333333333,0.9,470.0
+Northeast,anthropometry,37,67.37837837837837,-1.4,472.0
+Northeast,birth-registration,5,297.04,16.1,1041.0
+Northeast,child-mortality-rates,10,128.3,2.0,879.0
+Northeast,covid-19-additional-factors,23,39.89565217391304,0.7,99.6
+Northeast,covid-19-prevention,19,24.0,0.4,75.3
+Northeast,dhs-mobile,97,39.340816326530614,0.4,223.0
+Northeast,dhs-quickstats,23,29.26521739130435,4.0,84.4
+Northeast,diarrhea,39,60.39,0.0,852.0
+Northeast,fertility-rates,11,144.13636363636363,6.5,302.0
+Northeast,fp2020,42,12.002380952380953,0.0,121.0
+Northeast,health-insurance,14,139.85714285714286,0.0,963.0
+Northeast,hiv-attitudes,10,411.41,35.8,1926.0
+Northeast,hiv-behavior,28,181.31428571428572,1.5,963.0
+Northeast,hiv-counseling-and-testing,21,132.01904761904763,1.0,963.0
+Northeast,hiv-knowledge,16,405.125,42.6,963.0
+Northeast,immunization,20,85.175,2.7,179.0
+Northeast,insecticide-treated-nets,40,657.87,1.3,5526.0
+Northeast,iodized-salt,7,394.35714285714283,4.7,1034.0
+Northeast,iycf,7,50.728571428571435,23.1,98.9
+Northeast,literacy,20,111.79,0.0,963.0
+Northeast,malaria-parasitemia,6,203.53333333333333,10.3,462.0
+Northeast,male-circumcision,3,200.16666666666666,95.5,386.0
+Northeast,mdgs,23,45.0604347826087,0.92,121.0
+Northeast,mens-fertility-and-family-planning,27,34.733333333333334,6.3,99.4
+Northeast,micronutrients,9,200.32222222222222,60.3,729.0
+Northeast,mics-indicators,58,45.26206896551724,0.3,121.0
+Northeast,orphans,21,264.7142857142857,0.0,3100.0
+Northeast,rbm,16,52.9,5.2,92.6
+Northeast,sdgs,34,38.688235294117646,0.0,121.0
+Northeast,select-child-mortality-indicators,5,20.6,10.0,41.0
+Northeast,select-education-indicators,8,34.725,11.7,55.1
+Northeast,select-family-planning-indicators,6,24.816666666666666,14.9,39.6
+Northeast,select-gender-indicators,9,39.06666666666667,14.8,90.5
+Northeast,select-malaria-indicators,15,50.35333333333333,5.2,82.3
+Northeast,select-nutrition-indicators,10,26.93,0.8,81.6
+Northeast,sexual-intercourse,29,84.30344827586208,6.3,963.0
+Northeast,social-marketing,2,18.0,13.0,23.0
+Northeast,symptoms-of-acute-respiratory-infection-ari,7,182.71428571428572,5.3,852.0
+Northeast,tobacco,13,151.56923076923076,0.0,963.0
+Northeast,toilet-facilities,32,278.221875,0.0,5558.0
+Northeast,water,60,159.98,0.0,5558.0
+Northern (post 2022),access-to-health-care,35,124.8457142857143,0.0,420.0
+Northern (post 2022),anemia,15,210.36,0.6,582.0
+Northern (post 2022),anthropometry,37,120.42162162162163,-1.4,585.0
+Northern (post 2022),birth-registration,5,425.56000000000006,10.5,1017.0
+Northern (post 2022),child-mortality-rates,10,215.4,10.0,991.0
+Northern (post 2022),covid-19-additional-factors,23,42.06521739130435,0.7,97.9
+Northern (post 2022),covid-19-prevention,19,28.378947368421056,2.2,78.0
+Northern (post 2022),dhs-mobile,98,38.82646464646464,1.09,187.0
+Northern (post 2022),dhs-quickstats,23,30.156521739130437,3.1,77.1
+Northern (post 2022),diarrhea,39,86.5125,0.0,944.0
+Northern (post 2022),fertility-rates,12,112.48333333333333,5.1,254.0
+Northern (post 2022),fp2020,42,9.65952380952381,0.0,73.0
+Northern (post 2022),health-insurance,14,249.56428571428572,0.2,1169.0
+Northern (post 2022),hiv-attitudes,10,594.86,49.2,2338.0
+Northern (post 2022),hiv-behavior,28,328.3964285714286,1.7,1169.0
+Northern (post 2022),hiv-counseling-and-testing,21,220.33333333333334,2.0,1169.0
+Northern (post 2022),hiv-knowledge,16,634.625,42.8,1169.0
+Northern (post 2022),immunization,20,85.03,9.0,208.0
+Northern (post 2022),insecticide-treated-nets,40,1071.285,1.6,5763.0
+Northern (post 2022),iodized-salt,7,636.9714285714286,5.1,1137.0
+Northern (post 2022),iycf,9,34.37777777777777,9.1,96.5
+Northern (post 2022),literacy,20,188.97,0.0,1169.0
+Northern (post 2022),malaria-parasitemia,6,298.90000000000003,10.6,452.0
+Northern (post 2022),male-circumcision,3,351.8666666666666,80.6,491.0
+Northern (post 2022),mdgs,23,43.856521739130436,1.09,96.4
+Northern (post 2022),mens-fertility-and-family-planning,27,33.614814814814814,5.5,99.5
+Northern (post 2022),micronutrients,9,374.15555555555557,51.3,844.0
+Northern (post 2022),mics-indicators,60,40.91366666666667,0.7,96.5
+Northern (post 2022),orphans,21,401.9857142857143,0.0,3076.0
+Northern (post 2022),rbm,16,45.175,5.8,74.6
+Northern (post 2022),sdgs,34,39.41764705882353,0.0,83.6
+Northern (post 2022),select-child-mortality-indicators,5,25.8,10.0,52.0
+Northern (post 2022),select-education-indicators,8,35.825,8.8,53.4
+Northern (post 2022),select-family-planning-indicators,6,28.683333333333334,17.2,46.8
+Northern (post 2022),select-gender-indicators,9,48.355555555555554,19.5,86.3
+Northern (post 2022),select-malaria-indicators,15,47.05333333333333,5.8,77.5
+Northern (post 2022),select-nutrition-indicators,11,23.2,0.7,77.1
+Northern (post 2022),sexual-intercourse,30,133.32,11.4,1169.0
+Northern (post 2022),social-marketing,4,42.575,23.0,86.3
+Northern (post 2022),symptoms-of-acute-respiratory-infection-ari,7,291.75714285714287,4.1,944.0
+Northern (post 2022),tobacco,15,243.37333333333333,0.2,1169.0
+Northern (post 2022),toilet-facilities,32,437.02187499999997,0.0,5830.0
+Northern (post 2022),water,60,243.9466666666667,0.0,5830.0
+Northern (pre 2022),access-to-health-care,82,88.78982558139535,0.0,1139.0
+Northern (pre 2022),anemia,15,246.2,0.7,1576.0
+Northern (pre 2022),anthropometry,37,116.79197530864197,-1.8,1587.0
+Northern (pre 2022),birth-registration,5,558.1733333333334,12.3,2896.0
+Northern (pre 2022),child-mortality-rates,10,198.78181818181818,3.0,2682.0
+Northern (pre 2022),covid-19-additional-factors,23,30.358490566037737,0.3,99.9
+Northern (pre 2022),covid-19-prevention,19,22.433333333333334,0.5,82.8
+Northern (pre 2022),dhs-mobile,109,38.54364485981308,0.0,237.0
+Northern (pre 2022),dhs-quickstats,27,29.676642335766424,0.3,237.0
+Northern (pre 2022),diarrhea,45,95.79381443298969,0.0,2559.0
+Northern (pre 2022),fertility-rates,12,136.0929411764706,5.4,314.0
+Northern (pre 2022),fp2020,52,10.340983606557378,0.0,133.0
+Northern (pre 2022),health-insurance,16,248.87586206896552,0.0,3131.0
+Northern (pre 2022),hiv-attitudes,28,377.5763440860215,2.1,6262.0
+Northern (pre 2022),hiv-behavior,35,311.66721311475413,0.3,3131.0
+Northern (pre 2022),hiv-counseling-and-testing,27,204.24787234042552,1.0,3131.0
+Northern (pre 2022),hiv-knowledge,42,366.10333333333335,6.0,3131.0
+Northern (pre 2022),hiv-prevalence,31,217.33389830508474,0.0,1066.0
+Northern (pre 2022),immunization,20,78.30714285714286,2.5,542.0
+Northern (pre 2022),insecticide-treated-nets,46,954.450622406639,0.1,16386.0
+Northern (pre 2022),iodized-salt,7,733.4904761904761,4.6,3218.0
+Northern (pre 2022),iycf,9,45.129629629629626,9.0,99.6
+Northern (pre 2022),literacy,22,176.2223300970874,0.0,3131.0
+Northern (pre 2022),malaria-parasitemia,6,392.425,10.8,1289.0
+Northern (pre 2022),male-circumcision,9,286.325,0.0,1367.0
+Northern (pre 2022),mdgs,26,46.99795454545454,0.0,237.0
+Northern (pre 2022),mens-fertility-and-family-planning,28,33.15541401273885,5.0,99.2
+Northern (pre 2022),micronutrients,27,260.83859649122803,0.5,2218.0
+Northern (pre 2022),mics-indicators,70,42.408069620253166,0.0,237.0
+Northern (pre 2022),orphans,21,386.24830508474577,0.0,8794.0
+Northern (pre 2022),rbm,16,51.252747252747255,0.0,237.0
+Northern (pre 2022),sdgs,36,39.02213740458015,0.0,237.0
+Northern (pre 2022),select-child-mortality-indicators,5,72.2,11.0,237.0
+Northern (pre 2022),select-education-indicators,8,33.325,3.4,82.8
+Northern (pre 2022),select-family-planning-indicators,6,20.958333333333332,5.1,47.4
+Northern (pre 2022),select-gender-indicators,10,38.77878787878788,3.4,96.8
+Northern (pre 2022),select-malaria-indicators,15,45.55357142857143,0.0,95.9
+Northern (pre 2022),select-nutrition-indicators,12,21.46590909090909,0.8,77.5
+Northern (pre 2022),sexual-intercourse,32,107.68087431693988,0.0,3131.0
+Northern (pre 2022),social-marketing,6,49.8125,3.0,100.0
+Northern (pre 2022),symptoms-of-acute-respiratory-infection-ari,7,265.7090909090909,3.5,2559.0
+Northern (pre 2022),tobacco,16,273.2607142857143,0.0,3131.0
+Northern (pre 2022),toilet-facilities,34,407.1873831775701,0.0,16541.0
+Northern (pre 2022),water,64,242.9521164021164,0.0,16541.0
+"Northern, Upper West, Upper East",access-to-health-care,82,136.89972602739726,0.0,1851.0
+"Northern, Upper West, Upper East",anemia,15,425.3269230769231,0.6,2564.0
+"Northern, Upper West, Upper East",anthropometry,37,214.24197530864197,-10.0,2584.0
+"Northern, Upper West, Upper East",birth-registration,5,895.4333333333333,11.9,4193.0
+"Northern, Upper West, Upper East",child-mortality-rates,10,291.8833333333333,4.0,3933.0
+"Northern, Upper West, Upper East",covid-19-additional-factors,23,30.906603773584905,0.8,99.4
+"Northern, Upper West, Upper East",covid-19-prevention,19,23.58650793650794,0.5,84.4
+"Northern, Upper West, Upper East",dhs-mobile,110,39.35130973451328,0.0,235.0
+"Northern, Upper West, Upper East",dhs-quickstats,27,31.324657534246573,0.2,221.0
+"Northern, Upper West, Upper East",diarrhea,45,150.41238095238094,0.0,3755.0
+"Northern, Upper West, Upper East",fertility-rates,12,120.90865384615384,5.0,303.0
+"Northern, Upper West, Upper East",fp2020,52,10.512946428571428,0.0,115.0
+"Northern, Upper West, Upper East",health-insurance,16,460.14482758620693,0.0,5076.0
+"Northern, Upper West, Upper East",hiv-attitudes,28,709.9784946236559,3.0,10152.0
+"Northern, Upper West, Upper East",hiv-behavior,35,577.3319672131148,0.4,5076.0
+"Northern, Upper West, Upper East",hiv-counseling-and-testing,27,356.20957446808507,0.9,5076.0
+"Northern, Upper West, Upper East",hiv-knowledge,42,681.468,7.0,5076.0
+"Northern, Upper West, Upper East",hiv-prevalence,31,455.30333333333334,0.1,2453.0
+"Northern, Upper West, Upper East",immunization,20,90.71770833333333,1.8,803.0
+"Northern, Upper West, Upper East",insecticide-treated-nets,46,1819.7630705394192,0.2,25346.0
+"Northern, Upper West, Upper East",iodized-salt,7,1378.752380952381,5.6,5349.0
+"Northern, Upper West, Upper East",iycf,9,44.39677419354839,3.7,99.6
+"Northern, Upper West, Upper East",literacy,22,319.0407766990291,0.0,5076.0
+"Northern, Upper West, Upper East",malaria-parasitemia,6,652.125,11.4,1895.0
+"Northern, Upper West, Upper East",male-circumcision,9,542.0208333333334,0.1,2160.0
+"Northern, Upper West, Upper East",mdgs,26,49.369856115107915,0.2,221.0
+"Northern, Upper West, Upper East",mens-fertility-and-family-planning,29,33.105624999999996,6.1,99.4
+"Northern, Upper West, Upper East",micronutrients,27,434.9456140350878,2.5,3241.0
+"Northern, Upper West, Upper East",mics-indicators,70,44.65620060790273,0.2,221.0
+"Northern, Upper West, Upper East",orphans,21,730.3008474576271,0.1,13071.0
+"Northern, Upper West, Upper East",rbm,16,54.68478260869565,0.7,221.0
+"Northern, Upper West, Upper East",sdgs,36,39.91438848920863,0.0,221.0
+"Northern, Upper West, Upper East",select-child-mortality-indicators,5,73.17142857142858,10.0,221.0
+"Northern, Upper West, Upper East",select-education-indicators,8,34.090384615384615,4.9,77.1
+"Northern, Upper West, Upper East",select-family-planning-indicators,6,22.557894736842105,0.7,49.0
+"Northern, Upper West, Upper East",select-gender-indicators,10,39.49393939393939,4.9,92.7
+"Northern, Upper West, Upper East",select-malaria-indicators,15,47.44166666666666,0.7,94.0
+"Northern, Upper West, Upper East",select-nutrition-indicators,12,21.364444444444445,1.1,76.3
+"Northern, Upper West, Upper East",sexual-intercourse,32,185.61249999999998,0.0,5076.0
+"Northern, Upper West, Upper East",social-marketing,6,52.65,1.0,129.0
+"Northern, Upper West, Upper East",symptoms-of-acute-respiratory-infection-ari,7,448.24545454545455,2.9,3755.0
+"Northern, Upper West, Upper East",tobacco,16,494.53035714285716,0.0,5076.0
+"Northern, Upper West, Upper East",toilet-facilities,34,788.6799065420561,0.0,25560.0
+"Northern, Upper West, Upper East",water,64,459.06904761904764,0.0,25560.0
+Oti,access-to-health-care,36,75.28055555555555,0.3,281.0
+Oti,anemia,15,108.57333333333332,0.0,444.0
+Oti,anthropometry,37,74.37837837837837,-1.2,444.0
+Oti,birth-registration,5,207.2,7.0,634.0
+Oti,child-mortality-rates,10,117.7,5.0,643.0
+Oti,covid-19-additional-factors,23,43.143478260869564,1.1,99.7
+Oti,covid-19-prevention,19,28.36315789473684,0.4,86.9
+Oti,dhs-mobile,96,41.27670103092784,0.1,171.0
+Oti,dhs-quickstats,23,35.10434782608696,4.1,73.7
+Oti,diarrhea,39,50.3975,0.0,602.0
+Oti,fertility-rates,12,104.83333333333333,4.6,239.0
+Oti,fp2020,42,11.22857142857143,0.0,73.0
+Oti,health-insurance,14,151.59285714285716,0.0,921.0
+Oti,hiv-attitudes,10,442.46999999999997,66.7,1842.0
+Oti,hiv-behavior,28,205.22142857142856,1.1,921.0
+Oti,hiv-counseling-and-testing,21,137.83333333333334,0.8,921.0
+Oti,hiv-knowledge,16,426.16875,56.1,921.0
+Oti,immunization,20,83.33,0.5,124.0
+Oti,insecticide-treated-nets,40,687.855,2.3,4395.0
+Oti,iodized-salt,7,438.95714285714286,5.4,1048.0
+Oti,iycf,7,45.128571428571426,22.0,97.0
+Oti,literacy,20,121.00999999999999,0.2,921.0
+Oti,malaria-parasitemia,6,133.6,15.0,263.0
+Oti,male-circumcision,3,229.63333333333333,90.9,411.0
+Oti,mdgs,23,47.487826086956524,1.07,97.4
+Oti,mens-fertility-and-family-planning,28,33.67857142857143,4.8,100.0
+Oti,micronutrients,9,169.55555555555554,69.6,505.0
+Oti,mics-indicators,56,45.604285714285716,0.3,97.4
+Oti,orphans,21,235.05714285714285,0.1,2201.0
+Oti,rbm,16,57.41875,1.8,85.2
+Oti,sdgs,34,41.300000000000004,0.0,91.5
+Oti,select-child-mortality-indicators,5,37.8,12.0,72.0
+Oti,select-education-indicators,8,37.3,18.7,61.0
+Oti,select-family-planning-indicators,6,37.56666666666667,25.7,57.8
+Oti,select-gender-indicators,9,45.888888888888886,18.2,91.9
+Oti,select-malaria-indicators,15,58.413333333333334,1.8,85.1
+Oti,select-nutrition-indicators,10,24.96,0.3,69.7
+Oti,sexual-intercourse,31,85.07096774193548,7.0,921.0
+Oti,social-marketing,4,45.0,14.0,100.0
+Oti,symptoms-of-acute-respiratory-infection-ari,4,222.675,1.7,602.0
+Oti,tobacco,13,163.73076923076923,0.0,921.0
+Oti,toilet-facilities,32,262.546875,0.0,4470.0
+Oti,water,60,150.29333333333335,0.0,4470.0
+Savannah,access-to-health-care,35,81.95714285714286,0.0,340.0
+Savannah,anemia,15,125.47333333333333,0.6,524.0
+Savannah,anthropometry,37,79.58108108108108,-1.2,530.0
+Savannah,birth-registration,5,244.64000000000001,14.5,838.0
+Savannah,child-mortality-rates,10,129.4,4.0,812.0
+Savannah,covid-19-additional-factors,23,42.28695652173913,0.6,99.6
+Savannah,covid-19-prevention,19,26.81578947368421,0.3,90.8
+Savannah,dhs-mobile,97,39.36408163265306,0.4,196.0
+Savannah,dhs-quickstats,23,30.97391304347826,3.1,70.6
+Savannah,diarrhea,39,56.989999999999995,0.0,763.0
+Savannah,fertility-rates,12,117.75,5.4,266.0
+Savannah,fp2020,42,10.84047619047619,0.0,116.0
+Savannah,health-insurance,14,154.52857142857144,0.0,999.0
+Savannah,hiv-attitudes,10,447.84,51.1,1998.0
+Savannah,hiv-behavior,28,198.29642857142858,0.9,999.0
+Savannah,hiv-counseling-and-testing,21,137.71428571428572,1.4,999.0
+Savannah,hiv-knowledge,16,446.5625,38.5,999.0
+Savannah,immunization,20,80.135,1.6,155.0
+Savannah,insecticide-treated-nets,40,696.1274999999999,2.2,5097.0
+Savannah,iodized-salt,7,396.88571428571424,8.8,1047.0
+Savannah,iycf,9,29.900000000000002,1.9,95.5
+Savannah,literacy,20,122.24000000000001,0.0,999.0
+Savannah,malaria-parasitemia,6,169.11666666666667,12.1,375.0
+Savannah,male-circumcision,3,245.9,92.7,490.0
+Savannah,mdgs,23,45.25,0.97,116.0
+Savannah,mens-fertility-and-family-planning,26,34.38076923076923,6.7,98.2
+Savannah,micronutrients,9,177.33333333333334,41.2,645.0
+Savannah,mics-indicators,58,42.21862068965517,0.0,116.0
+Savannah,orphans,21,241.2952380952381,0.1,2618.0
+Savannah,rbm,16,54.86875,3.3,80.0
+Savannah,sdgs,34,41.73823529411764,0.4,116.0
+Savannah,select-child-mortality-indicators,5,34.6,14.0,63.0
+Savannah,select-education-indicators,8,35.2375,15.1,51.0
+Savannah,select-family-planning-indicators,6,29.133333333333336,19.1,44.8
+Savannah,select-gender-indicators,9,48.077777777777776,24.9,83.9
+Savannah,select-malaria-indicators,15,56.66,3.3,82.1
+Savannah,select-nutrition-indicators,11,21.645454545454545,1.9,75.3
+Savannah,sexual-intercourse,29,91.36206896551724,6.9,999.0
+Savannah,social-marketing,4,30.65,9.0,69.6
+Savannah,symptoms-of-acute-respiratory-infection-ari,4,257.1,2.4,763.0
+Savannah,tobacco,13,167.26923076923077,0.0,999.0
+Savannah,toilet-facilities,32,267.40000000000003,0.0,5153.0
+Savannah,water,60,153.62333333333333,0.0,5153.0
+Upper East,access-to-health-care,81,55.4387573964497,0.0,534.0
+Upper East,anemia,15,113.00769230769231,0.0,501.0
+Upper East,anthropometry,37,64.62160493827162,-1.5,508.0
+Upper East,birth-registration,5,212.2866666666667,8.8,672.0
+Upper East,child-mortality-rates,10,92.56363636363636,0.0,643.0
+Upper East,covid-19-additional-factors,23,32.43490566037736,0.6,99.7
+Upper East,covid-19-prevention,19,24.244444444444447,0.3,96.7
+Upper East,dhs-mobile,108,40.14739700374532,0.0,194.0
+Upper East,dhs-quickstats,27,31.080434782608698,0.4,180.0
+Upper East,diarrhea,45,55.108247422680414,0.0,619.0
+Upper East,fertility-rates,12,96.97625000000001,3.6,253.0
+Upper East,fp2020,52,10.412234042553191,0.0,86.0
+Upper East,health-insurance,16,129.60172413793106,0.0,987.0
+Upper East,hiv-attitudes,28,211.97096774193548,3.7,1974.0
+Upper East,hiv-behavior,33,157.86101694915254,0.2,987.0
+Upper East,hiv-counseling-and-testing,27,111.54468085106383,0.5,987.0
+Upper East,hiv-knowledge,42,208.25533333333334,9.8,987.0
+Upper East,hiv-prevalence,28,154.5732142857143,0.0,822.0
+Upper East,immunization,20,76.75,0.0,126.0
+Upper East,insecticide-treated-nets,46,503.13138075313805,0.4,4630.0
+Upper East,iodized-salt,7,368.5809523809524,5.1,1070.0
+Upper East,iycf,7,51.356,8.3,99.5
+Upper East,literacy,22,101.8,0.0,987.0
+Upper East,malaria-parasitemia,6,146.62916666666666,9.8,319.0
+Upper East,male-circumcision,9,158.9125,0.2,415.0
+Upper East,mdgs,26,48.99856060606061,0.4,180.0
+Upper East,mens-fertility-and-family-planning,29,32.962048192771086,6.0,100.0
+Upper East,micronutrients,27,122.21929824561404,2.2,522.0
+Upper East,mics-indicators,66,45.93271241830065,0.0,180.0
+Upper East,orphans,21,203.14322033898307,0.0,2182.0
+Upper East,rbm,16,55.252747252747255,1.9,180.0
+Upper East,sdgs,36,37.903076923076924,0.0,180.0
+Upper East,select-child-mortality-indicators,5,53.1,9.0,180.0
+Upper East,select-education-indicators,8,35.175,6.1,73.9
+Upper East,select-family-planning-indicators,6,26.272222222222222,7.2,57.9
+Upper East,select-gender-indicators,10,39.696969696969695,3.4,85.3
+Upper East,select-malaria-indicators,15,50.6289156626506,1.9,94.5
+Upper East,select-nutrition-indicators,11,22.49767441860465,0.7,86.5
+Upper East,sexual-intercourse,32,67.13602150537633,0.0,987.0
+Upper East,social-marketing,4,23.285714285714285,2.0,100.0
+Upper East,symptoms-of-acute-respiratory-infection-ari,6,145.44166666666666,1.3,619.0
+Upper East,tobacco,16,146.66666666666666,0.0,987.0
+Upper East,toilet-facilities,34,228.81542056074767,0.0,4660.0
+Upper East,water,64,142.52566137566137,0.0,4660.0
+Upper West,access-to-health-care,81,49.079585798816574,0.0,475.0
+Upper West,anemia,15,100.41538461538461,0.0,487.0
+Upper West,anthropometry,37,52.497530864197536,-1.6,489.0
+Upper West,birth-registration,5,184.9,11.2,625.0
+Upper West,child-mortality-rates,10,91.77358490566037,1.0,608.0
+Upper West,covid-19-additional-factors,23,30.324528301886794,0.0,99.6
+Upper West,covid-19-prevention,19,26.158730158730158,0.1,98.4
+Upper West,dhs-mobile,108,40.5743536121673,0.0,208.0
+Upper West,dhs-quickstats,27,32.51459854014598,0.3,208.0
+Upper West,diarrhea,45,48.35670103092784,0.0,577.0
+Upper West,fertility-rates,12,101.84938271604938,4.1,289.0
+Upper West,fp2020,52,10.561325966850829,0.0,90.0
+Upper West,health-insurance,16,109.27241379310345,0.0,958.0
+Upper West,hiv-attitudes,28,181.48064516129034,4.1,1916.0
+Upper West,hiv-behavior,33,131.4513274336283,0.0,958.0
+Upper West,hiv-counseling-and-testing,27,96.15744680851063,1.1,958.0
+Upper West,hiv-knowledge,42,173.19,4.5,958.0
+Upper West,hiv-prevalence,30,114.85862068965517,0.0,696.0
+Upper West,immunization,20,73.4702380952381,1.4,135.0
+Upper West,insecticide-treated-nets,46,418.78912133891214,0.1,4498.0
+Upper West,iodized-salt,7,322.3666666666667,6.0,1061.0
+Upper West,iycf,7,47.9,13.7,100.0
+Upper West,literacy,22,87.84174757281554,0.0,958.0
+Upper West,malaria-parasitemia,6,129.67083333333332,10.5,307.0
+Upper West,male-circumcision,9,124.33333333333333,0.0,397.0
+Upper West,mdgs,26,50.292109375,0.3,208.0
+Upper West,mens-fertility-and-family-planning,28,32.58733333333333,4.5,99.5
+Upper West,micronutrients,27,105.1438596491228,0.8,501.0
+Upper West,mics-indicators,66,46.22346534653465,0.0,208.0
+Upper West,orphans,21,166.1872881355932,0.0,2273.0
+Upper West,rbm,16,55.30777777777777,1.5,208.0
+Upper West,sdgs,36,38.44015748031496,0.0,208.0
+Upper West,select-child-mortality-indicators,5,65.57142857142857,10.0,208.0
+Upper West,select-education-indicators,8,35.26153846153846,3.1,74.8
+Upper West,select-family-planning-indicators,6,28.988888888888887,5.1,61.9
+Upper West,select-gender-indicators,10,41.54242424242425,3.1,90.1
+Upper West,select-malaria-indicators,15,50.80246913580247,1.5,91.2
+Upper West,select-nutrition-indicators,11,22.525581395348837,0.0,83.4
+Upper West,sexual-intercourse,31,57.94175824175824,0.0,958.0
+Upper West,social-marketing,2,8.8,2.0,24.0
+Upper West,symptoms-of-acute-respiratory-infection-ari,6,117.04583333333333,0.7,577.0
+Upper West,tobacco,16,128.4156862745098,0.0,958.0
+Upper West,toilet-facilities,34,186.90841121495328,0.0,4516.0
+Upper West,water,64,118.21349206349205,0.0,4516.0
+Volta (post 2022),access-to-health-care,36,65.32222222222222,0.0,160.0
+Volta (post 2022),anemia,15,107.84,0.9,398.0
+Volta (post 2022),anthropometry,37,76.42432432432432,-0.9,400.0
+Volta (post 2022),birth-registration,5,171.35999999999999,6.8,395.0
+Volta (post 2022),child-mortality-rates,10,88.3,2.0,390.0
+Volta (post 2022),covid-19-additional-factors,23,48.02608695652174,2.8,99.2
+Volta (post 2022),covid-19-prevention,19,36.0,1.6,97.7
+Volta (post 2022),dhs-mobile,97,42.61316326530613,0.0,106.0
+Volta (post 2022),dhs-quickstats,23,38.03913043478261,3.2,90.9
+Volta (post 2022),diarrhea,39,43.707499999999996,0.0,378.0
+Volta (post 2022),fertility-rates,12,64.45,0.0,163.0
+Volta (post 2022),fp2020,42,11.292857142857143,0.0,54.4
+Volta (post 2022),health-insurance,14,162.31428571428572,0.0,837.0
+Volta (post 2022),hiv-attitudes,10,434.21000000000004,70.0,1674.0
+Volta (post 2022),hiv-behavior,28,218.91785714285714,2.1,837.0
+Volta (post 2022),hiv-counseling-and-testing,21,141.66190476190476,1.4,837.0
+Volta (post 2022),hiv-knowledge,16,419.85625,65.0,837.0
+Volta (post 2022),immunization,20,83.87,0.0,100.0
+Volta (post 2022),insecticide-treated-nets,40,726.3875,2.0,3551.0
+Volta (post 2022),iodized-salt,7,567.7285714285714,6.7,1082.0
+Volta (post 2022),iycf,9,36.955555555555556,0.0,98.9
+Volta (post 2022),literacy,20,131.44,0.0,837.0
+Volta (post 2022),malaria-parasitemia,6,118.31666666666666,6.4,192.0
+Volta (post 2022),male-circumcision,3,206.66666666666666,100.0,285.0
+Volta (post 2022),mdgs,23,54.24826086956522,1.02,99.2
+Volta (post 2022),mens-fertility-and-family-planning,28,35.207142857142856,5.7,100.0
+Volta (post 2022),micronutrients,9,158.2,66.7,337.0
+Volta (post 2022),mics-indicators,58,46.60155172413793,0.0,99.2
+Volta (post 2022),orphans,21,242.52857142857144,0.3,1556.0
+Volta (post 2022),rbm,16,55.95625,2.0,81.8
+Volta (post 2022),sdgs,34,44.45882352941176,0.4,93.5
+Volta (post 2022),select-child-mortality-indicators,5,26.6,9.0,47.0
+Volta (post 2022),select-education-indicators,8,44.85,3.5,86.8
+Volta (post 2022),select-family-planning-indicators,6,39.71666666666667,28.1,63.7
+Volta (post 2022),select-gender-indicators,9,50.98888888888889,6.0,87.7
+Volta (post 2022),select-malaria-indicators,15,57.0,2.0,88.3
+Volta (post 2022),select-nutrition-indicators,11,24.936363636363637,0.0,71.2
+Volta (post 2022),sexual-intercourse,31,90.18709677419355,5.7,837.0
+Volta (post 2022),social-marketing,2,21.5,19.0,24.0
+Volta (post 2022),symptoms-of-acute-respiratory-infection-ari,4,178.125,4.5,378.0
+Volta (post 2022),tobacco,13,174.7076923076923,0.0,837.0
+Volta (post 2022),toilet-facilities,32,280.0,0.0,3536.0
+Volta (post 2022),water,60,158.45666666666665,0.0,3536.0
+Volta (pre 2022),access-to-health-care,80,63.0406976744186,0.0,459.0
+Volta (pre 2022),anemia,15,145.70128205128205,0.5,842.0
+Volta (pre 2022),anthropometry,37,86.53395061728395,-1.3,844.0
+Volta (pre 2022),birth-registration,5,261.66,6.7,1029.0
+Volta (pre 2022),child-mortality-rates,10,104.26666666666667,1.0,1033.0
+Volta (pre 2022),covid-19-additional-factors,23,35.49905660377359,0.0,100.0
+Volta (pre 2022),covid-19-prevention,19,26.755555555555553,0.8,93.4
+Volta (pre 2022),dhs-mobile,110,38.66324955116696,0.0,237.0
+Volta (pre 2022),dhs-quickstats,27,33.006206896551724,0.3,134.0
+Volta (pre 2022),diarrhea,45,72.32556818181818,0.0,980.0
+Volta (pre 2022),fertility-rates,12,99.80206185567009,3.3,290.0
+Volta (pre 2022),fp2020,52,11.933333333333332,0.0,141.0
+Volta (pre 2022),health-insurance,16,181.24655172413793,0.0,1758.0
+Volta (pre 2022),hiv-attitudes,28,285.0,7.9,3516.0
+Volta (pre 2022),hiv-behavior,35,229.9877049180328,0.2,1758.0
+Volta (pre 2022),hiv-counseling-and-testing,27,144.32978723404256,1.0,1758.0
+Volta (pre 2022),hiv-knowledge,42,276.1286666666667,8.7,1758.0
+Volta (pre 2022),hiv-prevalence,28,179.53392857142856,0.0,783.0
+Volta (pre 2022),immunization,20,73.09479166666667,0.0,213.0
+Volta (pre 2022),insecticide-treated-nets,46,711.825652173913,0.0,7946.0
+Volta (pre 2022),iodized-salt,7,625.9142857142857,6.2,2130.0
+Volta (pre 2022),iycf,9,45.04827586206897,0.9,100.0
+Volta (pre 2022),literacy,22,136.3466019417476,0.0,1758.0
+Volta (pre 2022),malaria-parasitemia,6,193.73749999999998,10.1,455.0
+Volta (pre 2022),male-circumcision,7,241.295,0.3,696.0
+Volta (pre 2022),mdgs,26,52.55427536231884,0.0,141.0
+Volta (pre 2022),mens-fertility-and-family-planning,30,33.494082840236686,2.5,100.0
+Volta (pre 2022),micronutrients,27,144.99122807017545,0.6,842.0
+Volta (pre 2022),mics-indicators,70,42.98109034267913,0.0,141.0
+Volta (pre 2022),orphans,21,285.90338983050844,0.1,3757.0
+Volta (pre 2022),rbm,16,48.89780219780219,0.0,134.0
+Volta (pre 2022),sdgs,36,37.85107913669065,0.0,141.0
+Volta (pre 2022),select-child-mortality-indicators,5,47.94285714285714,10.0,134.0
+Volta (pre 2022),select-education-indicators,8,39.83461538461539,4.7,83.0
+Volta (pre 2022),select-family-planning-indicators,6,33.03421052631579,3.9,68.5
+Volta (pre 2022),select-gender-indicators,10,45.92121212121212,0.5,89.2
+Volta (pre 2022),select-malaria-indicators,15,48.139240506329116,0.0,92.2
+Volta (pre 2022),select-nutrition-indicators,12,20.825,0.9,70.7
+Volta (pre 2022),sexual-intercourse,33,85.97487684729064,0.0,1758.0
+Volta (pre 2022),social-marketing,6,37.46,4.0,100.0
+Volta (pre 2022),symptoms-of-acute-respiratory-infection-ari,7,167.6074074074074,3.2,980.0
+Volta (pre 2022),tobacco,13,227.54,0.0,1758.0
+Volta (pre 2022),toilet-facilities,34,319.8439252336449,0.0,8006.0
+Volta (pre 2022),water,64,191.27513227513228,0.0,8006.0
+Western (post 2022),access-to-health-care,36,75.16388888888889,0.0,212.0
+Western (post 2022),anemia,15,132.53333333333333,1.0,487.0
+Western (post 2022),anthropometry,37,97.6891891891892,-0.9,496.0
+Western (post 2022),birth-registration,5,231.24,13.5,526.0
+Western (post 2022),child-mortality-rates,10,118.9,9.0,543.0
+Western (post 2022),covid-19-additional-factors,23,49.660869565217396,1.6,99.6
+Western (post 2022),covid-19-prevention,19,35.38947368421052,1.9,99.2
+Western (post 2022),dhs-mobile,95,40.86378947368421,0.4,128.0
+Western (post 2022),dhs-quickstats,22,35.91818181818182,1.2,90.3
+Western (post 2022),diarrhea,5,200.78,4.9,515.0
+Western (post 2022),fertility-rates,12,73.71666666666667,0.0,186.0
+Western (post 2022),fp2020,42,11.533333333333333,0.0,76.0
+Western (post 2022),health-insurance,14,193.7642857142857,0.0,955.0
+Western (post 2022),hiv-attitudes,10,473.58000000000004,61.0,1594.0
+Western (post 2022),hiv-behavior,30,256.21666666666664,3.2,955.0
+Western (post 2022),hiv-counseling-and-testing,21,166.56190476190477,0.7,955.0
+Western (post 2022),hiv-knowledge,16,478.45,73.0,955.0
+Western (post 2022),immunization,20,78.76,4.5,112.0
+Western (post 2022),insecticide-treated-nets,40,773.635,1.5,3933.0
+Western (post 2022),iodized-salt,7,667.1,9.2,1282.0
+Western (post 2022),iycf,9,41.91111111111111,18.2,96.8
+Western (post 2022),literacy,20,152.62,0.0,955.0
+Western (post 2022),malaria-parasitemia,6,156.36666666666667,9.7,241.0
+Western (post 2022),male-circumcision,3,285.8666666666667,98.6,414.0
+Western (post 2022),mdgs,22,52.79454545454546,0.92,92.9
+Western (post 2022),mens-fertility-and-family-planning,28,37.614285714285714,3.1,100.0
+Western (post 2022),micronutrients,9,208.2888888888889,69.6,473.0
+Western (post 2022),mics-indicators,57,43.371228070175434,0.0,98.6
+Western (post 2022),orphans,21,280.2190476190476,0.2,1741.0
+Western (post 2022),rbm,16,45.8625,1.9,67.0
+Western (post 2022),sdgs,34,45.84117647058823,0.4,90.3
+Western (post 2022),select-child-mortality-indicators,5,26.4,11.0,48.0
+Western (post 2022),select-education-indicators,8,42.675,5.0,83.5
+Western (post 2022),select-family-planning-indicators,6,43.85,18.5,63.4
+Western (post 2022),select-gender-indicators,9,51.17777777777778,12.6,84.2
+Western (post 2022),select-malaria-indicators,14,47.300000000000004,1.9,80.4
+Western (post 2022),select-nutrition-indicators,11,27.636363636363637,2.1,91.6
+Western (post 2022),sexual-intercourse,31,104.14838709677419,3.5,955.0
+Western (post 2022),social-marketing,4,44.0,16.0,100.0
+Western (post 2022),symptoms-of-acute-respiratory-infection-ari,4,240.475,1.9,515.0
+Western (post 2022),tobacco,13,208.76923076923077,0.0,955.0
+Western (post 2022),toilet-facilities,32,321.15,0.0,3944.0
+Western (post 2022),water,60,179.80833333333334,0.0,3944.0
+Western (pre 2022),access-to-health-care,82,65.02182320441989,0.0,564.0
+Western (pre 2022),anemia,15,157.47820512820513,0.7,778.0
+Western (pre 2022),anthropometry,37,99.67469135802469,-1.5,786.0
+Western (pre 2022),birth-registration,5,289.84000000000003,6.3,916.0
+Western (pre 2022),child-mortality-rates,10,116.51666666666667,3.0,898.0
+Western (pre 2022),covid-19-additional-factors,23,36.89433962264151,0.7,99.9
+Western (pre 2022),covid-19-prevention,19,28.58730158730159,1.3,96.4
+Western (pre 2022),dhs-mobile,110,39.538770053475936,0.0,219.0
+Western (pre 2022),dhs-quickstats,27,34.05342465753425,0.4,148.0
+Western (pre 2022),diarrhea,45,69.20619047619047,0.0,863.0
+Western (pre 2022),fertility-rates,12,98.40212765957446,0.0,290.0
+Western (pre 2022),fp2020,52,11.209009009009009,0.0,150.0
+Western (pre 2022),health-insurance,16,199.2189655172414,0.0,1589.0
+Western (pre 2022),hiv-attitudes,28,320.2903225806452,5.4,3178.0
+Western (pre 2022),hiv-behavior,35,270.9581967213115,0.9,1589.0
+Western (pre 2022),hiv-counseling-and-testing,27,161.10106382978722,1.0,1589.0
+Western (pre 2022),hiv-knowledge,42,309.73533333333336,11.4,1589.0
+Western (pre 2022),hiv-prevalence,29,226.98070175438596,0.5,971.0
+Western (pre 2022),immunization,20,71.99270833333334,0.0,193.0
+Western (pre 2022),insecticide-treated-nets,46,707.0065502183406,0.0,6879.0
+Western (pre 2022),iodized-salt,7,717.2380952380952,9.3,2148.0
+Western (pre 2022),iycf,9,43.86774193548386,5.1,100.0
+Western (pre 2022),literacy,22,149.2621359223301,0.0,1589.0
+Western (pre 2022),malaria-parasitemia,6,201.125,8.2,395.0
+Western (pre 2022),male-circumcision,7,290.855,1.8,696.0
+Western (pre 2022),mdgs,26,54.679492753623194,0.61,150.0
+Western (pre 2022),mens-fertility-and-family-planning,30,34.78047337278106,1.8,100.0
+Western (pre 2022),micronutrients,27,164.81578947368422,1.2,731.0
+Western (pre 2022),mics-indicators,70,44.62669753086419,0.0,150.0
+Western (pre 2022),orphans,21,299.8186440677966,0.2,3164.0
+Western (pre 2022),rbm,16,45.94222222222223,0.0,148.0
+Western (pre 2022),sdgs,36,39.33453237410072,0.0,150.0
+Western (pre 2022),select-child-mortality-indicators,5,50.114285714285714,11.0,148.0
+Western (pre 2022),select-education-indicators,8,40.228846153846156,5.0,87.0
+Western (pre 2022),select-family-planning-indicators,6,31.071052631578947,3.2,62.9
+Western (pre 2022),select-gender-indicators,10,49.833333333333336,1.0,82.7
+Western (pre 2022),select-malaria-indicators,15,45.13417721518987,0.0,91.0
+Western (pre 2022),select-nutrition-indicators,12,23.995555555555555,1.2,92.7
+Western (pre 2022),sexual-intercourse,33,92.17412935323384,0.0,1589.0
+Western (pre 2022),social-marketing,6,40.12,10.0,100.0
+Western (pre 2022),symptoms-of-acute-respiratory-infection-ari,7,191.76296296296297,1.9,863.0
+Western (pre 2022),tobacco,13,259.28222222222223,0.0,1589.0
+Western (pre 2022),toilet-facilities,34,325.23364485981307,0.0,6948.0
+Western (pre 2022),water,64,193.71322751322754,0.0,6948.0
+Western North,access-to-health-care,36,64.1,0.0,192.0
+Western North,anemia,15,84.38000000000001,0.0,369.0
+Western North,anthropometry,37,66.91351351351352,-0.8,370.0
+Western North,birth-registration,5,164.88,11.8,457.0
+Western North,child-mortality-rates,10,78.1,1.0,437.0
+Western North,covid-19-additional-factors,23,44.28260869565217,1.5,99.6
+Western North,covid-19-prevention,19,32.62105263157895,0.8,90.2
+Western North,dhs-mobile,96,39.83030927835051,0.4,130.0
+Western North,dhs-quickstats,23,34.09130434782609,1.0,88.9
+Western North,diarrhea,39,40.93,0.0,425.0
+Western North,fertility-rates,11,84.07272727272726,3.3,192.0
+Western North,fp2020,42,11.161904761904761,0.0,56.0
+Western North,health-insurance,14,138.37857142857143,0.0,792.0
+Western North,hiv-attitudes,10,396.66999999999996,75.3,1584.0
+Western North,hiv-behavior,28,194.55357142857142,2.0,792.0
+Western North,hiv-counseling-and-testing,21,124.06190476190477,1.4,792.0
+Western North,hiv-knowledge,16,380.13125,53.1,792.0
+Western North,immunization,20,83.8,0.0,99.1
+Western North,insecticide-treated-nets,40,582.9875,1.9,3500.0
+Western North,iodized-salt,7,456.5142857142857,9.7,1061.0
+Western North,iycf,9,37.65555555555555,5.6,96.8
+Western North,literacy,20,112.87,0.0,792.0
+Western North,malaria-parasitemia,6,93.96666666666665,4.4,183.0
+Western North,male-circumcision,3,209.36666666666667,96.1,351.0
+Western North,mdgs,22,47.21318181818182,0.65,99.6
+Western North,mens-fertility-and-family-planning,29,34.203448275862065,5.5,98.5
+Western North,micronutrients,9,138.23333333333332,62.2,357.0
+Western North,mics-indicators,58,43.205862068965516,0.0,99.6
+Western North,orphans,21,206.35238095238094,0.1,1651.0
+Western North,rbm,16,49.1875,0.9,77.4
+Western North,sdgs,34,39.1764705882353,0.4,94.2
+Western North,select-child-mortality-indicators,5,19.2,9.0,37.0
+Western North,select-education-indicators,8,40.2875,4.9,81.0
+Western North,select-family-planning-indicators,6,39.85,22.7,62.0
+Western North,select-gender-indicators,9,45.611111111111114,11.3,81.0
+Western North,select-malaria-indicators,14,50.207142857142856,0.9,77.0
+Western North,select-nutrition-indicators,11,25.281818181818185,1.8,95.3
+Western North,sexual-intercourse,31,78.88064516129033,7.0,792.0
+Western North,social-marketing,4,34.375,12.0,73.5
+Western North,symptoms-of-acute-respiratory-infection-ari,4,164.0,2.0,425.0
+Western North,tobacco,13,149.48461538461538,0.0,792.0
+Western North,toilet-facilities,32,234.40937499999998,0.0,3558.0
+Western North,water,60,134.45,0.0,3558.0
