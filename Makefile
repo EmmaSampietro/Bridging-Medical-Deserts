@@ -1,36 +1,36 @@
 # Bridging Medical Deserts — common workflows.
-# Ensures required dirs exist and chains scripts. Extend with real commands.
+# See docs/PIPELINE_README.md for inputs/outputs and docs/README_RUN.md for setup.
 
-.PHONY: dirs ingest text2med verify aggregate plan demo eval
+.PHONY: dirs ingest text2med verify aggregate plan demo eval regenerate
 
 dirs:
 	mkdir -p data/raw data/interim data/processed data/external
 	mkdir -p inputs/questions outputs/reports outputs/traces outputs/tiles
 
 ingest: dirs
-	# python scripts/ingest_data.py
-	@echo "TODO: run scripts/ingest_data.py"
+	python scripts/ingest_data.py
 
 text2med: dirs
-	# python scripts/build_text2med.py
-	@echo "TODO: run scripts/build_text2med.py"
+	python scripts/build_text2med.py
 
 verify: dirs
-	# python scripts/verify_capabilities.py
-	@echo "TODO: run scripts/verify_capabilities.py"
+	python scripts/verify_capabilities.py
 
 aggregate: dirs
-	# python scripts/aggregate_regions.py
-	@echo "TODO: run scripts/aggregate_regions.py"
+	python scripts/aggregate_regions.py
 
 plan: dirs
-	# python scripts/run_planning.py
-	@echo "TODO: run scripts/run_planning.py"
+	python scripts/run_planning.py
 
 demo: dirs
-	# python scripts/launch_ui.py
-	@echo "TODO: run scripts/launch_ui.py"
+	python scripts/launch_ui.py
 
 eval: dirs
-	# python scripts/eval_suite.py
-	@echo "TODO: run scripts/eval_suite.py"
+	python scripts/eval_suite.py
+
+# Full pipeline: ingest → text2med → verify → aggregate (then plan/demo as needed).
+regenerate: dirs
+	python scripts/ingest_data.py && \
+	python scripts/build_text2med.py && \
+	python scripts/verify_capabilities.py && \
+	python scripts/aggregate_regions.py

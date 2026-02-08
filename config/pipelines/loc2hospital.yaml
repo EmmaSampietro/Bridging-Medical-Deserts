@@ -1,5 +1,14 @@
 # Pipeline: Loc2Hospital — geo retrieval, filtering, ranking.
-# Used by scripts/aggregate_regions.py and Loc2Med UI
+# Used by scripts/aggregate_regions.py and Loc2Med UI.
+#
+# Outputs (see docs/PIPELINE_README.md):
+#   - data/processed/region_coverage.parquet: one row per (region_id, capability)
+#     with coverage_score, facility_count, desert_flag.
+#   - outputs/tiles/desert_overlays.geojson: map-ready GeoJSON.
+#
+# Joining: facility_capabilities uses region_field below; region_coverage uses
+# region_id / region_name. Set region_lookup_path to a CSV in data/raw to map
+# facility region strings to canonical region_id.
 
 geo:
   region_field: region  # admin region column in facility_capabilities

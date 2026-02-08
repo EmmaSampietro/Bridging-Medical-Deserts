@@ -17,16 +17,16 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-2. Run pipelines in order.
+2. Run the full pipeline (or use `make` targets; see below).
 ```bash
-python scripts/ingest_data.py --config-name environments/local
-python scripts/build_text2med.py --config-name environments/local
-python scripts/verify_capabilities.py --config-name environments/local
-python scripts/aggregate_regions.py --config-name environments/local
-python scripts/run_planning.py --config-name environments/local
-python scripts/eval_suite.py --config-name environments/local
-python scripts/launch_ui.py --config-name environments/local --mode preview
+make dirs
+make regenerate   # ingest → text2med → verify → aggregate
+make plan        # optional: planning recommendations
+make demo        # optional: launch Loc2Med UI
 ```
+Detailed setup and run steps: **docs/README_RUN.md**. Pipeline inputs/outputs and regeneration: **docs/PIPELINE_README.md**.
+
+**Reference pipeline:** The `AGENT_HOSPITAL/` folder contains the agentic hospital pipeline (run_hospital_agent.py, enrich_ghana_data.py, merge_hospital_csvs.py, PIPELINE_README.md) that helped complete this project; our pipeline docs and Makefile flow are inspired by that structure.
 
 ## Main scripts
 - `scripts/ingest_data.py`: load VF CSV data and produce `data/interim/raw_documents.parquet`.
