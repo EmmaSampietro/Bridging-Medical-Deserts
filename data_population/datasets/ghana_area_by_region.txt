@@ -1,0 +1,73 @@
+
+The following table presents a listing of [[Ghana]]'s 16 regions ranked in order of their surface area.<ref>https://www.ghana.gov.gh/index.php/about-ghana/regions</ref>{{Dead link|date=April 2024}}
+{| class="wikitable sortable"
+|-
+! scope="col" align="left" |Rank
+! scope="col" align="left" |Region
+! scope="col" |km<sup>2</sup>
+|-
+|1
+|[[Northern Region, Ghana|Northern]]
+|26,524
+|-
+|2
+|[[Ashanti Region|Ashanti]]
+|24,869
+|-
+|3
+|[[Western Region, Ghana|Western]]
+|23,941
+|-
+|4
+|[[Volta Region|Volta]]
+|9,570
+|-
+|5
+|[[Eastern Region, Ghana|Eastern]]
+|19,323
+|-
+|6
+|[[Upper West Region|Upper West]]
+|18,476
+|-
+|7
+|[[Central Region, Ghana|Central]]
+|9,908
+|-
+|8
+|[[Upper East Region|Upper East]]
+|8,842
+|-
+|9
+|[[Greater Accra Region|Greater Accra]]
+|3,245
+|-
+|10
+|[[Savannah Region|Savannah]]
+|35,862
+|-
+|11
+|[[North East Region, Ghana|North East]]
+|9,074
+|-
+|12
+|[[Bono East Region|Bono East]]
+|22,952
+|-
+|13
+|[[Oti Region|Oti]]
+|11,066
+|-
+|14
+|[[Ahafo Region|Ahafo]]
+|5,193
+|-
+|15
+|[[Bono Region|Bono]]
+|11,481
+|-
+|16
+|[[Western North Region|Western North]]
+|10,074
+|-
+|}

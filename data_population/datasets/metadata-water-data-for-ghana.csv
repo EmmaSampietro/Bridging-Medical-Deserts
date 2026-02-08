@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2020-01-27T16:40:24.706519
+description,Description,HXLated csv containing Water data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/3c58b608-68fa-4597-98fd-940b8df7bead/download/water_subnational_gha.csv
+id,Resource ID,3c58b608-68fa-4597-98fd-940b8df7bead
+last_modified,Updated,2026-01-20T13:57:49.253997
+metadata_modified,Metadata Updated,2026-01-20T13:59:42.664134
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,Water Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,1008.1K

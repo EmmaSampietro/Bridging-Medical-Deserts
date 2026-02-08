@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2020-01-27T16:40:24.706494
+description,Description,HXLated csv containing Orphans data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/0edc3435-4855-42b3-8760-ac114164299e/download/orphans_subnational_gha.csv
+id,Resource ID,0edc3435-4855-42b3-8760-ac114164299e
+last_modified,Updated,2026-01-20T13:57:46.369461
+metadata_modified,Metadata Updated,2026-01-20T13:59:37.259452
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,Orphans Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,324.3K

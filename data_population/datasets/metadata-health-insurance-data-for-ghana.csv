@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2020-01-27T16:40:24.706434
+description,Description,HXLated csv containing Health Insurance data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/17cea218-6e43-464a-b548-20728ca96e97/download/health-insurance_subnational_gha.csv
+id,Resource ID,17cea218-6e43-464a-b548-20728ca96e97
+last_modified,Updated,2026-01-20T13:57:38.364367
+metadata_modified,Metadata Updated,2026-01-20T13:59:20.204198
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,Health Insurance Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,161.8K

@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2020-01-27T16:40:24.706506
+description,Description,HXLated csv containing Social Marketing data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/6d6652bd-47d0-4288-af30-735f9fffa1ce/download/social-marketing_subnational_gha.csv
+id,Resource ID,6d6652bd-47d0-4288-af30-735f9fffa1ce
+last_modified,Updated,2026-01-20T13:57:48.151747
+metadata_modified,Metadata Updated,2026-01-20T13:59:40.263386
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,Social Marketing Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,27.3K

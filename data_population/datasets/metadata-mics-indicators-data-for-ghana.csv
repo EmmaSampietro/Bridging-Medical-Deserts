@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2020-01-27T16:40:24.706389
+description,Description,HXLated csv containing MICS indicators data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/f6b14b13-5144-4442-bb12-39dd82f1ceb5/download/mics-indicators_subnational_gha.csv
+id,Resource ID,f6b14b13-5144-4442-bb12-39dd82f1ceb5
+last_modified,Updated,2026-01-20T13:57:31.961428
+metadata_modified,Metadata Updated,2026-01-20T13:59:11.818471
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,MICS indicators Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,1.2M

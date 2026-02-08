@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2020-01-27T16:40:24.706472
+description,Description,HXLated csv containing Literacy data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/61c98b0c-a1dc-4078-afad-f6aa2335b01d/download/literacy_subnational_gha.csv
+id,Resource ID,61c98b0c-a1dc-4078-afad-f6aa2335b01d
+last_modified,Updated,2026-01-20T13:57:43.448615
+metadata_modified,Metadata Updated,2026-01-20T13:59:32.082594
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,Literacy Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,271.2K

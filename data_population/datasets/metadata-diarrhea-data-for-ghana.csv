@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2020-01-27T16:40:24.706426
+description,Description,HXLated csv containing Diarrhea data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/67c9af3f-f69e-4b01-8471-6b4c616800a3/download/diarrhea_subnational_gha.csv
+id,Resource ID,67c9af3f-f69e-4b01-8471-6b4c616800a3
+last_modified,Updated,2026-01-20T13:57:36.491185
+metadata_modified,Metadata Updated,2026-01-20T13:59:17.485406
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,Diarrhea Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,1.3M

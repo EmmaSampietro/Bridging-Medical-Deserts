@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2023-07-25T22:58:43.632404
+description,Description,HXLated csv containing COVID-19 Prevention data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/280bb6a2-a1c8-4636-b8e6-0fe06d25cb00/download/covid-19-prevention_subnational_gha.csv
+id,Resource ID,280bb6a2-a1c8-4636-b8e6-0fe06d25cb00
+last_modified,Updated,2026-01-20T13:57:53.581954
+metadata_modified,Metadata Updated,2026-01-20T13:59:49.058746
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,COVID-19 Prevention Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,341.8K

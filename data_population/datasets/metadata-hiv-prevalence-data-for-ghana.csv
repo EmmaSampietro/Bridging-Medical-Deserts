@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2020-01-27T16:40:24.706455
+description,Description,HXLated csv containing HIV Prevalence data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/714764ad-7b6c-4c50-8f0f-dae41c1d9921/download/hiv-prevalence_subnational_gha.csv
+id,Resource ID,714764ad-7b6c-4c50-8f0f-dae41c1d9921
+last_modified,Updated,2026-01-20T13:57:41.181302
+metadata_modified,Metadata Updated,2026-01-20T13:59:27.991828
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,HIV Prevalence Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,132.1K

@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2020-01-27T16:40:24.706451
+description,Description,HXLated csv containing HIV Knowledge data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/1abf207b-4f9d-4b36-8451-f686894cd6ea/download/hiv-knowledge_subnational_gha.csv
+id,Resource ID,1abf207b-4f9d-4b36-8451-f686894cd6ea
+last_modified,Updated,2026-01-20T13:57:40.737515
+metadata_modified,Metadata Updated,2026-01-20T13:59:25.492165
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,HIV Knowledge Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,396.3K

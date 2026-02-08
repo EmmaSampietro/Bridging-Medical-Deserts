@@ -1,0 +1,179 @@
+!Population 2021<ref>{{Cite web|title=Ghana: Regions, Major Cities & Urban Localities - Population Statistics, Maps, Charts, Weather and Web Information|url=http://www.citypopulation.de/en/ghana/cities/|access-date=2021-11-22|website=www.citypopulation.de}}</ref>
+! scope="col" | Population 2010<ref>{{cite web| title=2010 Population and Housing Census: Demographic, Social, Economic and Housing Characteristics Report| at=Page 10, Table 3| url=http://www.statsghana.gov.gh/docfiles/publications/2010_PHC_demographic_social_economic_housing_characteristics.pdf| publisher=Ghana Statistical Service| access-date=2015-10-28| archive-url=https://web.archive.org/web/20190303175328/http://www2.statsghana.gov.gh/docfiles/publications/2010_PHC_demographic_social_economic_housing_characteristics.pdf| archive-date=2019-03-03| url-status=dead}}</ref>
+! scope="col" | Population 2000<ref name=2000census>{{cite web| title=2000 Population and Housing Census Data Analysis Report Volume 1| at=Page 117, Table 7.5| url=http://www.statsghana.gov.gh/nada/index.php/catalog/3| publisher=Ghana Statistical Service| access-date=2015-10-28| archive-url=https://web.archive.org/web/20190329225525/http://www2.statsghana.gov.gh/nada/index.php/catalog/3| archive-date=2019-03-29| url-status=dead}}</ref>
+! scope="col" | Population 1984 <ref name=2000census/>
+! scope="col" | Population 1970 <ref name=2000census/>
+! scope="col" | Population 1960 <ref name=2000census/>
+! scope="col" | Percent of total (2021)
+|-
+|1
+|[[Greater Accra Region|Greater Accra]]<ref>{{Cite web|url=http://www.ghana.gov.gh/index.php/about-ghana/regions/greater-accra|title=Greater Accra - Government of Ghana|website=www.ghana.gov.gh|access-date=2019-01-29}}</ref>
+|5,455,692
+|4,010,054
+|2,905,726
+|1,431,099
+|903,447
+|541,933
+|17.69%
+|-
+|2
+|[[Ashanti Region|Ashanti]]<ref>{{Cite web|url=http://www.ghana.gov.gh/index.php/about-ghana/regions/ashanti|title=Ashanti - Government of Ghana|website=www.ghana.gov.gh|access-date=2019-01-29}}</ref>
+|5,440,463
+|4,780,380
+|3,612,950
+|2,090,100
+|1,481,698
+|1,109,133
+|17.64%
+|-
+|-
+|3
+|[[Eastern Region, Ghana|Eastern]]<ref>{{Cite web|url=http://www.ghana.gov.gh/index.php/about-ghana/regions/eastern-region|title=Eastern Region - Government of Ghana|website=www.ghana.gov.gh|access-date=2019-01-29}}</ref>
+|2,925,653
+|2,633,154
+|2,106,696
+|1,680,890
+|1,209,828
+|1,044,080
+|9.49%
+|-
+|4
+|[[Central Region, Ghana|Central]]<ref>{{Cite web|url=http://www.ghana.gov.gh/index.php/about-ghana/regions/central|title=Central - Government of Ghana|website=www.ghana.gov.gh|access-date=2019-01-29}}</ref>
+|2,859,821
+|2,201,863
+|1,593,823
+|1,142,335
+|890,135
+|751,392
+|9.28%
+|-
+|5
+|[[Northern Region, Ghana|Northern]]<ref>{{Cite web|url=http://www.ghana.gov.gh/index.php/about-ghana/regions/northern|title=Northern - Government of Ghana|website=www.ghana.gov.gh|access-date=2019-01-29}}</ref>
+|2,310,939
+|2,479,461
+|1,820,806
+|1,164,583
+|727,618
+|531,573
+|7.50%
+|-
+|6
+|[[Western Region, Ghana|Western]]<ref>{{Cite web|url=http://www.ghana.gov.gh/index.php/about-ghana/regions/western|title=Western - Government of Ghana|website=www.ghana.gov.gh|access-date=2019-01-29}}</ref>
+|2,060,585
+|2,376,021
+|1,924,577
+|1,157,807
+|770,087
+|626,155
+|6.68%
+|-
+|7
+|[[Volta Region|Volta]]<ref>{{Cite web|url=http://www.ghana.gov.gh/index.php/about-ghana/regions/volta|title=Volta - Government of Ghana|website=www.ghana.gov.gh|access-date=2019-01-29}}</ref>
+|1,659,040
+|2,118,252
+|1,635,421
+|1,211,907
+|947,268
+|777,285
+|5.38%
+|-
+|8
+|[[Upper East Region|Upper East]]<ref>{{Cite web|url=http://www.ghana.gov.gh/index.php/about-ghana/regions/upper-east|title=Upper East - Government of Ghana|website=www.ghana.gov.gh|access-date=2019-01-29}}</ref>
+|1,301,226
+|1,046,545
+|920,089
+|772,744
+|542,858
+|468,638
+|4.22%
+|-
+|9
+|[[Bono Region|Bono]]<ref>{{Cite web|url=http://www.ghana.gov.gh/index.php/about-ghana/regions/brong-ahafo|title=Brong Ahafo - Government of Ghana|website=www.ghana.gov.gh|access-date=2019-01-29}}</ref> (former [[Brong-Ahafo region|Brong-Ahafo]])
+|1,208,649
+|2,310,983
+|1,815,408
+|1,206,608
+|766,509
+|587,920
+|3.92%
+|-
+|10
+|[[Upper West Region|Upper West]]<ref>{{Cite web|url=http://www.ghana.gov.gh/index.php/about-ghana/regions/upper-west|title=Upper West - Government of Ghana|website=www.ghana.gov.gh|access-date=2019-01-29}}</ref>
+|901,502
+|702,110
+|576,583
+|438,008
+|319,865
+|288,706
+|2.92%
+|-
+|11
+|[[Bono East Region|Bono East]]
+|1,203,400
+|[[Brong-Ahafo region|Brong-Ahafo]]
+|[[Brong-Ahafo region|Brong-Ahafo]]
+|[[Brong-Ahafo region|Brong-Ahafo]]
+|[[Brong-Ahafo region|Brong-Ahafo]]
+|[[Brong-Ahafo region|Brong-Ahafo]]
+|3.90%
+|-
+|12
+|[[Western North Region|Western North]]
+|880,921
+|[[Western Region, Ghana|Western]]
+|[[Western Region, Ghana|Western]]
+|[[Western Region, Ghana|Western]]
+|[[Western Region, Ghana|Western]]
+|[[Western Region, Ghana|Western]]
+|2.86%
+|-
+|13
+|[[Oti Region|Oti]]
+|747,248
+|[[Volta Region|Volta]]
+|[[Volta Region|Volta]]
+|[[Volta Region|Volta]]
+|[[Volta Region|Volta]]
+|[[Volta Region|Volta]]
+|2.42%
+|-
+|14
+|[[North East Region, Ghana|North East]]
+|658,946
+|[[Northern Region, Ghana|Northern]]
+|[[Northern Region, Ghana|Northern]]
+|[[Northern Region, Ghana|Northern]]
+|[[Northern Region, Ghana|Northern]]
+|[[Northern Region, Ghana|Northern]]
+|2.14%
+|-
+|15
+|[[Savannah Region|Savannah]]
+|653,266
+|[[Northern Region, Ghana|Northern]]
+|[[Northern Region, Ghana|Northern]]
+|[[Northern Region, Ghana|Northern]]
+|[[Northern Region, Ghana|Northern]]
+|[[Northern Region, Ghana|Northern]]
+|2.12%
+|-
+|16
+|[[Ahafo Region|Ahafo]]
+|564,668
+|[[Brong-Ahafo region|Brong-Ahafo]]
+|[[Brong-Ahafo region|Brong-Ahafo]]
+|[[Brong-Ahafo region|Brong-Ahafo]]
+|[[Brong-Ahafo region|Brong-Ahafo]]
+|[[Brong-Ahafo region|Brong-Ahafo]]
+|1.83%
+|-
+|
+|All Regions
+|30,832,019
+|24,658,823
+|18,912,079
+|12,296,081
+|8,559,313
+|6,726,815
+|100.0%
+|}

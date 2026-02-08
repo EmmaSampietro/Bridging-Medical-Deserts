@@ -1,0 +1,16 @@
+column_name,clear_label,data_type,source_column,description
+region_name,Region Name,string,Location (normalized),Clean region label used for grouping.
+survey_year,Survey Year,integer,SurveyYear,Survey year; derived region-profile indicators use 2021.
+survey_type,Survey Type,string,SurveyType or derived value,Survey family/type (DHS/MIS/etc). Derived rows use 'Derived'.
+indicator_name,Indicator Name,string,Indicator or derived name,Indicator label. Includes derived region-profile indicators.
+indicator_value,Indicator Value,number,Value or derived,Numeric value for each indicator row.
+value_precision_digits,Value Precision Digits,integer,Precision,Decimal precision reported in source for original DHS values.
+denominator_weighted,Denominator (Weighted),number,DenominatorWeighted,Weighted denominator used for indicator estimate when available.
+denominator_unweighted,Denominator (Unweighted),number,DenominatorUnweighted,Unweighted denominator used for indicator estimate when available.
+ci_low,Confidence Interval Low,number,CILow,Lower confidence interval bound when available.
+ci_high,Confidence Interval High,number,CIHigh,Upper confidence interval bound when available.
+level_rank,Level Rank,integer,LevelRank,Hierarchy rank value in source export when available.
+source_file,Source Data File,string,(derived),Source file for the row.
+source_theme,Source Theme,string,(derived from filename),Topic slug derived from source filename prefix.
+source_metadata_file,Source Metadata File,string,(derived),Metadata CSV mapped to source data file when available.
+source_download_url,Source Download URL,string,download_url (metadata),Original source URL recorded in metadata.

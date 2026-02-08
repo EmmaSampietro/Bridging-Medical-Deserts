@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2023-07-25T22:58:43.632409
+description,Description,HXLated csv containing COVID-19 Additional factors data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/cb23742e-9794-47d8-b417-149cfa8c188b/download/covid-19-additional-factors_subnational_gha.csv
+id,Resource ID,cb23742e-9794-47d8-b417-149cfa8c188b
+last_modified,Updated,2026-01-20T13:57:54.067016
+metadata_modified,Metadata Updated,2026-01-20T13:59:50.629012
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,COVID-19 Additional factors Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,313.3K

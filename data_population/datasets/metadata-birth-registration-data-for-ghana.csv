@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2020-01-27T16:40:24.706410
+description,Description,HXLated csv containing Birth Registration data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/0b89ed7a-9db5-4ea1-a0be-da9116ff5210/download/birth-registration_subnational_gha.csv
+id,Resource ID,0b89ed7a-9db5-4ea1-a0be-da9116ff5210
+last_modified,Updated,2026-01-20T13:57:35.451914
+metadata_modified,Metadata Updated,2026-01-20T13:59:15.236810
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,Birth Registration Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,45.2K

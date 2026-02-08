@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2020-01-27T16:40:24.706544
+description,Description,HXLated csv containing Select Education Indicators data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/177e7572-d2e2-4895-8174-2428eb618148/download/select-education-indicators_subnational_gha.csv
+id,Resource ID,177e7572-d2e2-4895-8174-2428eb618148
+last_modified,Updated,2026-01-20T13:57:53.135659
+metadata_modified,Metadata Updated,2026-01-20T13:59:47.247049
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,Select Education Indicators Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,131.2K

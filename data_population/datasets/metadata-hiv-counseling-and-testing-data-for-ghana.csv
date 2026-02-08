@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2020-01-27T16:40:24.706447
+description,Description,HXLated csv containing HIV Counseling and Testing data
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/d4bfce82-1c5f-4cd9-b756-b030c4b4d050/resource/5224af57-8fb3-4345-9df2-3f4eb9ee7c1b/download/hiv-counseling-and-testing_subnational_gha.csv
+id,Resource ID,5224af57-8fb3-4345-9df2-3f4eb9ee7c1b
+last_modified,Updated,2026-01-20T13:57:40.272588
+metadata_modified,Metadata Updated,2026-01-20T13:59:23.923768
+microdata,Microdata,False
+dataset_id,Dataset ID,d4bfce82-1c5f-4cd9-b756-b030c4b4d050
+resource_type,Resource Type,file.upload
+name,Resource Name,HIV Counseling and Testing Data for Ghana
+mimetype,MIME Type,text/csv
+size,Size,269.8K
